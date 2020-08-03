@@ -1,14 +1,14 @@
 # Project files for TVC based active stabilized rockets
 
 This repositiory consists of the rockets that Zachary Kohnen has created. These rockets use active TVC based stabilization.
-The models for each rocket can be found in the models directory, and the flight firmware for each project can be found in the firmware directory.
+The models for each rocket can be found in the rockets directory, and the flight firmware for each project can be found in the firmware directory.
 Below is a list of the rockets, basic information about them, and hyperlinks to their respective information.
 
 ## Rockets
 
-| Name   | Firmware | CAD Files                                      | Launches | Creation              | Status         |
-|:------:|:--------:|:----------------------------------------------:|:--------:|:---------------------:|:--------------:|
-| Slider |  *NONE*  | [rockets/models/slider](rockets/models/slider) |  *NONE*  | Friday, July 17, 2020 | In Development |
+| Name   | Firmware                | CAD Files                | Tests  | Launches | Creation              | Status         |
+|:------:|:-----------------------:|:------------------------:|:------:|:--------:|:---------------------:|:--------------:|
+| Slider | [oxide](firmware/oxide) | [slider](rockets/slider) | *NONE* |  *NONE*  | Friday, July 17, 2020 | In Development |
 
 ## Launch Pads
 
