@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.sxcu": "json",
+        ".cargo/config": "toml",
+        "string": "cpp",
+        "initializer_list": "cpp"
+    }
+}

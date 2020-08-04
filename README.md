@@ -8,7 +8,7 @@ Below is a list of the rockets, basic information about them, and hyperlinks to 
 
 | Name   | Firmware                | CAD Files                | Tests  | Launches | Creation              | Status         |
 |:------:|:-----------------------:|:------------------------:|:------:|:--------:|:---------------------:|:--------------:|
-| Slider | [aaaaa](firmware/aaaaa) | [slider](rockets/slider) | *NONE* |  *NONE*  | Friday, July 17, 2020 | In Development |
+| Slider | [viper](firmware/viper) | [slider](rockets/slider) | *NONE* |  *NONE*  | Friday, July 17, 2020 | In Development |
 
 ## Launch Pads
 
