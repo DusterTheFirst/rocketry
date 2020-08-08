@@ -1,4 +1,6 @@
 #include "Plotter.h"
+#include "pins.h"
+#include "tones.h"
 #include <Arduino.h>
 
 double x = 0;
@@ -11,6 +13,9 @@ void setup() {
 
     p.AddTimeGraph("Some Sin Wave", 500, "Thhe wave", x);
     p.AddTimeGraph("Loops/100 ms", 500, "Loops", l);
+
+    pinMode(BUZZER_PIN, OUTPUT);
+    Tones::startup_chime();
 }
 
 double pre_millis = 0;
@@ -22,7 +27,7 @@ void loop() {
     if (current_millis - pre_millis >= 100) {
         x = 10 * sin(2.0 * PI * (current_millis / 5000.0));
 
-        tone(9, abs(x * 444), 0);
+        // tone(BUZZER_PIN, abs(x * 444), 0);
 
         p.Plot(); // usually called within loop()
 
