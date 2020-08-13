@@ -4,14 +4,14 @@ as well as progress information and links to designs used. It is meant to serve
 as an archive of all information and development of the project
 
 **Tested Projects**
-- [Slider (Rocket)](#Slider)
-    - [Ground Deploy Test I](#Ground%20Deploy%20Test%20I)
-- [Viper (Avionics)](#Viper)
+- [Slider (Rocket)](#slider)
+    - [Ground Deploy Test I](#ground-deploy-test-i)
+- [Viper (Avionics)](#viper)
 
 ## Slider
 
 **Tests**
-- [Ground Deploy Test I](#Ground%20Deploy%20Test%20I)
+- [Ground Deploy Test I](#ground-deploy-test-i)
 
 ### Ground Deploy Test I
 

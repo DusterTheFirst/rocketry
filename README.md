@@ -4,6 +4,8 @@ This repository consists of the rockets that Zachary Kohnen has created. These r
 The models for each rocket can be found in the rockets directory, and the flight firmware for each project can be found in the firmware directory.
 Below is a list of the rockets, basic information about them, and hyperlinks to their respective information.
 
+You can access a development log in the [DEVELOPMENT.md](DEVELOPMENT.md) file.
+
 ## Rockets
 
 | Name   | Avionics                | CAD Files                | Tests  | Launches | Creation      | Status         |
