@@ -1,0 +1,19 @@
+name: Documentation
+on: push
+
+jobs:
+  copy-markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Copy markdown files into directory
+        run: cp -t public/ DEVELOPMENT.md README.md LICENSE.md
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

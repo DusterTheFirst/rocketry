@@ -45,4 +45,4 @@ as an archive of all information and development of the project
 
 ## Viper
 
-<sub>Developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst) and licensed under the [GNU GPL 3.0 license](LICENSE)</sub>
+<sub>Developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst) and licensed under the [GNU GPL 3.0 license](LICENSE.md)</sub>

@@ -29,4 +29,4 @@ You can access a development log in the [DEVELOPMENT.md](DEVELOPMENT.md) file.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-<sub>Developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst) and licensed under the [GNU GPL 3.0 license](LICENSE)</sub>
+<sub>Developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst) and licensed under the [GNU GPL 3.0 license](LICENSE.md)</sub>
