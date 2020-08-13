@@ -1,25 +1,14 @@
-# Project files for TVC based active stabilized rockets
+# Thrust Vector Controlled Rockets
 
-This repositiory consists of the rockets that Zachary Kohnen has created. These rockets use active TVC based stabilization.
+This repository consists of the rockets that Zachary Kohnen has created. These rockets use active TVC based stabilization.
 The models for each rocket can be found in the rockets directory, and the flight firmware for each project can be found in the firmware directory.
 Below is a list of the rockets, basic information about them, and hyperlinks to their respective information.
 
 ## Rockets
 
-| Name   | Firmware                | CAD Files                | Tests  | Launches | Creation              | Status         |
-|:------:|:-----------------------:|:------------------------:|:------:|:--------:|:---------------------:|:--------------:|
-| Slider | [viper](firmware/viper) | [slider](rockets/slider) | *NONE* |  *NONE*  | Friday, July 17, 2020 | In Development |
-
-## Launch Pads
-
-| Name   | Firmware | CAD Files                                      | Launches | Creation              | Status         |
-|:------:|:--------:|:----------------------------------------------:|:--------:|:---------------------:|:--------------:|
-
-## Launch Controllers
-
-| Name   | Firmware | CAD Files                                      | Launches | Creation              | Status         |
-|:------:|:--------:|:----------------------------------------------:|:--------:|:---------------------:|:--------------:|
-
+| Name   | Avionics                | CAD Files                | Tests  | Launches | Creation      | Status         |
+|:------:|:-----------------------:|:------------------------:|:------:|:--------:|:-------------:|:--------------:|
+| Slider | [viper](avionics/viper) | [slider](rockets/slider) | *NONE* |  *NONE*  | July 17, 2020 | In Development |
 
 # License
     Thrust Vector Controlled Model Rockets
@@ -37,3 +26,5 @@ Below is a list of the rockets, basic information about them, and hyperlinks to 
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+<sub>Developed and maintained by @DusterTheFirst (Zachary Kohnen) and licensed under the [GNU GPL 3.0 license](LICENSE)</sub>
