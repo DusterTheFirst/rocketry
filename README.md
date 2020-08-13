@@ -1,4 +1,4 @@
-# Thrust Vector Controlled Rockets
+# Thrust Vector Controlled Model Rockets
 
 This repository consists of the rockets that Zachary Kohnen has created. These rockets use active TVC based stabilization.
 The models for each rocket can be found in the rockets directory, and the flight firmware for each project can be found in the firmware directory.
