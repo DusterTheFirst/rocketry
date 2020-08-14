@@ -1,7 +1,3 @@
----
-permalink: /license
----
-
 # Development log
 This document will hold the findings and information about each test conducted
 as well as progress information and links to designs used. It is meant to serve
