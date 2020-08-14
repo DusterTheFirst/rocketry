@@ -4,7 +4,7 @@ This repository consists of the rockets that Zachary Kohnen has created. These r
 The models for each rocket can be found in the rockets directory, and the flight firmware for each project can be found in the firmware directory.
 Below is a list of the rockets, basic information about them, and hyperlinks to their respective information.
 
-You can access a development log in the [DEVELOPMENT.md](DEVELOPMENT.md) file.
+You can access a development log in the [development.md](development) file.
 
 ## Rockets
 
@@ -29,4 +29,4 @@ You can access a development log in the [DEVELOPMENT.md](DEVELOPMENT.md) file.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-<sub>Developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst) and licensed under the [GNU GPL 3.0 license](LICENSE.md)</sub>
+<sub>Developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst) and licensed under the [GNU GPL 3.0 license](license)</sub>

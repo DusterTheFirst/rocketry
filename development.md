@@ -1,3 +1,4 @@
+
 # Development log
 This document will hold the findings and information about each test conducted
 as well as progress information and links to designs used. It is meant to serve
@@ -45,4 +46,4 @@ as an archive of all information and development of the project
 
 ## Viper
 
-<sub>Developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst) and licensed under the [GNU GPL 3.0 license](LICENSE.md)</sub>
+<sub>Developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst) and licensed under the [GNU GPL 3.0 license](license)</sub>
