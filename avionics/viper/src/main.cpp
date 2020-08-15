@@ -79,35 +79,35 @@ void setup() {
     p.Begin(); // start plotter
 
     // BNO-055
-    p.AddTimeGraph("Absolute Orientation (deg)", 500,
+    p.AddTimeGraph("Absolute Orientation (deg)", 1,
                    "X", bno055::orientation::euler::x,
                    "Y", bno055::orientation::euler::y,
                    "Z", bno055::orientation::euler::z);
-    // p.AddTimeGraph("Absolute Orientation (quaterion)", 500,
-    //                "a", bno055::orientation::quaterion::a,
-    //                "b", bno055::orientation::quaterion::b,
-    //                "c", bno055::orientation::quaterion::c,
-    //                "d", bno055::orientation::quaterion::d);
-    p.AddTimeGraph("Angular Velocity (rad/s)", 500,
+    p.AddTimeGraph("Absolute Orientation (quaterion)", 1,
+                   "a", bno055::orientation::quaterion::a,
+                   "b", bno055::orientation::quaterion::b,
+                   "c", bno055::orientation::quaterion::c,
+                   "d", bno055::orientation::quaterion::d);
+    p.AddTimeGraph("Angular Velocity (rad/s)", 1,
                    "X", bno055::angular_velocity::x,
                    "Y", bno055::angular_velocity::y,
                    "Z", bno055::angular_velocity::z);
-    p.AddTimeGraph("Acceleration (m/s^2)", 500,
+    p.AddTimeGraph("Acceleration (m/s^2)", 1,
                    "X", bno055::acceleration::both::x,
                    "Y", bno055::acceleration::both::y,
                    "Z", bno055::acceleration::both::z);
-    // p.AddTimeGraph("Acceleration - Gravity (m/s^2)", 500,
-    //                "X", bno055::acceleration::linear::x,
-    //                "Y", bno055::acceleration::linear::y,
-    //                "Z", bno055::acceleration::linear::z);
-    p.AddTimeGraph("Gravity (m/s^2)", 500,
+    p.AddTimeGraph("Acceleration - Gravity (m/s^2)", 1,
+                   "X", bno055::acceleration::linear::x,
+                   "Y", bno055::acceleration::linear::y,
+                   "Z", bno055::acceleration::linear::z);
+    p.AddTimeGraph("Gravity (m/s^2)", 1,
                    "X", bno055::acceleration::gravity::x,
                    "Y", bno055::acceleration::gravity::y,
                    "Z", bno055::acceleration::gravity::z);
-    // p.AddTimeGraph("Magnetic Field (uT)", 500,
-    //                "X", bno055::magnetic_field::x,
-    //                "Y", bno055::magnetic_field::y,
-    //                "Z", bno055::magnetic_field::z);
+    p.AddTimeGraph("Magnetic Field (uT)", 1,
+                   "X", bno055::magnetic_field::x,
+                   "Y", bno055::magnetic_field::y,
+                   "Z", bno055::magnetic_field::z);
     p.AddTimeGraph("Temperature (*C)", 500,
                    "BMP-055", bno055::temperature,
                    "Teensy", teensy::temperature);
