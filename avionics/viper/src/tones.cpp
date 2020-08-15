@@ -20,4 +20,15 @@ namespace Tones {
         delay(300);
         noTone(BUZZER_PIN);
     }
-} // namespace Tones
+
+    void error_chime() {
+        for (int i = 0; i < 4; i++) {
+            tone(BUZZER_PIN, 440);
+            delay(150);
+            tone(BUZZER_PIN, 220);
+            delay(150);
+        }
+        delay(1000);
+        noTone(BUZZER_PIN);
+    }
+}

@@ -6,3 +6,4 @@ AccessModifierOffset: -2
 NamespaceIndentation: All
 BreakBeforeBraces: Attach
 IndentCaseLabels: true
+FixNamespaceComments: false

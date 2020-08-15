@@ -5,10 +5,5 @@
 
 namespace Tones {
     void startup_chime();
-} // namespace Tones
-
-class ToneEngine {
-  private:
-    void penis() {
-    }
+    void error_chime();
 }
