@@ -108,7 +108,7 @@ void setup() {
                    "X", bno055::magnetic_field::x,
                    "Y", bno055::magnetic_field::y,
                    "Z", bno055::magnetic_field::z);
-    p.AddTimeGraph("Temperature (*C)", 500,
+    p.AddTimeGraph("Temperature (*C)", 300,
                    "BMP-055", bno055::temperature,
                    "Teensy", teensy::temperature);
 
@@ -128,7 +128,7 @@ void setup() {
 }
 
 double last_1hz_clock = 0;
-double last_100hz_clock = 0;
+double last_10hz_clock = 0;
 
 void loop() {
     double current_millis = millis();
@@ -138,16 +138,12 @@ void loop() {
         bno055::temperature = bno.getTemp();
         teensy::temperature = InternalTemperature.readTemperatureC();
 
-        // Serial.print();
-        // Serial.print(",");
-        // Serial.println(bno055::temperature);
-
         last_1hz_clock = current_millis;
     }
 
-    if (current_millis - last_100hz_clock > 10) {
+    if (current_millis - last_10hz_clock > 100) {
         p.Plot();
 
-        last_100hz_clock = current_millis;
+        last_10hz_clock = current_millis;
     }
 }
