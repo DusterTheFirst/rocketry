@@ -62,7 +62,7 @@ Adafruit_BMP280 bmp;
 
 Plotter p;
 
-uint8_t test_val = test(69);
+uint8_t test_val = 0;
 
 void setup() {
     p.Begin(); // start plotter
@@ -148,6 +148,8 @@ void loop_100Hz() {
 
     bmp280::pressure = bmp.readPressure();
     bmp280::altitude = bmp.readAltitude(1017.6097943333434);
+
+    test_val = test(2);
 
     p.Plot();
 }

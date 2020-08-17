@@ -7,9 +7,11 @@ oldpwd = os.getcwd()
 os.chdir("lib/oxide")
 print("building oxide")
 if env.GetBuildType() == "debug":
-    os.system("cargo build")
+    if (os.system("cargo build") >> 8) :
+        exit(1)
 else:
-    os.system("cargo build --release")
+    if (os.system("cargo build --release") >> 8):
+        exit(1)
 print("generating header for oxide")
 os.system("cbindgen --config cbindgen.toml --output include/oxide.h")
 

@@ -8,7 +8,13 @@ fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
 
+static mut X: u8 = 0;
+
 #[no_mangle]
 pub extern fn test(h: u8) -> u8 {
-    h + 42
+    unsafe {
+        X += h;
+
+        X
+    }
 }
