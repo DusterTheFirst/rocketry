@@ -1,7 +1,16 @@
-#include "tones.h"
+#[repr(u8)]
+pub enum Peripheral {
+    BNO055 = 0x0,
+    BMP280 = 0x1,
+}
 
-namespace Tones {
-    void startup_chime() {
+pub mod tones {
+    use crate::ffi::arduino::*;
+    use crate::BUZZER_PIN;
+    use super::Peripheral;
+
+    #[no_mangle]
+    pub unsafe extern "C" fn startup_chime() {
         tone(BUZZER_PIN, 440);
         delay(150);
         tone(BUZZER_PIN, 440 * 2);
@@ -10,37 +19,40 @@ namespace Tones {
         delay(150);
         tone(BUZZER_PIN, 440);
         delay(300);
-        noTone(BUZZER_PIN);
+        stopTone(BUZZER_PIN);
         delay(100);
         tone(BUZZER_PIN, 440);
         delay(300);
-        noTone(BUZZER_PIN);
+        stopTone(BUZZER_PIN);
         delay(100);
         tone(BUZZER_PIN, 440);
         delay(300);
-        noTone(BUZZER_PIN);
+        stopTone(BUZZER_PIN);
     }
 
-    void error_chime(Peripheral p) {
-        for (int i = 0; i < 4; i++) {
+    #[no_mangle]
+    pub unsafe extern "C" fn error_chime(p: Peripheral) {
+        let p: u8 = p as _;
+
+        for _ in 0..4 {
             tone(BUZZER_PIN, 440);
             delay(150);
             tone(BUZZER_PIN, 220);
             delay(150);
         }
         delay(1000);
-        noTone(BUZZER_PIN);
+        stopTone(BUZZER_PIN);
         delay(1000);
-        while (true) {
-            for (uint8_t i = (int)p + 1; i > 0; i--) {
+        loop {
+            for _ in 0..=p {
                 tone(BUZZER_PIN, 440);
                 delay(150);
-                noTone(BUZZER_PIN);
+                stopTone(BUZZER_PIN);
                 delay(250);
             }
             tone(BUZZER_PIN, 220);
             delay(1000);
-            noTone(BUZZER_PIN);
+            stopTone(BUZZER_PIN);
             delay(2000);
         }
     }

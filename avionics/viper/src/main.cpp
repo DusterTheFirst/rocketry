@@ -1,7 +1,5 @@
 #include "interop.h"
 #include "oxide.h"
-#include "pins.h"
-#include "tones.h"
 #include <Adafruit_BMP280.h>
 #include <Adafruit_BNO055.h>
 #include <Adafruit_Sensor.h>
@@ -19,6 +17,8 @@ Avionics avionics = init_avionics();
 SensorData *data = &avionics.sensor_data;
 
 void setup() {
+    pinMode(BUZZER_PIN, OUTPUT);
+    
     p.Begin(); // start plotter
 
     // BNO-055
@@ -63,19 +63,18 @@ void setup() {
     if (!bno.begin()) {
         Serial.print("Could not connect to BNO055");
 
-        Tones::error_chime(Peripheral::BMP055);
+        error_chime(Peripheral::BNO055);
     }
 
     if (!bmp.begin()) {
         Serial.println("Could not connect to BMP280");
 
-        Tones::error_chime(Peripheral::BMP280);
+        error_chime(Peripheral::BMP280);
     }
 
     bno.setExtCrystalUse(true);
 
-    pinMode(BUZZER_PIN, OUTPUT);
-    Tones::startup_chime();
+    startup_chime();
 }
 
 void loop_1Hz() {

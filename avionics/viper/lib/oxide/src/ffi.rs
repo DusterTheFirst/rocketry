@@ -1,4 +1,5 @@
 use crate::avionics::Avionics;
+pub use crate::interface::Peripheral;
 use crate::vector::Vector3;
 
 #[no_mangle]
@@ -19,6 +20,7 @@ pub extern "C" fn new_vector3(x: f64, y: f64, z: f64) -> Vector3 {
 pub mod arduino {
     extern "C" {
         pub fn tone(pin: u8, frequency: u16);
+        pub fn stopTone(pin: u8);
         pub fn delay(delay: u32);
     }
 }

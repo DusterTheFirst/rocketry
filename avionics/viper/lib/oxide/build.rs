@@ -27,7 +27,7 @@ fn generate_c_bindings() {
                 "Arduino.h",
             ].into_iter().map(|x| x.into()).collect(),
             includes: vec![
-                "WProgram.h"
+                "interop.h"
             ].into_iter().map(|x| x.into()).collect(),
             tab_width: 4,
             style: Style::Both,
