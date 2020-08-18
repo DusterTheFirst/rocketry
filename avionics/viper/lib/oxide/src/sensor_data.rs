@@ -1,9 +1,29 @@
-use crate::Vector3;
+use crate::vector::Vector3;
 
 #[repr(C)]
 #[derive(Default)]
 pub struct SensorData {
     pub bno055: BNO055,
+    pub bmp280: BMP280,
+    pub teensy: Teensy,
+}
+
+#[repr(C)]
+#[derive(Default)]
+pub struct BMP280 {
+    /// Ambient temperature in degrees celsius
+    pub temperature: f32,
+    /// Ambient pressure
+    pub pressure: u32,
+    /// Ambient pressure
+    pub altitude: f32,
+}
+
+#[repr(C)]
+#[derive(Default)]
+pub struct Teensy {
+    /// Chip temperature in degrees celsius
+    pub temperature: f32,
 }
 
 #[repr(C)]

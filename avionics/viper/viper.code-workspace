@@ -12,7 +12,11 @@
 			"*.sxcu": "json",
 			"**/.cargo/config": "toml",
 			"cstdarg": "cpp",
-			"new": "cpp"
+			"new": "cpp",
+			"array": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"ranges": "cpp"
 		}
 	}
 }
