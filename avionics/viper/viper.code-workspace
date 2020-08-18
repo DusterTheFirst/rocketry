@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "lib/oxide"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.sxcu": "json",
+			"**/.cargo/config": "toml",
+			"cstdarg": "cpp",
+			"new": "cpp"
+		}
+	}
+}

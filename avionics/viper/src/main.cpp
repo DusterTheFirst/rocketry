@@ -62,7 +62,7 @@ Adafruit_BMP280 bmp;
 
 Plotter p;
 
-uint8_t test_val = 0;
+Avionics avionics = init_avionics();
 
 void setup() {
     p.Begin(); // start plotter
@@ -85,7 +85,7 @@ void setup() {
                    "X", bno055::acceleration::both.x(),
                    "Y", bno055::acceleration::both.y(),
                    "Z", bno055::acceleration::both.z());
-    p.AddTimeGraph("Acceleration - Gravity (m/s^2)", 300,
+    p.AddTimeGraph("Linear Acceleration (m/s^2)", 300,
                    "X", bno055::acceleration::linear.x(),
                    "Y", bno055::acceleration::linear.y(),
                    "Z", bno055::acceleration::linear.z());
@@ -103,8 +103,7 @@ void setup() {
     p.AddTimeGraph("Temperature (*C)", 300,
                    "BNO-055", bno055::temperature,
                    "BMP-280", bmp280::temperature,
-                   "Teensy", teensy::temperature,
-                   "Test", test_val);
+                   "Teensy", teensy::temperature);
 
     /* Initialise the sensor */
     if (!bno.begin()) {
@@ -148,8 +147,6 @@ void loop_100Hz() {
 
     bmp280::pressure = bmp.readPressure();
     bmp280::altitude = bmp.readAltitude(1017.6097943333434);
-
-    test_val = test(2);
 
     p.Plot();
 }
