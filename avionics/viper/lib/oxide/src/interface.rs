@@ -10,7 +10,7 @@ pub mod tones {
     use super::Peripheral;
 
     #[no_mangle]
-    pub unsafe extern "C" fn startup_chime() {
+    pub unsafe extern fn startup_chime() {
         tone(BUZZER_PIN, 440);
         delay(150);
         tone(BUZZER_PIN, 440 * 2);
@@ -31,7 +31,7 @@ pub mod tones {
     }
 
     #[no_mangle]
-    pub unsafe extern "C" fn error_chime(p: Peripheral) {
+    pub unsafe extern fn error_chime(p: Peripheral) {
         let p: u8 = p as _;
 
         for _ in 0..4 {

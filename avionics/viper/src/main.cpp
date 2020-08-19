@@ -18,7 +18,7 @@ SensorData *data = &avionics.sensor_data;
 
 void setup() {
     pinMode(BUZZER_PIN, OUTPUT);
-    
+
     p.Begin(); // start plotter
 
     // BNO-055
@@ -59,20 +59,20 @@ void setup() {
                    "BMP-280", data->bmp280.temperature,
                    "Teensy", data->teensy.temperature);
 
-    /* Initialise the sensor */
+    /* Initialise the sensors */
     if (!bno.begin()) {
         Serial.print("Could not connect to BNO055");
 
         error_chime(Peripheral::BNO055);
     }
 
+    bno.setExtCrystalUse(true);
+
     if (!bmp.begin()) {
         Serial.println("Could not connect to BMP280");
 
         error_chime(Peripheral::BMP280);
     }
-
-    bno.setExtCrystalUse(true);
 
     startup_chime();
 }
