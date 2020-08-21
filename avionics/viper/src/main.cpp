@@ -1,4 +1,4 @@
-#include "interop.h"
+#include "interop/cpp.h"
 #include "oxide.h"
 #include <Adafruit_BMP280.h>
 #include <Adafruit_BNO055.h>
@@ -13,12 +13,10 @@ Adafruit_BMP280 bmp;
 
 Plotter p;
 
-Avionics avionics = init_avionics();
+Avionics avionics = create_avionics();
 SensorData *data = &avionics.sensor_data;
 
 void setup() {
-    pinMode(BUZZER_PIN, OUTPUT);
-
     p.Begin(); // start plotter
 
     // BNO-055
@@ -74,6 +72,7 @@ void setup() {
         error_chime(Peripheral::BMP280);
     }
 
+    init_avionics(&avionics);
     startup_chime();
 }
 

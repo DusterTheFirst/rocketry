@@ -1,4 +1,4 @@
-use crate::sensor_data::SensorData;
+use crate::{interface::tones, sensor_data::SensorData};
 
 #[repr(C)]
 pub struct Avionics {
@@ -12,9 +12,9 @@ impl Avionics {
         }
     }
 
-    pub fn tick(&mut self) {}
-}
+    pub fn init(&mut self) {
+        tones::init();
+    }
 
-pub struct AvionicsStateMachine<S> {
-    state: S,
+    pub fn tick(&mut self) {}
 }

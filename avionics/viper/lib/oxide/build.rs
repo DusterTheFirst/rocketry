@@ -23,11 +23,8 @@ fn generate_c_bindings() {
             include_guard: Some("OXIDE_H".into()),
             pragma_once: true,
             include_version: true,
-            sys_includes: vec![
-                "Arduino.h",
-            ].into_iter().map(|x| x.into()).collect(),
             includes: vec![
-                "interop.h"
+                "interop/rust.h"
             ].into_iter().map(|x| x.into()).collect(),
             tab_width: 4,
             style: Style::Both,

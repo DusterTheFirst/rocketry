@@ -1,12 +1,11 @@
 #![no_std]
 
 mod avionics;
-mod ffi;
+mod constants;
+mod interface;
+mod interop;
 mod sensor_data;
 mod vector;
-mod interface;
-
-pub use ffi::*;
 
 use core::panic::PanicInfo;
 
@@ -14,5 +13,3 @@ use core::panic::PanicInfo;
 fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
-
-pub const BUZZER_PIN: u8 = 9;
