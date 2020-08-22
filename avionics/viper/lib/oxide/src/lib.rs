@@ -2,7 +2,7 @@
 
 mod avionics;
 mod constants;
-mod interface;
+mod ui;
 mod interop;
 mod sensor_data;
 mod vector;

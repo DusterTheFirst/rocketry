@@ -4,7 +4,7 @@ pub enum Peripheral {
     BMP280 = 0x1,
 }
 
-pub mod tones {
+pub mod audio {
     use super::Peripheral;
     use crate::{constants::BUZZER_PIN, interop::rust::arduino::*};
 
