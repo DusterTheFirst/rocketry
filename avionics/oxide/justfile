@@ -1,0 +1,16 @@
+hex_file := "./target/oxide.hex"
+
+build:
+    cargo build --release
+
+doc:
+    cargo doc --release --open
+
+objcopy: build
+    cargo objcopy --release -- -O ihex {{hex_file}}
+
+upload: objcopy
+    teensy_loader_cli --mcu=imxrt1062 -vw {{hex_file}}
+
+usb:
+    screen /dev/
