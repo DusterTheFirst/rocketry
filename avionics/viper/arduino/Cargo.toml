@@ -1,0 +1,13 @@
+[package]
+name = "arduino"
+version = "0.1.0"
+authors = ["DusterTheFirst <14093962+DusterTheFirst@users.noreply.github.com>"]
+edition = "2018"
+
+description = "Functions from the arduino framework, re-exported and wrapped in rusty, safe wrappers"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+compiler_builtins = { version = "*", features = ["mangled-names"] }
+unsafe_fn = "0.1.2"

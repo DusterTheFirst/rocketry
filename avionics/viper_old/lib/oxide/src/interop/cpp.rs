@@ -1,5 +1,5 @@
 use crate::avionics::Avionics;
-pub use crate::interface::Peripheral;
+pub use crate::ui::Peripheral;
 use crate::vector::Vector3;
 
 #[no_mangle]
