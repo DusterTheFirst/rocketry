@@ -8,8 +8,8 @@ edition = "2018"
 panic-halt = "0.2.0"
 cortex-m = "0.6.3"
 embedded-hal = "0.2.4"
-cortex-m-rtic = "0.5.5"
-teensy4-bsp = { git = "https://github.com/mciantyre/teensy4-rs.git", branch = "master", default-features = false, features = ["rtic"] }
+log = "0.4.11"
+teensy4-bsp = { git = "https://github.com/mciantyre/teensy4-rs.git", branch = "master" }
 
 # Patch `cortex-m-rt` for reasons described here:
 # https://github.com/mciantyre/teensy4-rs#runtime

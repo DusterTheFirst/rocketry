@@ -13,4 +13,6 @@ upload: objcopy
     teensy_loader_cli --mcu=imxrt1062 -vw {{hex_file}}
 
 usb:
-    screen /dev/
+    sleep 1
+    screen /dev/tty.usbmodem62135501
+    reset

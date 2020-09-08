@@ -1,100 +1,106 @@
-#![deny(unsafe_code)]
-#![cfg_attr(not(doc), no_main)]
 #![no_std]
+#![no_main]
 
-use teensy4_bsp::hal::gpio::GPIO;
 use bsp::{
     hal::{
-        ccm::{pwm as pwm_ccm, ClockMode, PLL1},
-        iomuxc::consts::U2,
-        pwm,
+        ccm::{perclk, PLL1},
+        gpt::{self, OutputCompareRegister},
     },
-    t40::{P6, P9},
-    LED,
-hal::gpio};
-use core::time::Duration;
-use embedded_hal::{digital::v2::OutputPin, Pwm};
-use panic_halt as _;
-use rtic::cyccnt::U32Ext;
-pub use teensy4_bsp as bsp;
-
-// The CYCCNT counts in clock cycles. Using the clock hz should give us a ~1 second period.
-const PERIOD: u32 = PLL1::ARM_HZ;
-
-#[rtic::app(device = teensy4_bsp, monotonic = rtic::cyccnt::CYCCNT, peripherals = true)]
-const APP: () = {
-    struct Resources<'a> {
-        led: LED,
-        buzzer: GPIO<P9, gpio::Output>
-    }
-
-    #[init(schedule = [blink, buzz])]
-    fn init(mut cx: init::Context) -> init::LateResources {
-        init_delay();
-
-        // Set the clock mode to 'RUN'
-        cx.device.ccm.set_mode(ClockMode::Run);
-
-        // Initialise the monotonic CYCCNT timer.
-        cx.core.DWT.enable_cycle_counter();
-
-        // Ensure the ARM clock is configured for the default speed seeing as we use this speed to
-        // determine a 1 second `PERIOD`.
-        let (_, ipg_hz) = cx.device.ccm.pll1.set_arm_clock(
-            PLL1::ARM_HZ,
-            &mut cx.device.ccm.handle,
-            &mut cx.device.dcdc,
-        );
-
-        // Get the pins
-        let pins = bsp::t40::pins(cx.device.iomuxc);
-
-        // Grab the led out og yhr pins
-        let mut led = bsp::configure_led(pins.p13);
-
-        // Start the led High
-        led.set_high().unwrap();
-
-        let mut buzzer = 
-
-        // Schedule the first blink.
-        cx.schedule.blink(cx.start + PERIOD.cycles()).unwrap();
-
-        init::LateResources {
-            led,
-            buzzer
-        }
-    }
-
-    fn buzz(cx: buzz::Context) {
-
-    }
-
-    #[task(resources = [led, pwm2_handle, pwm2_sm2], schedule = [blink])]
-    fn blink(cx: blink::Context) {
-        cx.resources.led.toggle();
-
-        // Schedule the following blink.
-        cx.schedule.blink(cx.scheduled + PERIOD.cycles()).unwrap();
-    }
-
-    // RTIC requires that unused interrupts are declared in an extern block when
-    // using software tasks
-    extern "C" {
-        fn LPUART8();
-        fn LPUART7();
-        fn LPUART6();
-        fn LPUART5();
-    }
+    interrupt,
+    rt::{entry, interrupt},
+    t40, usb, Peripherals, SysTick, LED,
 };
+use core::time::Duration;
+use cortex_m::{asm::wfi, peripheral::NVIC};
+use panic_halt as _;
+use teensy4_bsp as bsp;
 
-// If we reach WFI on teensy 4.0 too quickly it seems to halt. Here we wait a short while in `init`
-// to avoid this issue. The issue only appears to occur when rebooting the device (via the button),
-// however there appears to be no issue when power cycling the device.
-//
-// TODO: Investigate exactly why this appears to be necessary.
-fn init_delay() {
-    for _ in 0..10_000_000 {
-        core::sync::atomic::spin_loop_hint();
+const OCR: OutputCompareRegister = OutputCompareRegister::Three;
+
+static mut TIMER: Option<gpt::GPT> = None;
+
+static mut COUNT: u8 = 0;
+
+static mut LED: Option<LED> = None;
+
+#[interrupt]
+unsafe fn GPT1() {
+    let gpt1 = TIMER.as_mut().unwrap();
+
+    gpt1.output_compare_status(OCR).clear();
+
+    let led = LED.as_mut().unwrap();
+
+    log::info!("gpt1 {} {}", COUNT, led.is_set());
+
+    COUNT += 1;
+
+    led.toggle();
+
+    gpt1.set_output_compare_duration(OCR, Duration::from_millis(1000));
+}
+
+#[entry]
+fn main() -> ! {
+    // Get the peripherals fo the teensy
+    let mut p = Peripherals::take().unwrap();
+
+    // Get the systick peripheral
+    let mut systick = SysTick::new(cortex_m::Peripherals::take().unwrap().SYST);
+
+    // Get all of the teensy pins
+    let pins = t40::pins(p.iomuxc);
+
+    // Initialize the USB stack with the default logging settings
+    let mut usb_reader = usb::init(
+        &systick,
+        usb::LoggingConfig {
+            filters: &[("oxide", None)],
+            ..Default::default()
+        },
+    )
+    .unwrap();
+
+    // Wait 2 seconds for host to connect to usb
+    systick.delay(2000);
+
+    // Setup the arm clock speed
+    let (_, ipg_hz) = p
+        .ccm
+        .pll1
+        .set_arm_clock(PLL1::ARM_HZ, &mut p.ccm.handle, &mut p.dcdc);
+
+    // Setup the peripheral clock
+    let mut cfg = p.ccm.perclk.configure(
+        &mut p.ccm.handle,
+        perclk::PODF::DIVIDE_1,
+        perclk::CLKSEL::IPG(ipg_hz),
+    );
+
+    // Setup a timer for the buzzer
+    let mut gpt1 = p.gpt1.clock(&mut cfg);
+
+    gpt1.set_output_interrupt_on_compare(OCR, true);
+    gpt1.set_wait_mode_enable(true);
+    gpt1.set_mode(gpt::Mode::FreeRunning);
+    gpt1.set_output_compare_duration(OCR, Duration::from_millis(100));
+    gpt1.set_enable(true);
+
+    unsafe {
+        TIMER = Some(gpt1);
+        NVIC::unmask(interrupt::GPT1);
+    }
+
+    unsafe {
+        // Grab the onboard led
+        LED = Some(bsp::configure_led(pins.p13));
+    }
+
+    // let mut buzzer =
+
+    loop {
+        wfi();
+
+        // log::warn!("luup");
     }
 }
