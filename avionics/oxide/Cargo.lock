@@ -226,18 +226,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "imxrt-uart-log"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5b15584d564fd917e2d70deab23ad9458f072f62ed74abd7bc1ae6e811f1f54b"
-dependencies = [
- "cortex-m",
- "embedded-hal",
- "imxrt-hal",
- "log",
-]
-
-[[package]]
 name = "indexmap"
 version = "1.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -278,8 +266,6 @@ dependencies = [
  "cortex-m",
  "cortex-m-rtic",
  "embedded-hal",
- "imxrt-uart-log",
- "log",
  "panic-halt",
  "teensy4-bsp",
 ]

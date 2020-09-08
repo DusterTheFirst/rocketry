@@ -7,7 +7,7 @@ doc:
     cargo doc --release --open
 
 objcopy: build
-    cargo objcopy --release -- -O ihex {{hex_file}}
+    cargo objcopy --release -q -- -O ihex {{hex_file}} > /dev/null
 
 upload: objcopy
     teensy_loader_cli --mcu=imxrt1062 -vw {{hex_file}}
