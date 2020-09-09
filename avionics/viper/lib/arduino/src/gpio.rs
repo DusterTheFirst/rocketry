@@ -113,10 +113,10 @@ impl Pin {
     /// [Digital Pins]: https://www.arduino.cc/en/Tutorial/DigitalPins
     pub fn mode(&self, mode: PinMode) {
         extern "C" {
-            fn pinMode(pin: u8, mode: u8);
+            fn pinModeFast(pin: u8, mode: u8);
         }
 
-        unsafe { pinMode(self.0, mode as _) }
+        unsafe { pinModeFast(self.0, mode as _) }
     }
 
     /// Set the pins output to high. A proxy for `digital_write(true)`
@@ -127,6 +127,16 @@ impl Pin {
     /// Set the pins output to low. A proxy for `digital_write(false)`
     pub fn set_low(&self) {
         self.digital_write(false)
+    }
+
+    /// Set the pins output to the opposite of what it currently is
+    pub fn toggle(&self) {
+        extern "C" {
+            #[link_name = "extern_digitalToggleFast"]
+            fn digitalToggleFast(pin: u8);
+        }
+
+        unsafe { digitalToggleFast(self.0.into()) }
     }
 
     /// Write a HIGH (true) or a LOW (false) value to a digital pin.
@@ -148,11 +158,23 @@ impl Pin {
     /// current-limiting resistor.
     pub fn digital_write(&self, value: bool) {
         extern "C" {
-            fn digitalWrite(pin: u8, value: u8);
+            #[link_name = "extern_digitalWriteFast"]
+            fn digitalWriteFast(pin: u8, value: u8);
         }
 
         unsafe {
-            digitalWrite(self.0, if value { 1 } else { 0 });
+            digitalWriteFast(self.0, if value { 1 } else { 0 });
+        }
+    }
+
+    pub fn digital_read(&self) -> bool {
+        extern "C" {
+            #[link_name = "extern_digitalReadFast"]
+            fn digitalReadFast(pin: u8) -> u8;
+        }
+
+        unsafe {
+            digitalReadFast(self.0) == 0
         }
     }
 }

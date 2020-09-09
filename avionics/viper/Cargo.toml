@@ -10,10 +10,10 @@ crate-type = ["staticlib"]
 
 [dependencies]
 compiler_builtins = { version = "*", features = ["mangled-names"] }
-arduino = { path = "./arduino" }
+arduino = { path = "./lib/arduino" }
 
 [workspace]
-members = ["arduino"]
+members = ["lib/arduino"]
 
 [profile.release]
 codegen-units = 1 # better optimizations

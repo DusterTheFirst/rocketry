@@ -1,40 +1,40 @@
 #![no_std]
 #![deny(unsafe_code)]
 
-use arduino::{delay, Pin, PinMode, Tone, LED_BUILTIN};
+use ui::Buzzer;
+use arduino::{delay, Pin, PinMode, LED_BUILTIN};
+
+mod ui;
 
 #[allow(unsafe_code)]
-const BUZZER: Pin = unsafe { Pin::new(9) };
+const BUZZER: Buzzer = Buzzer::new(unsafe { Pin::new(9) });
 
 #[no_mangle]
-pub extern "C" fn rust_setup() {
+pub extern "C" fn setup() {
     LED_BUILTIN.mode(PinMode::Output);
-    BUZZER.mode(PinMode::Output);
+    BUZZER.init();
+
+    BUZZER.startup_chime_blocking();
 }
 
 #[no_mangle]
-pub extern "C" fn rust_loop() {
-    LED_BUILTIN.set_high();
+pub extern "C" fn r#loop() {
+    LED_BUILTIN.toggle();
     // BUZZER.tone_with_duration(1975, 100);
     delay(1000);
-    LED_BUILTIN.set_low();
     // BUZZER.no_tone();
-    delay(200);
 
-    // panic!();
+    panic!();
 }
 
 #[panic_handler]
 fn panic(_info: &core::panic::PanicInfo) -> ! {
-    BUZZER.tone(4186);
-    delay(500);
-    BUZZER.tone_with_duration(65, 10000);
+    LED_BUILTIN.set_high();
+    
+    BUZZER.panic_chime_blocking();
 
     loop {
-        LED_BUILTIN.set_high();
-        delay(50);
-
-        LED_BUILTIN.set_low();
+        LED_BUILTIN.toggle();
         delay(50);
     }
 }
