@@ -1,4 +1,4 @@
-use arduino::{Pin, PinMode, Tone, delay};
+use arduino::{delay, Pin, PinMode, Tone};
 
 #[repr(u8)]
 pub enum Peripheral {
@@ -7,7 +7,7 @@ pub enum Peripheral {
 }
 
 pub struct Buzzer {
-    pin: Pin
+    pin: Pin,
 }
 
 impl Buzzer {
@@ -46,7 +46,7 @@ impl Buzzer {
                 delay(1);
             }
         }
-        
+
         self.pin.tone_with_duration(4186, 1000);
     }
 }

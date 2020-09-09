@@ -34,7 +34,7 @@ pub use sound::Tone;
 /// maintained, and interrupts will work as they should.
 /// 
 /// # See Also
-/// - **https://www.arduino.cc/reference/en/language/functions/time/delay/**
+/// - [delay() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/time/delay/)
 pub fn delay(ms: u32) {
     extern "C" {
         fn delay(ms: u32);
@@ -57,7 +57,7 @@ pub fn delay(ms: u32) {
 /// As of Arduino 0018, delayMicroseconds() no longer disables interrupts.
 /// 
 /// # See Also
-/// - **https://www.arduino.cc/reference/en/language/functions/time/delaymicroseconds/**
+/// - [delayMicroseconds() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/time/delaymicroseconds/)
 pub fn delay_microseconds(us: u32) {
     extern "C" {
         fn delayMicroseconds(us: u32);
@@ -66,6 +66,7 @@ pub fn delay_microseconds(us: u32) {
     unsafe { delayMicroseconds(us) }
 }
 
+/// Basically delay microseconds, but nanoseconds
 pub fn delay_nanoseconds(ns: u32) {
     extern "C" {
         fn delayNanoseconds(ns: u32);
@@ -86,13 +87,13 @@ pub fn delay_nanoseconds(ns: u32) {
 /// encounter errors as its maximum value is half that of its unsigned counterpart.
 ///
 /// # See Also
-/// - **https://www.arduino.cc/reference/en/language/functions/time/millis/**
+/// - [millis() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/time/millis/)
 pub fn millis() -> u32 {
     extern "C" {
-        fn millis() -> u32;
+        static systick_millis_count: u32;
     }
 
-    unsafe { millis() }
+    unsafe { systick_millis_count }
 }
 
 /// Returns the number of microseconds since the Arduino board began running the current program.
@@ -108,7 +109,7 @@ pub fn millis() -> u32 {
 /// There are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
 ///
 /// # See Also
-/// - **https://www.arduino.cc/reference/en/language/functions/time/micros/**
+/// - [micros() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/time/micros/)
 pub fn micros() -> u32 {
     extern "C" {
         fn micros() -> u32;

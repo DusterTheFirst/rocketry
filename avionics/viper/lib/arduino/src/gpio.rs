@@ -1,12 +1,12 @@
 //! Tools for interfacing with GPIO on the uC
 //!
 //! # See Also
-//! - **https://www.arduino.cc/en/Tutorial/DigitalPins**
+//! - [Digital Pins - Arduino Reference](https://www.arduino.cc/en/Tutorial/DigitalPins)
 
 /// The modes that a pin can be configured in
 ///
 /// # See Also
-/// - **https://www.arduino.cc/en/Tutorial/DigitalPins**
+/// - [Digital Pins - Arduino Reference](https://www.arduino.cc/en/Tutorial/DigitalPins)
 #[repr(u8)]
 pub enum PinMode {
     /// Pins configured this way are said to be in a high-impedance state.
@@ -82,7 +82,7 @@ pub enum PinMode {
 /// This method was chosen to limit the use of unsafe when dealing with pins
 ///
 /// # See Also
-/// - **https://www.arduino.cc/en/Tutorial/DigitalPins**
+/// - [Digital Pins - Arduino Reference](https://www.arduino.cc/en/Tutorial/DigitalPins)
 pub struct Pin(u8);
 
 impl Pin {
@@ -108,15 +108,15 @@ impl Pin {
     /// The analog input pins can be used as digital pins, referred to as A0, A1, etc.
     ///
     /// # See Also
-    /// - **https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/**
+    /// - [pinMode - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/)
     ///
     /// [Digital Pins]: https://www.arduino.cc/en/Tutorial/DigitalPins
     pub fn mode(&self, mode: PinMode) {
         extern "C" {
-            fn pinModeFast(pin: u8, mode: u8);
+            fn pinMode(pin: u8, mode: u8);
         }
 
-        unsafe { pinModeFast(self.0, mode as _) }
+        unsafe { pinMode(self.0, mode as _) }
     }
 
     /// Set the pins output to high. A proxy for `digital_write(true)`
@@ -132,11 +132,10 @@ impl Pin {
     /// Set the pins output to the opposite of what it currently is
     pub fn toggle(&self) {
         extern "C" {
-            #[link_name = "extern_digitalToggleFast"]
-            fn digitalToggleFast(pin: u8);
+            fn digitalToggle(pin: u8);
         }
 
-        unsafe { digitalToggleFast(self.0.into()) }
+        unsafe { digitalToggle(self.0.into()) }
     }
 
     /// Write a HIGH (true) or a LOW (false) value to a digital pin.
@@ -156,25 +155,39 @@ impl Pin {
     /// Without explicitly setting `mode()`, `digital_write()` will have
     /// enabled the internal pull-up resistor, which acts like a large
     /// current-limiting resistor.
+    ///
+    /// # See Also
+    /// - [digitalWrite() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
     pub fn digital_write(&self, value: bool) {
         extern "C" {
-            #[link_name = "extern_digitalWriteFast"]
-            fn digitalWriteFast(pin: u8, value: u8);
+            fn digitalWrite(pin: u8, value: u8);
         }
 
         unsafe {
-            digitalWriteFast(self.0, if value { 1 } else { 0 });
+            digitalWrite(self.0, if value { 1 } else { 0 });
         }
     }
 
+    /// Reads the value from a specified digital pin, either HIGH or LOW.
+    ///
+    /// Notes and Warnings
+    ///
+    /// If the pin isn’t connected to anything, digitalRead() can return either
+    /// HIGH or LOW (and this can change randomly).
+    ///
+    /// The analog input pins can be used as digital pins, referred to as A0, A1,
+    /// etc. The exception is the Arduino Nano, Pro Mini, and Mini’s A6 and A7 pins,
+    /// which can only be used as analog inputs.
+    /// 
+    /// # See Also
+    /// - [digitalRead() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/)
     pub fn digital_read(&self) -> bool {
         extern "C" {
-            #[link_name = "extern_digitalReadFast"]
-            fn digitalReadFast(pin: u8) -> u8;
+            fn digitalRead(pin: u8) -> u8;
         }
 
         unsafe {
-            digitalReadFast(self.0) == 0
+            digitalRead(self.0) == 0
         }
     }
 }

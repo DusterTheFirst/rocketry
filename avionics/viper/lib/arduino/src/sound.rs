@@ -1,6 +1,11 @@
 //! Sound functionality provided by the arduino framework
 use super::gpio::Pin;
 
+/// Allow a pin to output square wave notes asynchronously using the IntervalTimer behind the scenes.
+///
+/// # See Also
+/// - [tone() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/)
+/// - [noTone() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/advanced-io/notone/)
 pub trait Tone {
     /// Generates a square wave of the specified frequency (and 50% duty cycle) on a pin.
     /// A duration can be specified, otherwise the wave continues until a call to noTone().
@@ -19,7 +24,7 @@ pub trait Tone {
     /// pin before calling tone() on the next pin.
     ///
     /// # See Also
-    /// - **https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/**
+    /// - [tone() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/)
     fn tone(&self, frequency: u16);
 
     /// Generates a square wave of the specified frequency (and 50% duty cycle) on a pin.
@@ -39,7 +44,7 @@ pub trait Tone {
     /// pin before calling tone() on the next pin.
     ///
     /// # See Also
-    /// - **https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/**
+    /// - [tone() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/)
     fn tone_with_duration(&self, frequency: u16, duration: u64);
 
     /// Stops the generation of a square wave triggered by tone(). Has no effect if no tone is being generated.
@@ -49,7 +54,7 @@ pub trait Tone {
     /// pin before calling tone() on the next pin.
     ///
     /// # See Also
-    /// - **https://www.arduino.cc/reference/en/language/functions/advanced-io/notone/**
+    /// - [noTone() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/advanced-io/notone/)
     fn no_tone(&self);
 }
 

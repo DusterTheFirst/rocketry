@@ -1,8 +1,9 @@
 #![no_std]
 #![deny(unsafe_code)]
 
+use arduino::{delay, micros, millis, serial::Serial, Pin, PinMode, LED_BUILTIN};
+use core::fmt::Write;
 use ui::Buzzer;
-use arduino::{delay, Pin, PinMode, LED_BUILTIN};
 
 mod ui;
 
@@ -24,13 +25,17 @@ pub extern "C" fn r#loop() {
     delay(1000);
     // BUZZER.no_tone();
 
-    panic!();
+    if let Some(got) = Serial::read() {
+        writeln!(Serial, "got: {}", got);
+    } else {
+        writeln!(Serial, "aint got nothin boss");
+    }
 }
 
 #[panic_handler]
 fn panic(_info: &core::panic::PanicInfo) -> ! {
     LED_BUILTIN.set_high();
-    
+
     BUZZER.panic_chime_blocking();
 
     loop {
