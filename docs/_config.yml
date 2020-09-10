@@ -1,4 +1,3 @@
-theme: pmarsceill/just-the-docs
-color_scheme: "dark"
+theme: jekyll-theme-minimal
 include:
  - license.md
