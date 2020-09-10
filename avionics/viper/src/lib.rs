@@ -1,7 +1,7 @@
 #![no_std]
 #![deny(unsafe_code)]
 
-use arduino::{delay, micros, millis, serial::Serial, Pin, PinMode, LED_BUILTIN};
+use teensyduino::{delay, serial::Serial, Pin, PinMode, LED_BUILTIN};
 use core::fmt::Write;
 use ui::Buzzer;
 

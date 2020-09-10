@@ -1,4 +1,4 @@
-use arduino::{delay, Pin, PinMode, Tone};
+use teensyduino::{delay, Pin, PinMode, Tone};
 
 #[repr(u8)]
 pub enum Peripheral {

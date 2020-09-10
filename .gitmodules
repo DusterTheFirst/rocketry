@@ -1,0 +1,3 @@
+[submodule "avionics/viper/lib/teensyduino"]
+	path = avionics/viper/lib/teensyduino
+	url = https://github.com/DusterTheFirst/teensyduino-rs
