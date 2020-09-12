@@ -1,0 +1,15 @@
+check:
+	cargo clippy --release
+
+build: check
+	platformio run
+
+upload: check
+	platformio run --target upload
+
+serial port:
+	@ echo -e "\033[1mWaiting 1.5 seconds to allow serial port to open"
+	@ sleep 1.5
+	@ test -e {{port}} || (echo -e "\033[0;91mSerial port \033[1;91m{{port}}\033[0;91m does not exist!" && exit 1)
+	screen {{port}}
+	stty -F {{port}} hupcl

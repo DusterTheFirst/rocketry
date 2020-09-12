@@ -1,4 +1,4 @@
-use teensyduino::{delay, Pin, PinMode, Tone};
+use teensyduino::{delay, serial::SERIAL, Pin, PinMode, Tone};
 
 #[repr(u8)]
 pub enum Peripheral {
@@ -39,6 +39,22 @@ impl Buzzer {
         self.pin.no_tone();
     }
 
+    // FIXME: general peripheral errors
+    pub fn no_usb_chime_blocking(&self) {
+        for _ in 0..10 {
+            self.pin.tone_with_duration(1500, 100);
+            delay(150);
+        }
+    }
+
+    pub fn tick_beep(&self) {
+        if SERIAL::dtr() {
+            self.tone_with_duration(1000, 100);
+        } else {
+            self.tone_with_duration(2000, 50);
+        }
+    }
+
     pub fn panic_chime_blocking(&self) {
         for _ in 0..10 {
             for i in (1000..2000).rev() {
@@ -48,6 +64,20 @@ impl Buzzer {
         }
 
         self.pin.tone_with_duration(4186, 1000);
+    }
+}
+
+impl Tone for Buzzer {
+    fn tone(&self, frequency: u16) {
+        self.pin.tone(frequency);
+    }
+
+    fn tone_with_duration(&self, frequency: u16, duration: u64) {
+        self.pin.tone_with_duration(frequency, duration);
+    }
+
+    fn no_tone(&self) {
+        self.pin.no_tone();
     }
 }
 
