@@ -16,4 +16,4 @@ result = env.Execute("cargo build --release")
 if result != 0:
 	raise Exception("Failed to compile")
 
-env.Append(PIOBUILDFILES=["$PROJECT_DIR/" + latest_file = max(glob.glob("target/thumbv7em-none-eabihf/release/deps/firmware-*.o"), key=os.path.getctime))
+env.Append(PIOBUILDFILES=["$PROJECT_DIR/" + max(glob.glob("target/thumbv7em-none-eabihf/release/deps/firmware-*.o"), key=os.path.getctime)])
