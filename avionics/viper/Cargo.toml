@@ -7,11 +7,14 @@ version = "0.2.0"
 [lib]
 name = "firmware"
 crate-type = ["staticlib"]
+test = false
 
 [dependencies]
-# compiler_builtins = { version = "*", features = ["mangled-names"] }
-teensyduino = { path = "./lib/teensyduino" }
+lazy_static = { version = "1.4.0", features = ["spin_no_std"] }
 log = "0.4.11"
+nalgebra = { version = "0.22.0", default-features = false }
+teensyduino = { path = "./lib/teensyduino" }
+spin = "0.5.2"
 
 [workspace]
 members = ["lib/teensyduino"]

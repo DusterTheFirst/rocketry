@@ -7,6 +7,10 @@ build: check
 upload: check
 	platformio run --target upload
 
+clean:
+	cargo clean
+	platformio run --target clean
+
 serial port:
 	@ echo -e "\033[1mWaiting 1.5 seconds to allow serial port to open"
 	@ sleep 1.5

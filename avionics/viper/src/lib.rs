@@ -4,9 +4,11 @@
 
 use consts::BUZZER;
 use core::fmt::Write;
-use log::{info, warn, LevelFilter, debug, trace};
+use interop::bno055::BNO055;
+use lazy_static::lazy_static;
+use log::{debug, info, trace, warn, LevelFilter};
 use teensyduino::{
-    delay,
+    delay, micros, millis,
     serial::log::LoggingConfig,
     serial::USBSerialWriter,
     serial::{log::USBLogger, SERIAL},
@@ -14,6 +16,7 @@ use teensyduino::{
 };
 
 mod consts;
+mod interop;
 mod ui;
 
 #[no_mangle]
@@ -23,7 +26,9 @@ pub extern "C" fn setup() {
 
     if USBLogger::init(LoggingConfig {
         max_level: LevelFilter::Trace,
-        filters: &[],
+        filters: &[
+            // ("firmware", Some(LevelFilter::Error)),
+        ],
     })
     .is_err()
     {
@@ -34,26 +39,38 @@ pub extern "C" fn setup() {
     BUZZER.startup_chime_blocking();
 }
 
+lazy_static! {
+    static ref BNO_055: BNO055 = BNO055::default();
+}
+
 #[no_mangle]
 pub extern "C" fn r#loop() {
-    LED_BUILTIN.toggle();
+    // LED_BUILTIN.toggle();
     // BUZZER.tone_with_duration(1975, 100);
-    delay(1000);
     // BUZZER.no_tone();
 
-    if let Some(input) = SERIAL::read_str().unwrap() {
-        info!("got: {}", input);
-    } else {
-        warn!("aint got nothin boss");
-    }
+    // if let Some(input) = SERIAL::read_str().unwrap() {
+    //     info!("got: {}", input);
+    // } else {
+    //     warn!("aint got nothin boss");
+    // }
 
-    debug!("temp *C: {}", tempmon::get_temp());
+    info!(
+        "temp *C: {} | {} | {}",
+        tempmon::get_temp(),
+        millis(),
+        micros()
+    );
 
-    trace!("h: {} {}", SERIAL::dtr(), SERIAL::rts());
+    // trace!("h: {} {}", SERIAL::dtr(), SERIAL::rts());
+
+    BNO_055.tick();
+    debug!("{:?}", BNO_055.data());
+    SERIAL::send_now();
 
     // panic!("bruh");
 
-    BUZZER.tick_beep();
+    // BUZZER.tick_beep();
 }
 
 #[panic_handler]
