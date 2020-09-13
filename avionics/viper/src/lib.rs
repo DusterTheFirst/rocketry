@@ -6,7 +6,7 @@ use consts::BUZZER;
 use core::fmt::Write;
 use log::{info, warn, LevelFilter, debug, trace};
 use teensyduino::{
-    delay, micros, millis,
+    delay,
     serial::log::LoggingConfig,
     serial::USBSerialWriter,
     serial::{log::USBLogger, SERIAL},
