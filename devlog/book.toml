@@ -1,0 +1,13 @@
+[book]
+authors = ["Zachary Kohnen"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rocketry Development Log"
+
+[output.html]
+theme = "rust"
+default-theme = "rust"
+
+[output.linkcheck]
+traverse-parent-directories = true
