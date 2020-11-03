@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>TVC Static Fire I - Rocketry Development Log</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="../../favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded "><a href="../../rockets/index.html"><strong aria-hidden="true">1.</strong> Rockets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../rockets/slider/index.html"><strong aria-hidden="true">1.1.</strong> Slider</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../rockets/slider/2020-08-13-parachute.html"><strong aria-hidden="true">1.1.1.</strong> Parachute Deploy Test I</a></li><li class="chapter-item expanded "><a href="../../rockets/slider/2020-10-25-tvc.html" class="active"><strong aria-hidden="true">1.1.2.</strong> TVC Static Fire I</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../avionics/index.html"><strong aria-hidden="true">2.</strong> Avionics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../avionics/viper/index.html"><strong aria-hidden="true">2.1.</strong> Viper</a></li></ol></li><li class="chapter-item expanded "><a href="../../LICENSE.html">License</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Rocketry Development Log</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#tvc-static-fire-i" id="tvc-static-fire-i">TVC Static Fire I</a></h1>
+<p><sup>October 25, 2020</sup></p>
+<h2><a class="header" href="#purpose" id="purpose">Purpose</a></h2>
+<p>This test is designed to test the static force capabilities of the 2 axis TVC gimbal.
+Although simple, this test aims to demonstrate that the TVC mount can hold its own under
+load as well as maintain its strength under the high temperatures that the motor produces.</p>
+<h2><a class="header" href="#method" id="method">Method</a></h2>
+<p>The TVC mount is clamped down to a stand, with the exhaust of the motor facing upwards with
+no obstructions directly below or above to allow the exhaust and ejection charge to vent
+safely. To protect the grass from the ejection charge, the exhaust guard from a launch pad
+is placed below the mount.</p>
+<details>
+    <summary>The static fire mount setup</summary>
+    <a href="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/setup1.jpg">
+        <img src="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/setup1.jpg"/>
+    </a>
+</details>
+<details>
+    <summary>Another angle of the static fire mount setup</summary>
+    <a href="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/setup2.jpg">
+        <img src="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/setup2.jpg"/>
+    </a>
+</details>
+<p>The TVC mount is then filled with a rocket motor tube and a rocket motor with some tape around
+the outside in order to increase the friction and ensure the motor does not leave the motor tube.
+The motor should be setup with a starter and plug and inserted into the TVC mount's tube.</p>
+<p>Once the motor is inserted into the mount, the starter's wires should be attached and area should be cleared.
+After the area is prepared and safe, the motor should be fired.</p>
+<p>After the motor has finished firing and the ejection charge has been vented, the motor should be removed from
+the stand and the TVC mount should be thoroughly inspected for any problems before repeating the process with
+another motor.</p>
+<p>The process is repeated with both a B4 and C6 estes black powder motor</p>
+<h3><a class="header" href="#3d-models-used" id="3d-models-used">3d Models Used</a></h3>
+<ul>
+<li><a href="https://github.com/DusterTheFirst/rocketry/blob/b0cf1f1de8338ad24c0d549cec9aca23268d9cd0/rockets/slider/renders/Center%20Gimbal.stl">Center Gimbal</a></li>
+<li><a href="https://github.com/DusterTheFirst/rocketry/blob/b0cf1f1de8338ad24c0d549cec9aca23268d9cd0/rockets/slider/renders/Middle%20Gimbal.stl">Middle Gimbal</a></li>
+<li><a href="https://github.com/DusterTheFirst/rocketry/blob/b0cf1f1de8338ad24c0d549cec9aca23268d9cd0/rockets/slider/renders/Outer%20Gimbal.stl">Outer Gimbal</a></li>
+</ul>
+<p>The three above models come together to form the TVC gimbal with them nested in descending order,
+with the <code>Center Gimbal</code> being the inner most layer.</p>
+<h3><a class="header" href="#footage" id="footage">Footage</a></h3>
+<h4><a class="header" href="#b-motor" id="b-motor">B motor</a></h4>
+<details>
+    <summary>Full speed video of a B motor in the test stand <a href="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-b-fullspeed.m4v">(link)</a></summary>
+    <video height="240" controls>
+        <source src="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-b-fullspeed.m4v" type="video/mp4">
+    </video>
+</details>
+<details>
+    <summary>Slow motion video of a B motor in the test stand <a href="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-b-slowmo.m4v">(link)</a></summary>
+    <video height="240" controls>
+        <source src="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-b-slowmo.m4v" type="video/mp4">
+    </video>
+</details>
+<h4><a class="header" href="#c-motor" id="c-motor">C motor</a></h4>
+<details>
+    <summary>Full speed video of a C motor in the test stand <a href="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-c-fullspeed.m4v">(link)</a></summary>
+    <video height="240" controls>
+        <source src="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-c-fullspeed.m4v" type="video/mp4">
+    </video>
+</details>
+<details>
+    <summary>Slow motion video of a C motor in the test stand <a href="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-c-slowmo.m4v">(link)</a></summary>
+    <video height="240" controls>
+        <source src="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-c-slowmo.m4v" type="video/mp4">
+    </video>
+</details>
+<h2><a class="header" href="#findings" id="findings">Findings</a></h2>
+<p>The PLA plastic was unaffected by the heat of the motor, most probably due to the short amount of time the heat
+was applied to the mount and the Kraft Paper motor tube acting as insulation.</p>
+<p>The TVC mount held up to the forces of both motors very well, most probably due to the joints being made of
+metal screws and metal inserts. There is not data however on how the servos will be able to handle pivoting the
+mount under load.</p>
+<p>The exhaust from the motor did not affect the bottom (when the rocket is facing upright) of the motor mount however,
+the dirty ejection charge left the top of the motor mount covered in soot, but does not seem to have melted any plastic
+or caused any deformation to the plastic construction.</p>
+<h2><a class="header" href="#changes-to-implement" id="changes-to-implement">Changes To Implement</a></h2>
+<p>None</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../rockets/slider/2020-08-13-parachute.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../avionics/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../rockets/slider/2020-08-13-parachute.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../avionics/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
