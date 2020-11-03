@@ -10,4 +10,6 @@ Below is a summary of the sections:
 - [Rockets](./rockets/index.md) are the physical material projectiles that will take flight
 - [Avionics](./avionics/index.md) are the flight softwares onboard the rockets that are used for stabilization
 
+All content described in this book is available on [GitHub](https://github.com/DusterTheFirst/rocketry)
+
 <sub>All content in this book and related software and hardware was developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst). Software and firmware is licensed under the [`GNU GPL 3.0 license`](./LICENSE.md) and CAD models and other artistic works are licensed under the [`CreativeCommons Attribution-NonCommercial-ShareAlike license`](http://creativecommons.org/licenses/by-nc-sa/4.0/)</sub>
