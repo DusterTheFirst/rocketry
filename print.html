@@ -97,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded "><a href="rockets/index.html"><strong aria-hidden="true">1.</strong> Rockets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rockets/slider/index.html"><strong aria-hidden="true">1.1.</strong> Slider</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rockets/slider/2020-08-13-parachute.html"><strong aria-hidden="true">1.1.1.</strong> Parachute Deploy Test I</a></li><li class="chapter-item expanded "><a href="rockets/slider/2020-10-25-tvc.html"><strong aria-hidden="true">1.1.2.</strong> TVC Static Fire I</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="avionics/index.html"><strong aria-hidden="true">2.</strong> Avionics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="avionics/viper/index.html"><strong aria-hidden="true">2.1.</strong> Viper</a></li></ol></li><li class="chapter-item expanded "><a href="LICENSE.html">License</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded "><a href="rockets/index.html"><strong aria-hidden="true">1.</strong> Rockets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rockets/slider.html"><strong aria-hidden="true">1.1.</strong> Slider</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rockets/slider/2020-08-13-parachute.html"><strong aria-hidden="true">1.1.1.</strong> Parachute Deploy Test I</a></li><li class="chapter-item expanded "><a href="rockets/slider/2020-10-25-tvc.html"><strong aria-hidden="true">1.1.2.</strong> TVC Static Fire I</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="avionics/index.html"><strong aria-hidden="true">2.</strong> Avionics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="avionics/viper.html"><strong aria-hidden="true">2.1.</strong> Viper</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="avionics/viper/2020-11-03-perfection.html"><strong aria-hidden="true">2.1.1.</strong> Perfection</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="LICENSE.html">License</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -138,6 +138,10 @@
                         </a>
                         
                         
+                        <a href="https://github.com/DusterTheFirst/rocketry" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
                     </div>
                 </div>
 
@@ -177,11 +181,42 @@ Below is a summary of the sections:</p>
 <li><a href="./rockets/index.html">Rockets</a> are the physical material projectiles that will take flight</li>
 <li><a href="./avionics/index.html">Avionics</a> are the flight softwares onboard the rockets that are used for stabilization</li>
 </ul>
-<p>All content described in this book is available on <a href="https://github.com/DusterTheFirst/rocketry">GitHub</a></p>
-<p><sub>All content in this book and related software and hardware was developed and maintained by <a href="https://github.com/dusterthefirst">@DusterTheFirst (Zachary Kohnen)</a>. Software and firmware is licensed under the <a href="./LICENSE.html"><code>GNU GPL 3.0 license</code></a> and CAD models and other artistic works are licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><code>CreativeCommons Attribution-NonCommercial-ShareAlike license</code></a></sub></p>
+<blockquote>
+<p>All content in this book and related software and hardware was developed and maintained by
+<a href="https://github.com/dusterthefirst">@DusterTheFirst (Zachary Kohnen)</a> and is available on <a href="https://github.com/DusterTheFirst/rocketry">GitHub</a>. Software and firmware
+is licensed under the <a href="./LICENSE.html"><code>GNU GPL 3.0 license</code></a> and CAD models and other artistic
+works are licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><code>CreativeCommons Attribution-NonCommercial-ShareAlike license</code></a></p>
+</blockquote>
+<!-- Content links -->
+<!-- Subscript links -->
 <h1><a class="header" href="#rockets" id="rockets">Rockets</a></h1>
+<p>Here is the home for all things rocket. These rockets however cannot
+stand on their own, they are accompanied by some flight software which
+in this documentation lives under the <a href="rockets/../avionics/index.html">Avionics</a> section. Each rocket
+has its own section where it can hold all of the tests and development
+associated with it as well as a landing page with more information on
+each specific rocket.</p>
+<p>The rocket's source can be found on GitHub under the <a href="https://github.com/DusterTheFirst/rocketry/tree/master/rockets"><code>rockets/</code></a> subdirectory</p>
 <h1><a class="header" href="#slider" id="slider">Slider</a></h1>
-<p>Created: July 17, 2020</p>
+<blockquote>
+<p><strong>Status</strong>: In development</p>
+<p><strong>Created</strong>: July 17, 2020</p>
+<p><strong>First Flown</strong>: Never</p>
+<p><strong>Avionics</strong>: <a href="rockets/../avionics/viper.html">Viper</a></p>
+</blockquote>
+<p>Slider is the first rocket to be made, It is very rough around the edges
+but that is expected for a first. The rocket uses TVC based stabilization
+during powered flight. The TVC gimbal uses 2 servos to provide around 5
+degrees of movement in both directions. The gimbal is able to house any
+18mm motor (generally an Estes A-C model rocket motor). The rocket is
+only designed for powered flight, it relies on a parachute (or 2) to
+slow its decent back to the ground. This parachute system is designed
+to use no black powder and to be as reusable and safe as possible.
+From testing, <a href="rockets/./slider/2020-08-13-parachute.html">it seems to be very finicky</a> and needs more development
+before a good solution is found.</p>
+<p>All custom made parts for the rocket are 3d printed out of PLA plastic.
+The plastic has been tested and <a href="rockets/./slider/2020-10-25-tvc.html">seems to be able to handle the stress
+and heat from the rocket motor</a>.</p>
 <h1><a class="header" href="#parachute-deploy-test-i" id="parachute-deploy-test-i">Parachute Deploy Test I</a></h1>
 <p><sup>August 13, 2020</sup></p>
 <h2><a class="header" href="#purpose" id="purpose">Purpose</a></h2>
@@ -298,8 +333,35 @@ or caused any deformation to the plastic construction.</p>
 <h2><a class="header" href="#changes-to-implement-1" id="changes-to-implement-1">Changes To Implement</a></h2>
 <p>None</p>
 <h1><a class="header" href="#avionics" id="avionics">Avionics</a></h1>
+<p>The avionics are an important part of the rocket's stability and
+success. Of course, the actual physical construction of the rocket
+is a very important undertaking, but in order for that rocket to
+maneuver itself autonomously, the rocket relies on the sensor data
+input to the avionics as well as relying heavily on the output of
+the avionics systems to keep it upright and stable.</p>
+<p>The avionics cannot stand alone, they must be accompanied by a <a href="avionics/../rockets/index.html">rocket</a>
+in order to actually be useful. Although most avionics are purpose built
+for a specific rocket, they are not limited to a 1:1 pairing to a rocket.
+The avionics are versatile and can be used and reused across many different
+rockets. Each avionics version will have their own section with greater details
+on the specifics of the system.</p>
+<p>The avionics' source can be found on GitHub under the <a href="https://github.com/DusterTheFirst/rocketry/tree/master/avionics"><code>avionics/</code></a> subdirectory</p>
 <h1><a class="header" href="#viper" id="viper">Viper</a></h1>
-<p>Created: August 3, 2020</p>
+<blockquote>
+<p><strong>Status</strong>: In development</p>
+<p><strong>Created</strong>: August 3, 2020</p>
+<p><strong>First Flown</strong>: Never</p>
+<p><strong>Rockets</strong>: <a href="avionics/../rockets/slider.html">Slider</a></p>
+</blockquote>
+<p>Viper, much like Slider has a lot of rough edges. I, being a software
+developer at heart love code that works well and looks good, so I
+eventually end up spending way too much time going into detail and
+trying to make it perfect while neglecting the hardware. This can be
+seen in the <a href="avionics/./viper/2020-11-03-perfection.html">first entry into the devlog</a>.</p>
+<p>The avionics will control a rocket using TVC given inputs from an IMU.
+It will estimate the position of the rocket relative to its position on
+the launchpad, attempting to stay pointing towards the sky.</p>
+<h1><a class="header" href="#perfection" id="perfection">Perfection</a></h1>
 <h3><a class="header" href="#gnu-general-public-license" id="gnu-general-public-license">GNU GENERAL PUBLIC LICENSE</a></h3>
 <p>Version 3, 29 June 2007</p>
 <p>Copyright (C) 2007 Free Software Foundation, Inc.
