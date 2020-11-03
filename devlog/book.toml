@@ -8,6 +8,8 @@ title = "Rocketry Development Log"
 [output.html]
 theme = "rust"
 default-theme = "rust"
+git-repository-url = "https://github.com/DusterTheFirst/rocketry"
+cname = "rocketry.dusterthefirst.com"
 
 [output.linkcheck]
 traverse-parent-directories = true

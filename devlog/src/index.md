@@ -7,9 +7,20 @@ as an archive of all information and development of the project
 
 The book is divided into sections based on the nature of the item being developed.
 Below is a summary of the sections:
-- [Rockets](./rockets/index.md) are the physical material projectiles that will take flight
-- [Avionics](./avionics/index.md) are the flight softwares onboard the rockets that are used for stabilization
+- [Rockets] are the physical material projectiles that will take flight
+- [Avionics] are the flight softwares onboard the rockets that are used for stabilization
 
-All content described in this book is available on [GitHub](https://github.com/DusterTheFirst/rocketry)
+> All content in this book and related software and hardware was developed and maintained by
+[@DusterTheFirst (Zachary Kohnen)] and is available on [GitHub]. Software and firmware
+is licensed under the [`GNU GPL 3.0 license`] and CAD models and other artistic
+works are licensed under the [`CreativeCommons Attribution-NonCommercial-ShareAlike license`]
 
-<sub>All content in this book and related software and hardware was developed and maintained by [@DusterTheFirst (Zachary Kohnen)](https://github.com/dusterthefirst). Software and firmware is licensed under the [`GNU GPL 3.0 license`](./LICENSE.md) and CAD models and other artistic works are licensed under the [`CreativeCommons Attribution-NonCommercial-ShareAlike license`](http://creativecommons.org/licenses/by-nc-sa/4.0/)</sub>
+<!-- Content links -->
+[Rockets]: ./rockets/index.md
+[Avionics]: ./avionics/index.md
+
+<!-- Subscript links -->
+[@DusterTheFirst (Zachary Kohnen)]: https://github.com/dusterthefirst
+[GitHub]: https://github.com/DusterTheFirst/rocketry
+[`GNU GPL 3.0 license`]: ./LICENSE.md
+[`CreativeCommons Attribution-NonCommercial-ShareAlike license`]: http://creativecommons.org/licenses/by-nc-sa/4.0/
