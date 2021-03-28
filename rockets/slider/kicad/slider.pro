@@ -1,4 +1,4 @@
-update=Sun 28 Mar 2021 12:14:57 PM EDT
+update=Sun 28 Mar 2021 01:00:03 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=/home/dusterthefirst/Desktop/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
