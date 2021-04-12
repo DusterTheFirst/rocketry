@@ -189,6 +189,23 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Net-Tie_2
+#
+DEF Device_Net-Tie_2 NT 0 0 N N 1 F N
+F0 "NT" 0 50 50 H V C CNN
+F1 "Device_Net-Tie_2" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Net*Tie*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 0 50 0 N
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -244,13 +261,13 @@ X GPIO26_ADC0 31 700 50 100 L 50 50 1 1 B
 X GPIO27_ADC1 32 700 150 100 L 50 50 1 1 B
 X AGND 33 700 250 100 L 50 50 1 1 W
 X GPIO28_ADC2 34 700 350 100 L 50 50 1 1 B
-X ADC_VREF 35 700 450 100 L 50 50 1 1 U
-X 3V3 36 700 550 100 L 50 50 1 1 U
+X ADC_VREF 35 700 450 100 L 50 50 1 1 I
+X 3V3 36 700 550 100 L 50 50 1 1 w
 X 3V3_EN 37 700 650 100 L 50 50 1 1 I
-X GND 38 700 750 100 L 50 50 1 1 B
-X VSYS 39 700 850 100 L 50 50 1 1 U
+X GND 38 700 750 100 L 50 50 1 1 W
+X VSYS 39 700 850 100 L 50 50 1 1 W
 X GPIO2 4 -700 650 100 R 50 50 1 1 B
-X VBUS 40 700 950 100 L 50 50 1 1 U
+X VBUS 40 700 950 100 L 50 50 1 1 W
 X SWCLK 41 -100 -1150 100 U 50 50 1 1 I
 X GND 42 0 -1150 100 U 50 50 1 1 W
 X SWDIO 43 100 -1150 100 U 50 50 1 1 B
@@ -419,6 +436,39 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# dk_Tactile-Switches_1825910-6
+#
+DEF dk_Tactile-Switches_1825910-6 S 0 40 Y Y 1 F N
+F0 "S" 0 180 60 H V C CNN
+F1 "dk_Tactile-Switches_1825910-6" 5 -200 60 H V C CNN
+F2 "digikey-footprints:Switch_Tactile_THT_6x6mm" 200 200 60 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
+F4 "450-1650-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "1825910-6" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
+F8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH TACTILE SPST-NO 0.05A 24V" 200 1000 60 H I L CNN "Description"
+F11 "TE Connectivity ALCOSWITCH Switches" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 100 -100 -100 N
+P 2 0 1 0 -70 0 -100 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 100 -100 100 100 N
+P 2 0 1 0 100 0 70 0 N
+P 2 1 1 0 -40 110 35 110 N
+P 2 1 1 0 0 110 0 50 N
+X ~ 1 -200 100 100 R 50 50 1 1 P
+X ~ 2 -200 -100 100 R 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
@@ -460,6 +510,19 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
