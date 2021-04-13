@@ -169,7 +169,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#introduction" id="introduction">Introduction</a></h1>
+                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
 <p>This book is a log of the development of this project. I strive, to the best of my abilities,
 to update the documentation with new findings and information on all tests conducted.
 Using the power of git, the book with also link to the exact versions of 3d models/
@@ -189,7 +189,7 @@ works are licensed under the <a href="http://creativecommons.org/licenses/by-nc-
 </blockquote>
 <!-- Content links -->
 <!-- Subscript links -->
-<h1><a class="header" href="#rockets" id="rockets">Rockets</a></h1>
+<h1 id="rockets"><a class="header" href="#rockets">Rockets</a></h1>
 <p>Here is the home for all things rocket. These rockets however cannot
 stand on their own, they are accompanied by some flight software which
 in this documentation lives under the <a href="rockets/../avionics/index.html">Avionics</a> section. Each rocket
@@ -197,7 +197,7 @@ has its own section where it can hold all of the tests and development
 associated with it as well as a landing page with more information on
 each specific rocket.</p>
 <p>The rocket's source can be found on GitHub under the <a href="https://github.com/DusterTheFirst/rocketry/tree/master/rockets"><code>rockets/</code></a> subdirectory</p>
-<h1><a class="header" href="#slider" id="slider">Slider</a></h1>
+<h1 id="slider"><a class="header" href="#slider">Slider</a></h1>
 <blockquote>
 <p><strong>Status</strong>: In development</p>
 <p><strong>Created</strong>: July 17, 2020</p>
@@ -217,28 +217,28 @@ before a good solution is found.</p>
 <p>All custom made parts for the rocket are 3d printed out of PLA plastic.
 The plastic has been tested and <a href="rockets/./slider/2020-10-25-tvc.html">seems to be able to handle the stress
 and heat from the rocket motor</a>.</p>
-<h1><a class="header" href="#parachute-deploy-test-i" id="parachute-deploy-test-i">Parachute Deploy Test I</a></h1>
+<h1 id="parachute-deploy-test-i"><a class="header" href="#parachute-deploy-test-i">Parachute Deploy Test I</a></h1>
 <p><sup>August 13, 2020</sup></p>
-<h2><a class="header" href="#purpose" id="purpose">Purpose</a></h2>
+<h2 id="purpose"><a class="header" href="#purpose">Purpose</a></h2>
 <p>To test the nose cone deployment mechanism's practicality and durability before continuing
 development of this design</p>
-<h2><a class="header" href="#method" id="method">Method</a></h2>
+<h2 id="method"><a class="header" href="#method">Method</a></h2>
 <p>The nose cone was assembled with nylon fishing line with nichrome wire wrapped around each tie down line which was then fed
 through the holes in the parachute holder and around a push-rod perpendicular to the hole to hold them in place.
 The nichrome wire was then supplied current, heating it up and eventually melting the nylon wires.</p>
-<h3><a class="header" href="#3d-models-used" id="3d-models-used">3d Models Used</a></h3>
+<h3 id="3d-models-used"><a class="header" href="#3d-models-used">3d Models Used</a></h3>
 <ul>
 <li><a href="https://github.com/DusterTheFirst/rocketry/blob/a1a50608c714fe1a907a077f69319fac23ef29f5/rockets/slider/renders/Nose%20Cone.stl">Nose Cone</a></li>
 <li><a href="https://github.com/DusterTheFirst/rocketry/blob/a1a50608c714fe1a907a077f69319fac23ef29f5/rockets/slider/renders/Parachute%20Holder.stl">Parachute Holder</a></li>
 </ul>
-<h2><a class="header" href="#findings" id="findings">Findings</a></h2>
+<h2 id="findings"><a class="header" href="#findings">Findings</a></h2>
 <p>The nichrome wire is very reliable in heating up, but not enough that we can guarantee
 two nichrome wires to cut through their hold down strings at the same time. In the test,
 only one of the wires was cut before the nosecone flew off. When the nose cone was released,
 it remained attached to the hold down assembly due to one of the hold down lines remaining uncut.
 This lead us to understand that in order to use nichrome wire as a release mechanism,
 we must design the release in such a way that it will only use one hold down point.</p>
-<h2><a class="header" href="#changes-to-implement" id="changes-to-implement">Changes To Implement</a></h2>
+<h2 id="changes-to-implement"><a class="header" href="#changes-to-implement">Changes To Implement</a></h2>
 <ul>
 <li>Redesign Nose Cone <a href="https://github.com/DusterTheFirst/rocketry/blob/00949badd6df8fbdd533ba6b04284b056b241a8f/rockets/slider/renders/Nose%20Cone.stl">(done)</a>
 <ul>
@@ -254,13 +254,13 @@ we must design the release in such a way that it will only use one hold down poi
 </ul>
 </li>
 </ul>
-<h1><a class="header" href="#tvc-static-fire-i" id="tvc-static-fire-i">TVC Static Fire I</a></h1>
+<h1 id="tvc-static-fire-i"><a class="header" href="#tvc-static-fire-i">TVC Static Fire I</a></h1>
 <p><sup>October 25, 2020</sup></p>
-<h2><a class="header" href="#purpose-1" id="purpose-1">Purpose</a></h2>
+<h2 id="purpose-1"><a class="header" href="#purpose-1">Purpose</a></h2>
 <p>This test is designed to test the static force capabilities of the 2 axis TVC gimbal.
 Although simple, this test aims to demonstrate that the TVC mount can hold its own under
 load as well as maintain its strength under the high temperatures that the motor produces.</p>
-<h2><a class="header" href="#method-1" id="method-1">Method</a></h2>
+<h2 id="method-1"><a class="header" href="#method-1">Method</a></h2>
 <p>The TVC mount is clamped down to a stand, with the exhaust of the motor facing upwards with
 no obstructions directly below or above to allow the exhaust and ejection charge to vent
 safely. To protect the grass from the ejection charge, the exhaust guard from a launch pad
@@ -286,7 +286,7 @@ After the area is prepared and safe, the motor should be fired.</p>
 the stand and the TVC mount should be thoroughly inspected for any problems before repeating the process with
 another motor.</p>
 <p>The process is repeated with both a B4 and C6 estes black powder motor</p>
-<h3><a class="header" href="#3d-models-used-1" id="3d-models-used-1">3d Models Used</a></h3>
+<h3 id="3d-models-used-1"><a class="header" href="#3d-models-used-1">3d Models Used</a></h3>
 <ul>
 <li><a href="https://github.com/DusterTheFirst/rocketry/blob/b0cf1f1de8338ad24c0d549cec9aca23268d9cd0/rockets/slider/renders/Center%20Gimbal.stl">Center Gimbal</a></li>
 <li><a href="https://github.com/DusterTheFirst/rocketry/blob/b0cf1f1de8338ad24c0d549cec9aca23268d9cd0/rockets/slider/renders/Middle%20Gimbal.stl">Middle Gimbal</a></li>
@@ -294,8 +294,8 @@ another motor.</p>
 </ul>
 <p>The three above models come together to form the TVC gimbal with them nested in descending order,
 with the <code>Center Gimbal</code> being the inner most layer.</p>
-<h3><a class="header" href="#footage" id="footage">Footage</a></h3>
-<h4><a class="header" href="#b-motor" id="b-motor">B motor</a></h4>
+<h3 id="footage"><a class="header" href="#footage">Footage</a></h3>
+<h4 id="b-motor"><a class="header" href="#b-motor">B motor</a></h4>
 <details>
     <summary>Full speed video of a B motor in the test stand <a href="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-b-fullspeed.m4v">(link)</a></summary>
     <video height="240" controls>
@@ -308,7 +308,7 @@ with the <code>Center Gimbal</code> being the inner most layer.</p>
         <source src="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-b-slowmo.m4v" type="video/mp4">
     </video>
 </details>
-<h4><a class="header" href="#c-motor" id="c-motor">C motor</a></h4>
+<h4 id="c-motor"><a class="header" href="#c-motor">C motor</a></h4>
 <details>
     <summary>Full speed video of a C motor in the test stand <a href="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-c-fullspeed.m4v">(link)</a></summary>
     <video height="240" controls>
@@ -321,7 +321,7 @@ with the <code>Center Gimbal</code> being the inner most layer.</p>
         <source src="https://cdn.dusterthefirst.com/rocketry/rockets/slider/2020/10/25/static-c-slowmo.m4v" type="video/mp4">
     </video>
 </details>
-<h2><a class="header" href="#findings-1" id="findings-1">Findings</a></h2>
+<h2 id="findings-1"><a class="header" href="#findings-1">Findings</a></h2>
 <p>The PLA plastic was unaffected by the heat of the motor, most probably due to the short amount of time the heat
 was applied to the mount and the Kraft Paper motor tube acting as insulation.</p>
 <p>The TVC mount held up to the forces of both motors very well, most probably due to the joints being made of
@@ -330,9 +330,9 @@ mount under load.</p>
 <p>The exhaust from the motor did not affect the bottom (when the rocket is facing upright) of the motor mount however,
 the dirty ejection charge left the top of the motor mount covered in soot, but does not seem to have melted any plastic
 or caused any deformation to the plastic construction.</p>
-<h2><a class="header" href="#changes-to-implement-1" id="changes-to-implement-1">Changes To Implement</a></h2>
+<h2 id="changes-to-implement-1"><a class="header" href="#changes-to-implement-1">Changes To Implement</a></h2>
 <p>None</p>
-<h1><a class="header" href="#avionics" id="avionics">Avionics</a></h1>
+<h1 id="avionics"><a class="header" href="#avionics">Avionics</a></h1>
 <p>The avionics are an important part of the rocket's stability and
 success. Of course, the actual physical construction of the rocket
 is a very important undertaking, but in order for that rocket to
@@ -346,7 +346,7 @@ The avionics are versatile and can be used and reused across many different
 rockets. Each avionics version will have their own section with greater details
 on the specifics of the system.</p>
 <p>The avionics' source can be found on GitHub under the <a href="https://github.com/DusterTheFirst/rocketry/tree/master/avionics"><code>avionics/</code></a> subdirectory</p>
-<h1><a class="header" href="#viper" id="viper">Viper</a></h1>
+<h1 id="viper"><a class="header" href="#viper">Viper</a></h1>
 <blockquote>
 <p><strong>Status</strong>: In development</p>
 <p><strong>Created</strong>: August 3, 2020</p>
@@ -361,14 +361,14 @@ seen in the <a href="avionics/./viper/2020-11-03-perfection.html">first entry in
 <p>The avionics will control a rocket using TVC given inputs from an IMU.
 It will estimate the position of the rocket relative to its position on
 the launchpad, attempting to stay pointing towards the sky.</p>
-<h1><a class="header" href="#perfection" id="perfection">Perfection</a></h1>
-<h3><a class="header" href="#gnu-general-public-license" id="gnu-general-public-license">GNU GENERAL PUBLIC LICENSE</a></h3>
+<h1 id="perfection"><a class="header" href="#perfection">Perfection</a></h1>
+<h3 id="gnu-general-public-license"><a class="header" href="#gnu-general-public-license">GNU GENERAL PUBLIC LICENSE</a></h3>
 <p>Version 3, 29 June 2007</p>
 <p>Copyright (C) 2007 Free Software Foundation, Inc.
 <a href="https://fsf.org/">https://fsf.org/</a></p>
 <p>Everyone is permitted to copy and distribute verbatim copies of this
 license document, but changing it is not allowed.</p>
-<h3><a class="header" href="#preamble" id="preamble">Preamble</a></h3>
+<h3 id="preamble"><a class="header" href="#preamble">Preamble</a></h3>
 <p>The GNU General Public License is a free, copyleft license for
 software and other kinds of works.</p>
 <p>The licenses for most software and other practical works are designed
@@ -422,8 +422,8 @@ could make it effectively proprietary. To prevent this, the GPL
 assures that patents cannot be used to render the program non-free.</p>
 <p>The precise terms and conditions for copying, distribution and
 modification follow.</p>
-<h3><a class="header" href="#terms-and-conditions" id="terms-and-conditions">TERMS AND CONDITIONS</a></h3>
-<h4><a class="header" href="#0-definitions" id="0-definitions">0. Definitions.</a></h4>
+<h3 id="terms-and-conditions"><a class="header" href="#terms-and-conditions">TERMS AND CONDITIONS</a></h3>
+<h4 id="0-definitions"><a class="header" href="#0-definitions">0. Definitions.</a></h4>
 <p>&quot;This License&quot; refers to version 3 of the GNU General Public License.</p>
 <p>&quot;Copyright&quot; also means copyright-like laws that apply to other kinds
 of works, such as semiconductor masks.</p>
@@ -454,7 +454,7 @@ extent that warranties are provided), that licensees may convey the
 work under this License, and how to view a copy of this License. If
 the interface presents a list of user commands or options, such as a
 menu, a prominent item in the list meets this criterion.</p>
-<h4><a class="header" href="#1-source-code" id="1-source-code">1. Source Code.</a></h4>
+<h4 id="1-source-code"><a class="header" href="#1-source-code">1. Source Code.</a></h4>
 <p>The &quot;source code&quot; for a work means the preferred form of the work for
 making modifications to it. &quot;Object code&quot; means any non-source form of
 a work.</p>
@@ -488,7 +488,7 @@ subprograms and other parts of the work.</p>
 regenerate automatically from other parts of the Corresponding Source.</p>
 <p>The Corresponding Source for a work in source code form is that same
 work.</p>
-<h4><a class="header" href="#2-basic-permissions" id="2-basic-permissions">2. Basic Permissions.</a></h4>
+<h4 id="2-basic-permissions"><a class="header" href="#2-basic-permissions">2. Basic Permissions.</a></h4>
 <p>All rights granted under this License are granted for the term of
 copyright on the Program, and are irrevocable provided the stated
 conditions are met. This License explicitly affirms your unlimited
@@ -509,7 +509,7 @@ copyrighted material outside their relationship with you.</p>
 <p>Conveying under any other circumstances is permitted solely under the
 conditions stated below. Sublicensing is not allowed; section 10 makes
 it unnecessary.</p>
-<h4><a class="header" href="#3-protecting-users-legal-rights-from-anti-circumvention-law" id="3-protecting-users-legal-rights-from-anti-circumvention-law">3. Protecting Users' Legal Rights From Anti-Circumvention Law.</a></h4>
+<h4 id="3-protecting-users-legal-rights-from-anti-circumvention-law"><a class="header" href="#3-protecting-users-legal-rights-from-anti-circumvention-law">3. Protecting Users' Legal Rights From Anti-Circumvention Law.</a></h4>
 <p>No covered work shall be deemed part of an effective technological
 measure under any applicable law fulfilling obligations under article
 11 of the WIPO copyright treaty adopted on 20 December 1996, or
@@ -522,7 +522,7 @@ respect to the covered work, and you disclaim any intention to limit
 operation or modification of the work as a means of enforcing, against
 the work's users, your or third parties' legal rights to forbid
 circumvention of technological measures.</p>
-<h4><a class="header" href="#4-conveying-verbatim-copies" id="4-conveying-verbatim-copies">4. Conveying Verbatim Copies.</a></h4>
+<h4 id="4-conveying-verbatim-copies"><a class="header" href="#4-conveying-verbatim-copies">4. Conveying Verbatim Copies.</a></h4>
 <p>You may convey verbatim copies of the Program's source code as you
 receive it, in any medium, provided that you conspicuously and
 appropriately publish on each copy an appropriate copyright notice;
@@ -532,7 +532,7 @@ keep intact all notices of the absence of any warranty; and give all
 recipients a copy of this License along with the Program.</p>
 <p>You may charge any price or no price for each copy that you convey,
 and you may offer support or warranty protection for a fee.</p>
-<h4><a class="header" href="#5-conveying-modified-source-versions" id="5-conveying-modified-source-versions">5. Conveying Modified Source Versions.</a></h4>
+<h4 id="5-conveying-modified-source-versions"><a class="header" href="#5-conveying-modified-source-versions">5. Conveying Modified Source Versions.</a></h4>
 <p>You may convey a work based on the Program, or the modifications to
 produce it from the Program, in the form of source code under the
 terms of section 4, provided that you also meet all of these
@@ -565,7 +565,7 @@ used to limit the access or legal rights of the compilation's users
 beyond what the individual works permit. Inclusion of a covered work
 in an aggregate does not cause this License to apply to the other
 parts of the aggregate.</p>
-<h4><a class="header" href="#6-conveying-non-source-forms" id="6-conveying-non-source-forms">6. Conveying Non-Source Forms.</a></h4>
+<h4 id="6-conveying-non-source-forms"><a class="header" href="#6-conveying-non-source-forms">6. Conveying Non-Source Forms.</a></h4>
 <p>You may convey a covered work in object code form under the terms of
 sections 4 and 5, provided that you also convey the machine-readable
 Corresponding Source under the terms of this License, in one of these
@@ -654,7 +654,7 @@ in accord with this section must be in a format that is publicly
 documented (and with an implementation available to the public in
 source code form), and must require no special password or key for
 unpacking, reading or copying.</p>
-<h4><a class="header" href="#7-additional-terms" id="7-additional-terms">7. Additional Terms.</a></h4>
+<h4 id="7-additional-terms"><a class="header" href="#7-additional-terms">7. Additional Terms.</a></h4>
 <p>&quot;Additional permissions&quot; are terms that supplement the terms of this
 License by making exceptions from one or more of its conditions.
 Additional permissions that are applicable to the entire Program shall
@@ -707,7 +707,7 @@ where to find the applicable terms.</p>
 <p>Additional terms, permissive or non-permissive, may be stated in the
 form of a separately written license, or stated as exceptions; the
 above requirements apply either way.</p>
-<h4><a class="header" href="#8-termination" id="8-termination">8. Termination.</a></h4>
+<h4 id="8-termination"><a class="header" href="#8-termination">8. Termination.</a></h4>
 <p>You may not propagate or modify a covered work except as expressly
 provided under this License. Any attempt otherwise to propagate or
 modify it is void, and will automatically terminate your rights under
@@ -730,7 +730,7 @@ licenses of parties who have received copies or rights from you under
 this License. If your rights have been terminated and not permanently
 reinstated, you do not qualify to receive new licenses for the same
 material under section 10.</p>
-<h4><a class="header" href="#9-acceptance-not-required-for-having-copies" id="9-acceptance-not-required-for-having-copies">9. Acceptance Not Required for Having Copies.</a></h4>
+<h4 id="9-acceptance-not-required-for-having-copies"><a class="header" href="#9-acceptance-not-required-for-having-copies">9. Acceptance Not Required for Having Copies.</a></h4>
 <p>You are not required to accept this License in order to receive or run
 a copy of the Program. Ancillary propagation of a covered work
 occurring solely as a consequence of using peer-to-peer transmission
@@ -739,7 +739,7 @@ nothing other than this License grants you permission to propagate or
 modify any covered work. These actions infringe copyright if you do
 not accept this License. Therefore, by modifying or propagating a
 covered work, you indicate your acceptance of this License to do so.</p>
-<h4><a class="header" href="#10-automatic-licensing-of-downstream-recipients" id="10-automatic-licensing-of-downstream-recipients">10. Automatic Licensing of Downstream Recipients.</a></h4>
+<h4 id="10-automatic-licensing-of-downstream-recipients"><a class="header" href="#10-automatic-licensing-of-downstream-recipients">10. Automatic Licensing of Downstream Recipients.</a></h4>
 <p>Each time you convey a covered work, the recipient automatically
 receives a license from the original licensors, to run, modify and
 propagate that work, subject to this License. You are not responsible
@@ -760,7 +760,7 @@ rights granted under this License, and you may not initiate litigation
 (including a cross-claim or counterclaim in a lawsuit) alleging that
 any patent claim is infringed by making, using, selling, offering for
 sale, or importing the Program or any portion of it.</p>
-<h4><a class="header" href="#11-patents" id="11-patents">11. Patents.</a></h4>
+<h4 id="11-patents"><a class="header" href="#11-patents">11. Patents.</a></h4>
 <p>A &quot;contributor&quot; is a copyright holder who authorizes use under this
 License of the Program or a work on which the Program is based. The
 work thus licensed is called the contributor's &quot;contributor version&quot;.</p>
@@ -820,7 +820,7 @@ license was granted, prior to 28 March 2007.</p>
 <p>Nothing in this License shall be construed as excluding or limiting
 any implied license or other defenses to infringement that may
 otherwise be available to you under applicable patent law.</p>
-<h4><a class="header" href="#12-no-surrender-of-others-freedom" id="12-no-surrender-of-others-freedom">12. No Surrender of Others' Freedom.</a></h4>
+<h4 id="12-no-surrender-of-others-freedom"><a class="header" href="#12-no-surrender-of-others-freedom">12. No Surrender of Others' Freedom.</a></h4>
 <p>If conditions are imposed on you (whether by court order, agreement or
 otherwise) that contradict the conditions of this License, they do not
 excuse you from the conditions of this License. If you cannot convey a
@@ -831,7 +831,7 @@ terms that obligate you to collect a royalty for further conveying
 from those to whom you convey the Program, the only way you could
 satisfy both those terms and this License would be to refrain entirely
 from conveying the Program.</p>
-<h4><a class="header" href="#13-use-with-the-gnu-affero-general-public-license" id="13-use-with-the-gnu-affero-general-public-license">13. Use with the GNU Affero General Public License.</a></h4>
+<h4 id="13-use-with-the-gnu-affero-general-public-license"><a class="header" href="#13-use-with-the-gnu-affero-general-public-license">13. Use with the GNU Affero General Public License.</a></h4>
 <p>Notwithstanding any other provision of this License, you have
 permission to link or combine any covered work with a work licensed
 under version 3 of the GNU Affero General Public License into a single
@@ -840,7 +840,7 @@ License will continue to apply to the part which is the covered work,
 but the special requirements of the GNU Affero General Public License,
 section 13, concerning interaction through a network will apply to the
 combination as such.</p>
-<h4><a class="header" href="#14-revised-versions-of-this-license" id="14-revised-versions-of-this-license">14. Revised Versions of this License.</a></h4>
+<h4 id="14-revised-versions-of-this-license"><a class="header" href="#14-revised-versions-of-this-license">14. Revised Versions of this License.</a></h4>
 <p>The Free Software Foundation may publish revised and/or new versions
 of the GNU General Public License from time to time. Such new versions
 will be similar in spirit to the present version, but may differ in
@@ -861,7 +861,7 @@ choose that version for the Program.</p>
 permissions. However, no additional obligations are imposed on any
 author or copyright holder as a result of your choosing to follow a
 later version.</p>
-<h4><a class="header" href="#15-disclaimer-of-warranty" id="15-disclaimer-of-warranty">15. Disclaimer of Warranty.</a></h4>
+<h4 id="15-disclaimer-of-warranty"><a class="header" href="#15-disclaimer-of-warranty">15. Disclaimer of Warranty.</a></h4>
 <p>THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
 APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
 HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM &quot;AS IS&quot; WITHOUT
@@ -871,7 +871,7 @@ A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND
 PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE
 DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR
 CORRECTION.</p>
-<h4><a class="header" href="#16-limitation-of-liability" id="16-limitation-of-liability">16. Limitation of Liability.</a></h4>
+<h4 id="16-limitation-of-liability"><a class="header" href="#16-limitation-of-liability">16. Limitation of Liability.</a></h4>
 <p>IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
 WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR
 CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
@@ -881,7 +881,7 @@ NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR
 LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM
 TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER
 PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
-<h4><a class="header" href="#17-interpretation-of-sections-15-and-16" id="17-interpretation-of-sections-15-and-16">17. Interpretation of Sections 15 and 16.</a></h4>
+<h4 id="17-interpretation-of-sections-15-and-16"><a class="header" href="#17-interpretation-of-sections-15-and-16">17. Interpretation of Sections 15 and 16.</a></h4>
 <p>If the disclaimer of warranty and limitation of liability provided
 above cannot be given local legal effect according to their terms,
 reviewing courts shall apply local law that most closely approximates
