@@ -14,13 +14,7 @@ jobs:
           mdbook-version: "latest"
 
       - name: Install mdbook-linkcheck
-        run: |
-          curl -s https://api.github.com/repos/Michael-F-Bryan/mdbook-linkcheck/releases/latest \
-          | grep browser_download_url \
-          | grep $(rustc -Vv | grep host | cut -d' ' -f2) \
-          | cut -d : -f 2,3 \
-          | tr -d \" \
-          | wget -qi -
+        run: cargo install mdbook-linkcheck
 
       - run: mdbook build
         working-directory: devlog
