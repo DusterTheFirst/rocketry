@@ -95,7 +95,7 @@ U 1 1 6062F0FB
 P 1050 5150
 F 0 "BT1" V 1000 4900 50  0000 L CNN
 F 1 "Battery" V 900 5000 50  0000 L CNN
-F 2 "" V 1050 5210 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" V 1050 5210 50  0001 C CNN
 F 3 "~" V 1050 5210 50  0001 C CNN
 	1    1050 5150
 	0    -1   -1   0   
@@ -128,7 +128,7 @@ U 1 1 60668A2B
 P 1700 2650
 F 0 "C3" H 1818 2696 50  0000 L CNN
 F 1 "470uF" H 1818 2605 50  0000 L CNN
-F 2 "" H 1738 2500 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 1738 2500 50  0001 C CNN
 F 3 "~" H 1700 2650 50  0001 C CNN
 	1    1700 2650
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 6071E0AB
 P 1650 6150
 F 0 "C1" H 1768 6196 50  0000 L CNN
 F 1 "47uF" H 1768 6105 50  0000 L CNN
-F 2 "" H 1688 6000 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1688 6000 50  0001 C CNN
 F 3 "~" H 1650 6150 50  0001 C CNN
 	1    1650 6150
 	1    0    0    -1  
@@ -398,8 +398,6 @@ F 3 "" H 850 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	850  2350 1000 2350
-Text GLabel 2050 3300 2    50   Input ~ 0
-Servo_GND
 Wire Wire Line
 	850  1100 1000 1100
 Wire Wire Line
@@ -438,7 +436,7 @@ U 1 1 6065FD17
 P 1700 1400
 F 0 "C2" H 1818 1446 50  0000 L CNN
 F 1 "470uF" H 1818 1355 50  0000 L CNN
-F 2 "" H 1738 1250 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 1738 1250 50  0001 C CNN
 F 3 "~" H 1700 1400 50  0001 C CNN
 	1    1700 1400
 	1    0    0    -1  
@@ -498,51 +496,6 @@ F 12 "Active" H 1500 2300 60  0001 L CNN "Status"
 	1    1300 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 3650 0    50   Input ~ 0
-Servo_EN
-$Comp
-L Device:R R1
-U 1 1 60701305
-P 1300 3650
-F 0 "R1" V 1093 3650 50  0000 C CNN
-F 1 "220" V 1184 3650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 3650 50  0001 C CNN
-F 3 "~" H 1300 3650 50  0001 C CNN
-	1    1300 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 6070AA6F
-P 1550 3800
-F 0 "R2" H 1480 3754 50  0000 R CNN
-F 1 "2.2k" H 1480 3845 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1480 3800 50  0001 C CNN
-F 3 "~" H 1550 3800 50  0001 C CNN
-	1    1550 3800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1450 3650 1550 3650
-Connection ~ 1550 3650
-Wire Wire Line
-	1550 3650 1650 3650
-$Comp
-L power:GND #PWR07
-U 1 1 60717E31
-P 1750 3950
-F 0 "#PWR07" H 1750 3700 50  0001 C CNN
-F 1 "GND" H 1755 3777 50  0000 C CNN
-F 2 "" H 1750 3950 50  0001 C CNN
-F 3 "" H 1750 3950 50  0001 C CNN
-	1    1750 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 3950 1750 3950
-Connection ~ 1750 3950
-Wire Wire Line
-	1750 3950 1550 3950
 Text GLabel 9150 2000 2    50   Output ~ 0
 Servo_EN
 $Comp
@@ -551,7 +504,7 @@ U 1 1 607AE6CD
 P 1300 4550
 F 0 "SW1" H 1650 4650 50  0000 C CNN
 F 1 "SW_PWR" H 1700 4550 50  0000 C CNN
-F 2 "" H 1300 4550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1300 4550 50  0001 C CNN
 F 3 "~" H 1300 4550 50  0001 C CNN
 	1    1300 4550
 	-1   0    0    -1  
@@ -574,8 +527,6 @@ Wire Notes Line
 	3200 4700 3200 3400
 Text Notes 3200 3400 0    50   ~ 0
 Servo Connections\n
-Text Notes 2050 3950 0    50   ~ 0
-Mosfet allows servos\nto be depowered
 Text GLabel 7750 1400 0    50   Output ~ 0
 I2C0_SDA
 Text GLabel 7750 1500 0    50   Output ~ 0
@@ -654,7 +605,7 @@ $EndComp
 Wire Wire Line
 	4250 2350 4250 2500
 Text GLabel 3300 2300 2    50   Input ~ 0
-Buzzer_EN
+Alarm_EN
 $Comp
 L Transistor_FET:IRF540N Q2
 U 1 1 60808FA5
@@ -712,7 +663,7 @@ U 1 1 606D194C
 P 4350 2250
 F 0 "BZ1" V 4750 2400 50  0000 R CNN
 F 1 "Alarm Buzzer" V 4650 2400 50  0000 R CNN
-F 2 "" V 4325 2350 50  0001 C CNN
+F 2 "slider:CE-C75-Piezo-Alarm" V 4325 2350 50  0001 C CNN
 F 3 "http://cdn.sparkfun.com/datasheets/Components/General/CE-C75.pdf" V 4325 2350 50  0001 C CNN
 F 4 " COM-13940" V 4550 2450 50  0000 R CNN "Field4"
 	1    4350 2250
@@ -723,13 +674,13 @@ Human Interfacing\n
 $Comp
 L Connector:Conn_01x04_Male J1
 U 1 1 6098096A
-P 3350 1100
-F 0 "J1" H 3400 1300 50  0000 C CNN
-F 1 "I2C Breakout" V 3300 1050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3350 1100 50  0001 C CNN
-F 3 "~" H 3350 1100 50  0001 C CNN
-	1    3350 1100
-	1    0    0    -1  
+P 3350 1200
+F 0 "J1" H 3400 1400 50  0000 C CNN
+F 1 "I2C Breakout" V 3300 1150 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3350 1200 50  0001 C CNN
+F 3 "~" H 3350 1200 50  0001 C CNN
+	1    3350 1200
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x05_Male J2
@@ -740,7 +691,7 @@ F 1 "SPI Breakout" V 4150 1150 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4200 1150 50  0001 C CNN
 F 3 "~" H 4200 1150 50  0001 C CNN
 	1    4200 1150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR012
@@ -837,7 +788,7 @@ U 1 1 607C182A
 P 5000 3800
 F 0 "SW2" H 5000 3475 50  0000 C CNN
 F 1 "SW_ARM" H 5000 3566 50  0000 C CNN
-F 2 "" H 5000 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5000 3800 50  0001 C CNN
 F 3 "~" H 5000 3800 50  0001 C CNN
 	1    5000 3800
 	-1   0    0    1   
@@ -866,7 +817,7 @@ F 3 "" H 4700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7750 2700 0    50   Output ~ 0
-Buzzer_EN
+Alarm_EN
 Text GLabel 7750 2500 0    50   Output ~ 0
 PWM_Buzzer
 Wire Wire Line
@@ -926,23 +877,6 @@ Wire Notes Line
 	3100 1950 700  1950
 Wire Notes Line
 	700  3200 3100 3200
-Wire Wire Line
-	1950 3850 1950 3950
-$Comp
-L Transistor_FET:IRF540N Q1
-U 1 1 60656F11
-P 1850 3650
-F 0 "Q1" H 2054 3696 50  0000 L CNN
-F 1 "IRF540N" H 2054 3605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2100 3575 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 1850 3650 50  0001 L CNN
-	1    1850 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 3450 1950 3300
-Wire Wire Line
-	1950 3300 2050 3300
 Wire Notes Line
 	3200 1750 3200 3250
 Wire Wire Line
@@ -991,8 +925,6 @@ NoConn ~ 1100 4450
 NoConn ~ 9150 1800
 NoConn ~ 9150 2700
 NoConn ~ 7750 2400
-NoConn ~ 7750 2300
-NoConn ~ 7750 2200
 NoConn ~ 7750 2000
 NoConn ~ 7750 1900
 NoConn ~ 7750 1800
@@ -1037,7 +969,7 @@ U 1 1 608A8144
 P 9400 1700
 F 0 "NT1" H 9450 1650 50  0000 C CNN
 F 1 "ADC Ground Reference" H 9350 1750 31  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 9400 1700 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 9400 1700 50  0001 C CNN
 F 3 "~" H 9400 1700 50  0001 C CNN
 	1    9400 1700
 	-1   0    0    1   
@@ -1055,7 +987,7 @@ U 1 1 608D3BFA
 P 5400 3800
 F 0 "NT2" H 5400 3981 50  0000 C CNN
 F 1 "Net-Tie_2" H 5400 3890 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 5400 3800 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 5400 3800 50  0001 C CNN
 F 3 "~" H 5400 3800 50  0001 C CNN
 	1    5400 3800
 	1    0    0    -1  
@@ -1080,17 +1012,6 @@ Wire Wire Line
 Wire Wire Line
 	9600 1000 9350 1000
 Connection ~ 9350 1000
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 609192AA
-P 9350 1000
-F 0 "#FLG0103" H 9350 1075 50  0001 C CNN
-F 1 "PWR_FLAG" H 9150 1150 50  0000 L CNN
-F 2 "" H 9350 1000 50  0001 C CNN
-F 3 "~" H 9350 1000 50  0001 C CNN
-	1    9350 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L dk_Tactile-Switches:1825910-6 S1
 U 1 1 60936469
@@ -1158,4 +1079,219 @@ Wire Notes Line
 	5600 5000 4550 5000
 Wire Notes Line
 	4550 5000 4550 4300
+Wire Wire Line
+	1950 3300 2050 3300
+Wire Wire Line
+	1950 3450 1950 3300
+$Comp
+L Transistor_FET:IRF540N Q1
+U 1 1 60656F11
+P 1850 3650
+F 0 "Q1" H 2054 3696 50  0000 L CNN
+F 1 "IRF540N" H 2054 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2100 3575 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 1850 3650 50  0001 L CNN
+	1    1850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3850 1950 3950
+Text Notes 2050 3950 0    50   ~ 0
+Mosfet allows servos\nto be depowered
+Wire Wire Line
+	1750 3950 1550 3950
+Connection ~ 1750 3950
+Wire Wire Line
+	1950 3950 1750 3950
+$Comp
+L power:GND #PWR07
+U 1 1 60717E31
+P 1750 3950
+F 0 "#PWR07" H 1750 3700 50  0001 C CNN
+F 1 "GND" H 1755 3777 50  0000 C CNN
+F 2 "" H 1750 3950 50  0001 C CNN
+F 3 "" H 1750 3950 50  0001 C CNN
+	1    1750 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3650 1650 3650
+Connection ~ 1550 3650
+Wire Wire Line
+	1450 3650 1550 3650
+$Comp
+L Device:R R2
+U 1 1 6070AA6F
+P 1550 3800
+F 0 "R2" H 1480 3754 50  0000 R CNN
+F 1 "2.2k" H 1480 3845 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1480 3800 50  0001 C CNN
+F 3 "~" H 1550 3800 50  0001 C CNN
+	1    1550 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60701305
+P 1300 3650
+F 0 "R1" V 1093 3650 50  0000 C CNN
+F 1 "220" V 1184 3650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 3650 50  0001 C CNN
+F 3 "~" H 1300 3650 50  0001 C CNN
+	1    1300 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 1150 3650 0    50   Input ~ 0
+Servo_EN
+Text GLabel 2050 3300 2    50   Input ~ 0
+Servo_GND
+$Comp
+L Transistor_FET:IRF540N Q3
+U 1 1 607F5BD2
+P 3800 6300
+F 0 "Q3" H 4004 6346 50  0000 L CNN
+F 1 "IRF540N" H 4004 6255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4050 6225 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 3800 6300 50  0001 L CNN
+	1    3800 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6500 3900 6600
+Text Notes 4100 5750 0    50   ~ 0
+UUH, maybe some\ncurrent limiting?
+Wire Wire Line
+	3900 6600 3500 6600
+Connection ~ 3900 6600
+Wire Wire Line
+	3500 6300 3600 6300
+Connection ~ 3500 6300
+Wire Wire Line
+	3400 6300 3500 6300
+$Comp
+L Device:R R12
+U 1 1 607F5BE6
+P 3500 6450
+F 0 "R12" H 3430 6404 50  0000 R CNN
+F 1 "2.2k" H 3430 6495 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3430 6450 50  0001 C CNN
+F 3 "~" H 3500 6450 50  0001 C CNN
+	1    3500 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 607F5BEC
+P 3250 6300
+F 0 "R11" V 3043 6300 50  0000 C CNN
+F 1 "220" V 3134 6300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3180 6300 50  0001 C CNN
+F 3 "~" H 3250 6300 50  0001 C CNN
+	1    3250 6300
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 6300 0    50   Input ~ 0
+Pyro_1
+Wire Notes Line
+	2750 5550 2750 6850
+Wire Notes Line
+	2750 6850 5050 6850
+Wire Notes Line
+	5050 6850 5050 5550
+Wire Notes Line
+	5050 5550 2750 5550
+Text Notes 2750 5550 0    50   ~ 0
+Pyro Channels
+$Comp
+L Device:R R14
+U 1 1 60889065
+P 4450 6450
+F 0 "R14" H 4520 6496 50  0000 L CNN
+F 1 "100k" H 4520 6405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 6450 50  0001 C CNN
+F 3 "~" H 4450 6450 50  0001 C CNN
+	1    4450 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 6088906B
+P 4450 6150
+F 0 "R13" H 4520 6196 50  0000 L CNN
+F 1 "220k" H 4520 6105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 6150 50  0001 C CNN
+F 3 "~" H 4450 6150 50  0001 C CNN
+	1    4450 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 6300 2    50   Output ~ 0
+Pyro_1_Cont
+Wire Wire Line
+	4450 6300 4500 6300
+Connection ~ 4450 6300
+Wire Wire Line
+	3900 5950 4450 5950
+Wire Wire Line
+	4450 5950 4450 6000
+Text GLabel 7750 2300 0    50   Input ~ 0
+Pyro_1_Cont
+Text GLabel 7750 2200 0    50   Output ~ 0
+Pyro_1
+Text Notes 6450 2300 0    50   ~ 0
+Subject to change\nTODO:
+Wire Wire Line
+	3900 5950 3900 6100
+Wire Wire Line
+	4450 6600 3900 6600
+$Comp
+L power:GND #PWR025
+U 1 1 607F5BDD
+P 3900 6600
+F 0 "#PWR025" H 3900 6350 50  0001 C CNN
+F 1 "GND" H 3905 6427 50  0000 C CNN
+F 2 "" H 3900 6600 50  0001 C CNN
+F 3 "" H 3900 6600 50  0001 C CNN
+	1    3900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR026
+U 1 1 60933210
+P 3800 5800
+F 0 "#PWR026" H 3800 5650 50  0001 C CNN
+F 1 "+BATT" H 3815 5973 50  0000 C CNN
+F 2 "" H 3800 5800 50  0001 C CNN
+F 3 "" H 3800 5800 50  0001 C CNN
+	1    3800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 6093BCBE
+P 3550 5950
+F 0 "J4" H 3500 5700 50  0000 L CNN
+F 1 "Pyro 1 Terminal" V 3650 5600 50  0000 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 3550 5950 50  0001 C CNN
+F 3 "~" H 3550 5950 50  0001 C CNN
+	1    3550 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 5850 3800 5850
+Wire Wire Line
+	3800 5850 3800 5800
+Wire Wire Line
+	3750 5950 3900 5950
+Connection ~ 3900 5950
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 609192AA
+P 9350 1000
+F 0 "#FLG0103" H 9350 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 9150 1150 50  0000 L CNN
+F 2 "" H 9350 1000 50  0001 C CNN
+F 3 "~" H 9350 1000 50  0001 C CNN
+	1    9350 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
