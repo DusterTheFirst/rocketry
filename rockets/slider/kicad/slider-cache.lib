@@ -1,29 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x03_Male
-#
-DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-S 34 105 0 95 1 1 6 F
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-P 2 1 1 6 50 100 34 100 N
-X Pin_1 1 200 100 150 L 50 50 1 1 P
-X Pin_2 2 200 0 150 L 50 50 1 1 P
-X Pin_3 3 200 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Conn_01x04_Male
 #
 DEF Connector_Conn_01x04_Male J 0 40 Y N 1 F N
@@ -246,11 +223,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_RaspberryPi_and_Boards_Pico
+# MCU_RaspberryPi_and_Boards_Pico_PerfBoard
 #
-DEF MCU_RaspberryPi_and_Boards_Pico U 0 40 Y Y 1 F N
+DEF MCU_RaspberryPi_and_Boards_Pico_PerfBoard U 0 40 Y Y 1 F N
 F0 "U" -550 1100 50 H V C CNN
-F1 "MCU_RaspberryPi_and_Boards_Pico" 0 750 50 H V C CNN
+F1 "MCU_RaspberryPi_and_Boards_Pico_PerfBoard" 0 750 50 H V C CNN
 F2 "RPi_Pico:RPi_Pico_SMD_TH" 0 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -291,14 +268,26 @@ X GND 38 700 750 100 L 50 50 1 1 W
 X VSYS 39 700 850 100 L 50 50 1 1 W
 X GPIO2 4 -700 650 100 R 50 50 1 1 B
 X VBUS 40 700 950 100 L 50 50 1 1 W
-X SWCLK 41 -100 -1150 100 U 50 50 1 1 I
-X GND 42 0 -1150 100 U 50 50 1 1 W
-X SWDIO 43 100 -1150 100 U 50 50 1 1 B
 X GPIO3 5 -700 550 100 R 50 50 1 1 B
 X GPIO4 6 -700 450 100 R 50 50 1 1 B
 X GPIO5 7 -700 350 100 R 50 50 1 1 B
 X GND 8 -700 250 100 R 50 50 1 1 W
 X GPIO6 9 -700 150 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
