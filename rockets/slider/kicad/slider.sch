@@ -426,7 +426,7 @@ Wire Notes Line
 	3200 4700 3200 3400
 Text Notes 3200 3400 0    50   ~ 0
 Servo Connections\n
-Text GLabel 7750 1400 0    50   Output ~ 0
+Text GLabel 7750 1400 0    50   BiDi ~ 0
 I2C0_SDA
 Text GLabel 7750 1500 0    50   Output ~ 0
 I2C0_SCL
@@ -434,12 +434,12 @@ Text GLabel 9150 2400 2    50   Output ~ 0
 SPI0_TX
 Text GLabel 9150 2500 2    50   Output ~ 0
 SPI0_SCK
-Text GLabel 9150 2800 2    50   Output ~ 0
+Text GLabel 9150 2800 2    50   Input ~ 0
 SPI0_RX
 Text GLabel 7750 2800 0    50   Input ~ 0
 ARM
-Text Notes 9150 2700 0    50   ~ 0
-SPI0_CSn for slave mode\n
+Text Notes 9200 2700 0    24   ~ 0
+SPI0_CSn for\ndevice mode\n
 $Comp
 L Motor:Motor_Servo_JR M2
 U 1 1 606633E9
@@ -573,93 +573,40 @@ Human Interfacing\n
 $Comp
 L Connector:Conn_01x04_Male J1
 U 1 1 6098096A
-P 3350 1200
-F 0 "J1" H 3400 1400 50  0000 C CNN
-F 1 "I2C Breakout" V 3300 1150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3350 1200 50  0001 C CNN
-F 3 "~" H 3350 1200 50  0001 C CNN
-	1    3350 1200
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x05_Male J2
-U 1 1 60984261
-P 4200 1150
-F 0 "J2" H 4250 1450 50  0000 C CNN
-F 1 "SPI Breakout" V 4150 1150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4200 1150 50  0001 C CNN
-F 3 "~" H 4200 1150 50  0001 C CNN
-	1    4200 1150
-	1    0    0    1   
+P 9350 5850
+F 0 "J1" H 9400 6050 50  0000 C CNN
+F 1 "I2C Breakout" V 9300 5800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9350 5850 50  0001 C CNN
+F 3 "~" H 9350 5850 50  0001 C CNN
+	1    9350 5850
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 60993879
-P 3650 1300
-F 0 "#PWR012" H 3650 1050 50  0001 C CNN
-F 1 "GND" H 3655 1127 50  0000 C CNN
-F 2 "" H 3650 1300 50  0001 C CNN
-F 3 "" H 3650 1300 50  0001 C CNN
-	1    3650 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 6099A076
-P 4500 1350
-F 0 "#PWR017" H 4500 1100 50  0001 C CNN
-F 1 "GND" H 4505 1177 50  0000 C CNN
-F 2 "" H 4500 1350 50  0001 C CNN
-F 3 "" H 4500 1350 50  0001 C CNN
-	1    4500 1350
+P 9050 5950
+F 0 "#PWR012" H 9050 5700 50  0001 C CNN
+F 1 "GND" H 9055 5777 50  0000 C CNN
+F 2 "" H 9050 5950 50  0001 C CNN
+F 3 "" H 9050 5950 50  0001 C CNN
+	1    9050 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 1350 4400 1350
-Wire Wire Line
-	3650 1300 3550 1300
+	9050 5650 9150 5650
 $Comp
 L power:+3.3V #PWR011
 U 1 1 609D3FA8
-P 3650 1000
-F 0 "#PWR011" H 3650 850 50  0001 C CNN
-F 1 "+3.3V" H 3665 1173 50  0000 C CNN
-F 2 "" H 3650 1000 50  0001 C CNN
-F 3 "" H 3650 1000 50  0001 C CNN
-	1    3650 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR016
-U 1 1 609D610B
-P 4500 950
-F 0 "#PWR016" H 4500 800 50  0001 C CNN
-F 1 "+3.3V" H 4515 1123 50  0000 C CNN
-F 2 "" H 4500 950 50  0001 C CNN
-F 3 "" H 4500 950 50  0001 C CNN
-	1    4500 950 
+P 9050 5650
+F 0 "#PWR011" H 9050 5500 50  0001 C CNN
+F 1 "+3.3V" H 9065 5823 50  0000 C CNN
+F 2 "" H 9050 5650 50  0001 C CNN
+F 3 "" H 9050 5650 50  0001 C CNN
+	1    9050 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 950  4400 950 
-Wire Wire Line
-	3650 1000 3550 1000
-Text GLabel 3550 1100 2    50   Input ~ 0
-I2C0_SDA
-Text GLabel 3550 1200 2    50   Input ~ 0
-I2C0_SCL
-Text GLabel 4400 1150 2    50   Input ~ 0
-SPI0_TX
-Text GLabel 4400 1250 2    50   Input ~ 0
-SPI0_SCK
-Text GLabel 4400 1050 2    50   Input ~ 0
-SPI0_RX
-Wire Notes Line
-	4900 1600 3200 1600
-Text Notes 3200 700  0    50   ~ 0
-Development Bus Breakouts\n
-Wire Notes Line
-	3200 1600 3200 700 
+	9050 5950 9150 5950
 Text GLabel 7750 2700 0    50   Output ~ 0
 Alarm_EN
 Text GLabel 7750 2500 0    50   Output ~ 0
@@ -683,10 +630,6 @@ F 3 "" H 3850 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9150 1300
-Wire Notes Line
-	4050 700  4050 1600
-Wire Notes Line
-	4900 700  4900 1600
 Wire Notes Line
 	3100 1950 700  1950
 Wire Notes Line
@@ -954,7 +897,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 3800 6300 50
 $EndComp
 Wire Wire Line
 	3900 6500 3900 6600
-Text Notes 4100 5750 0    50   ~ 0
+Text Notes 4100 5750 0    50   ~ 10
 UUH, maybe some\ncurrent limiting?
 Wire Wire Line
 	3900 6600 3500 6600
@@ -1123,8 +1066,6 @@ F 3 "" H 4700 3600 50  0001 C CNN
 	1    4700 3600
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	3200 700  4900 700 
 Wire Wire Line
 	7200 3100 8450 3100
 Wire Wire Line
@@ -1155,10 +1096,10 @@ NoConn ~ 1450 4750
 Text GLabel 5450 3750 2    50   Output ~ 0
 ARM
 $Comp
-L Switch:SW_SPDT SW?
+L Switch:SW_SPDT SW1
 U 1 1 609207CF
 P 5100 3750
-F 0 "SW?" H 5200 3450 50  0000 C CNN
+F 0 "SW1" H 5200 3450 50  0000 C CNN
 F 1 "SW_SPDT" H 5100 3550 50  0000 C CNN
 F 2 "" H 5100 3750 50  0001 C CNN
 F 3 "~" H 5100 3750 50  0001 C CNN
@@ -1172,10 +1113,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 3850 4700 3900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR019
 U 1 1 60933106
 P 4700 3900
-F 0 "#PWR?" H 4700 3650 50  0001 C CNN
+F 0 "#PWR019" H 4700 3650 50  0001 C CNN
 F 1 "GND" H 4705 3727 50  0000 C CNN
 F 2 "" H 4700 3900 50  0001 C CNN
 F 3 "" H 4700 3900 50  0001 C CNN
@@ -1192,4 +1133,139 @@ Wire Notes Line
 	5700 4150 4550 4150
 Wire Notes Line
 	4550 4150 4550 3400
+Text Notes 6800 3550 0    50   ~ 0
+SPI Bus
+Text Notes 8800 3550 0    50   ~ 0
+I2C Bus
+Entry Wire Line
+	6850 3700 6950 3800
+Entry Wire Line
+	6850 3600 6950 3700
+Entry Wire Line
+	6850 3800 6950 3900
+Text GLabel 7150 3700 2    50   Input ~ 0
+SPI0_TX
+Text GLabel 7150 3800 2    50   Input ~ 0
+SPI0_SCK
+Text GLabel 7150 3900 2    50   Output ~ 0
+SPI0_RX
+Wire Wire Line
+	7150 3700 6950 3700
+Wire Wire Line
+	7150 3800 6950 3800
+Wire Wire Line
+	7150 3900 6950 3900
+Text Label 6950 3700 0    50   ~ 0
+TX
+Text Label 6950 3900 0    50   ~ 0
+RX
+Text Label 6950 3800 0    50   ~ 0
+SCK
+Text GLabel 9150 3700 2    50   BiDi ~ 0
+I2C0_SDA
+Text GLabel 9150 3800 2    50   Output ~ 0
+I2C0_SCL
+Entry Wire Line
+	8850 3600 8950 3700
+Entry Wire Line
+	8850 3700 8950 3800
+Wire Wire Line
+	8950 3700 9150 3700
+Wire Wire Line
+	8950 3800 9150 3800
+Text Label 8950 3700 0    50   ~ 0
+SDA
+Text Label 8950 3800 0    50   ~ 0
+SCL
+Entry Wire Line
+	6850 5550 6950 5650
+Entry Wire Line
+	6850 5650 6950 5750
+Entry Wire Line
+	6850 5750 6950 5850
+Entry Wire Line
+	8850 5650 8950 5750
+Entry Wire Line
+	8850 5750 8950 5850
+Wire Wire Line
+	8950 5750 9150 5750
+Wire Wire Line
+	8950 5850 9150 5850
+Text Label 8950 5750 0    50   ~ 0
+SDA
+Text Label 8950 5850 0    50   ~ 0
+SCL
+Wire Notes Line
+	6800 3550 7650 3550
+Wire Notes Line
+	7650 3550 7650 6250
+Wire Notes Line
+	7650 6250 6800 6250
+Wire Notes Line
+	6800 6250 6800 3550
+Wire Notes Line
+	8800 3550 9650 3550
+Wire Notes Line
+	9650 3550 9650 6250
+Wire Notes Line
+	9650 6250 8800 6250
+Wire Notes Line
+	8800 6250 8800 3550
+$Comp
+L Connector:Conn_01x05_Male J2
+U 1 1 60984261
+P 7300 5750
+F 0 "J2" H 7350 6050 50  0000 C CNN
+F 1 "SPI Breakout" V 7250 5750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7300 5750 50  0001 C CNN
+F 3 "~" H 7300 5750 50  0001 C CNN
+	1    7300 5750
+	-1   0    0    1   
+$EndComp
+Text Label 6950 5850 0    50   ~ 0
+RX
+Text Label 6950 5750 0    50   ~ 0
+SCK
+Text Label 6950 5650 0    50   ~ 0
+TX
+Wire Wire Line
+	7000 5950 7100 5950
+Wire Wire Line
+	6950 5850 7100 5850
+Wire Wire Line
+	6950 5750 7100 5750
+Wire Wire Line
+	6950 5650 7100 5650
+Wire Wire Line
+	7000 5550 7100 5550
+$Comp
+L power:+3.3V #PWR016
+U 1 1 609D610B
+P 7000 5550
+F 0 "#PWR016" H 7000 5400 50  0001 C CNN
+F 1 "+3.3V" H 7015 5723 50  0000 C CNN
+F 2 "" H 7000 5550 50  0001 C CNN
+F 3 "" H 7000 5550 50  0001 C CNN
+	1    7000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 6099A076
+P 7000 5950
+F 0 "#PWR017" H 7000 5700 50  0001 C CNN
+F 1 "GND" H 7005 5777 50  0000 C CNN
+F 2 "" H 7000 5950 50  0001 C CNN
+F 3 "" H 7000 5950 50  0001 C CNN
+	1    7000 5950
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	8850 3600 8850 5750
+Wire Bus Line
+	6850 3600 6850 5750
+Text Notes 6200 2400 0    50   Italic 10
+Maybe dont use any pyro?
+Text Notes 4050 5550 0    50   Italic 10
+Maybe dont use any pyro?
 $EndSCHEMATC

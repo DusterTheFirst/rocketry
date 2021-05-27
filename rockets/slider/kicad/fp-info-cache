@@ -1,4 +1,4 @@
-21424399815571887
+0
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56209,6 +56209,34 @@ Yellow 5381 Series LED
 0
 2
 2
+MCU_RaspberryPi_and_Boards
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+MCU_RaspberryPi_and_Boards
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+MCU_RaspberryPi_and_Boards
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
+MCU_RaspberryPi_and_Boards
+RPi_Pico_TH_Perfboard
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -57524,1147 +57552,6 @@ Mounting Hole 8.4mm, M8
 mounting hole 8.4mm m8
 0
 9
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H5mm_9771050360
-Mounting Hardware, external M3, height 5, Wuerth electronics 9771050360 (https://katalog.we-online.com/em/datasheet/9771050360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771050360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H6mm_9771060360
-Mounting Hardware, external M3, height 6, Wuerth electronics 9771060360 (https://katalog.we-online.com/em/datasheet/9771060360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771060360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H7mm_9771070360
-Mounting Hardware, external M3, height 7, Wuerth electronics 9771070360 (https://katalog.we-online.com/em/datasheet/9771070360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771070360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H8mm_9771080360
-Mounting Hardware, external M3, height 8, Wuerth electronics 9771080360 (https://katalog.we-online.com/em/datasheet/9771080360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771080360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H9mm_9771090360
-Mounting Hardware, external M3, height 9, Wuerth electronics 9771090360 (https://katalog.we-online.com/em/datasheet/9771090360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771090360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H10mm_9771100360
-Mounting Hardware, external M3, height 10, Wuerth electronics 9771100360 (https://katalog.we-online.com/em/datasheet/9771100360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771100360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H11mm_9771110360
-Mounting Hardware, external M3, height 11, Wuerth electronics 9771110360 (https://katalog.we-online.com/em/datasheet/9771110360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771110360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H12mm_9771120360
-Mounting Hardware, external M3, height 12, Wuerth electronics 9771120360 (https://katalog.we-online.com/em/datasheet/9771120360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771120360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H13mm_9771130360
-Mounting Hardware, external M3, height 13, Wuerth electronics 9771130360 (https://katalog.we-online.com/em/datasheet/9771130360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771130360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H14mm_9771140360
-Mounting Hardware, external M3, height 14, Wuerth electronics 9771140360 (https://katalog.we-online.com/em/datasheet/9771140360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771140360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSE-ExternalM3_H15mm_9771150360
-Mounting Hardware, external M3, height 15, Wuerth electronics 9771150360 (https://katalog.we-online.com/em/datasheet/9771150360.pdf), generated with kicad-footprint-generator
-Mounting M3 9771150360
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H1mm_9774010482
-Mounting Hardware, inside through hole 4.5mm, height 1, Wuerth electronics 9774010482 (https://katalog.we-online.de/em/datasheet/9774010482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774010482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H2mm_9774020482
-Mounting Hardware, inside through hole 4.5mm, height 2, Wuerth electronics 9774020482 (https://katalog.we-online.de/em/datasheet/9774020482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774020482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H3mm_9774030482
-Mounting Hardware, inside through hole 4.5mm, height 3, Wuerth electronics 9774030482 (https://katalog.we-online.de/em/datasheet/9774030482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774030482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H4mm_9774040482
-Mounting Hardware, inside through hole 4.5mm, height 4, Wuerth electronics 9774040482 (https://katalog.we-online.de/em/datasheet/9774040482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774040482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H5mm_9774050482
-Mounting Hardware, inside through hole 4.5mm, height 5, Wuerth electronics 9774050482 (https://katalog.we-online.de/em/datasheet/9774050482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774050482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H6mm_9774060482
-Mounting Hardware, inside through hole 4.5mm, height 6, Wuerth electronics 9774060482 (https://katalog.we-online.de/em/datasheet/9774060482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774060482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H7mm_9774070482
-Mounting Hardware, inside through hole 4.5mm, height 7, Wuerth electronics 9774070482 (https://katalog.we-online.de/em/datasheet/9774070482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774070482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H8mm_9774080482
-Mounting Hardware, inside through hole 4.5mm, height 8, Wuerth electronics 9774080482 (https://katalog.we-online.de/em/datasheet/9774080482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774080482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H9mm_9774090482
-Mounting Hardware, inside through hole 4.5mm, height 9, Wuerth electronics 9774090482 (https://katalog.we-online.de/em/datasheet/9774090482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774090482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-4.5mm_H10mm_9774100482
-Mounting Hardware, inside through hole 4.5mm, height 10, Wuerth electronics 9774100482 (https://katalog.we-online.de/em/datasheet/9774100482.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774100482
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H1.5mm_9774015633
-Mounting Hardware, inside through hole M1.6, height 1.5, Wuerth electronics 9774015633 (https://katalog.we-online.com/em/datasheet/9774015633.pdf), generated with kicad-footprint-generator
-Mounting M1.6 9774015633
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H1mm_9774010633
-Mounting Hardware, inside through hole M1.6, height 1, Wuerth electronics 9774010633 (https://katalog.we-online.com/em/datasheet/9774010633.pdf), generated with kicad-footprint-generator
-Mounting M1.6 9774010633
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H2.5mm_9774025633
-Mounting Hardware, inside through hole M1.6, height 2.5, Wuerth electronics 9774025633 (https://katalog.we-online.com/em/datasheet/9774025633.pdf), generated with kicad-footprint-generator
-Mounting M1.6 9774025633
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H2.5mm_ThreadDepth1.5mm_97730256332
-Mounting Hardware, inside blind hole M1.6, height 2.5, Wuerth electronics 97730256332 (https://katalog.we-online.com/em/datasheet/97730256332.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730256332
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H2.5mm_ThreadDepth1.5mm_NoNPTH_97730256330
-Mounting Hardware, inside blind hole M1.6, height 2.5, Wuerth electronics 97730256330 (https://katalog.we-online.com/em/datasheet/97730256330R.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730256330
-0
-5
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633
-Mounting Hardware, inside through hole M1.6, height 2, Wuerth electronics 9774020633 (https://katalog.we-online.com/em/datasheet/9774020633.pdf), generated with kicad-footprint-generator
-Mounting M1.6 9774020633
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_97730356332
-Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356332 (https://katalog.we-online.com/em/datasheet/97730356332.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730356332
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_97730356334
-Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356334 (https://katalog.we-online.com/em/datasheet/97730356334.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730356334
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_NoNPTH_97730356330
-Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356330 (https://katalog.we-online.com/em/datasheet/97730356330.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730356330
-0
-5
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H3mm_9774030633
-Mounting Hardware, inside through hole M1.6, height 3, Wuerth electronics 9774030633 (https://katalog.we-online.com/em/datasheet/9774030633.pdf), generated with kicad-footprint-generator
-Mounting M1.6 9774030633
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H3mm_ThreadDepth1.8mm_97730306332
-Mounting Hardware, inside blind hole M1.6, height 3, Wuerth electronics 97730306332 (https://katalog.we-online.com/em/datasheet/97730306332.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730306332
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H3mm_ThreadDepth1.8mm_NoNPTH_97730306330
-Mounting Hardware, inside blind hole M1.6, height 3, Wuerth electronics 97730306330 (https://katalog.we-online.com/em/datasheet/97730306330.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730306330
-0
-5
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_97730456332
-Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456332 (https://katalog.we-online.com/em/datasheet/97730456332.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730456332
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_97730456334
-Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456334 (https://katalog.we-online.com/em/datasheet/97730456334.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730456334
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_NoNPTH_97730456330
-Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456330 (https://katalog.we-online.com/em/datasheet/97730456330.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730456330
-0
-5
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H4mm_ThreadDepth2mm_97730406332
-Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406332 (https://katalog.we-online.com/em/datasheet/97730406332.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730406332
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H4mm_ThreadDepth2mm_97730406334
-Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406334 (https://katalog.we-online.com/em/datasheet/97730406334.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730406334
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H4mm_ThreadDepth2mm_NoNPTH_97730406330
-Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406330 (https://katalog.we-online.com/em/datasheet/97730406330.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730406330
-0
-5
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H5mm_ThreadDepth2mm_97730506332
-Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506332 (https://katalog.we-online.com/em/datasheet/97730506332.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730506332
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H5mm_ThreadDepth2mm_97730506334
-Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506334 (https://katalog.we-online.com/em/datasheet/97730506334.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730506334
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H5mm_ThreadDepth2mm_NoNPTH_97730506330
-Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506330 (https://katalog.we-online.com/em/datasheet/97730506330.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730506330
-0
-5
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H6mm_ThreadDepth2mm_97730606332
-Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606332 (https://katalog.we-online.com/em/datasheet/97730606332.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730606332
-0
-6
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H6mm_ThreadDepth2mm_97730606334
-Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606334 (https://katalog.we-online.com/em/datasheet/97730606334.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730606334
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M1.6_H6mm_ThreadDepth2mm_NoNPTH_97730606330
-Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606330 (https://katalog.we-online.com/em/datasheet/97730606330.pdf), generated with kicad-footprint-generator
-Mounting M1.6 97730606330
-0
-5
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H1.5mm_9774015243
-Mounting Hardware, inside through hole M2, height 1.5, Wuerth electronics 9774015243 (https://katalog.we-online.de/em/datasheet/9774015243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774015243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H1mm_9774010243
-Mounting Hardware, inside through hole M2, height 1, Wuerth electronics 9774010243 (https://katalog.we-online.de/em/datasheet/9774010243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774010243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H2.5mm_9774025243
-Mounting Hardware, inside through hole M2, height 2.5, Wuerth electronics 9774025243 (https://katalog.we-online.de/em/datasheet/9774025243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774025243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H2mm_9774020243
-Mounting Hardware, inside through hole M2, height 2, Wuerth electronics 9774020243 (https://katalog.we-online.de/em/datasheet/9774020243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774020243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H3.5mm_9774035243
-Mounting Hardware, inside through hole M2, height 3.5, Wuerth electronics 9774035243 (https://katalog.we-online.de/em/datasheet/9774035243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774035243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243
-Mounting Hardware, inside through hole M2, height 3, Wuerth electronics 9774030243 (https://katalog.we-online.de/em/datasheet/9774030243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774030243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H4.5mm_9774045243
-Mounting Hardware, inside through hole M2, height 4.5, Wuerth electronics 9774045243 (https://katalog.we-online.de/em/datasheet/9774045243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774045243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H4mm_9774040243
-Mounting Hardware, inside through hole M2, height 4, Wuerth electronics 9774040243 (https://katalog.we-online.de/em/datasheet/9774040243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774040243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H5mm_9774050243
-Mounting Hardware, inside through hole M2, height 5, Wuerth electronics 9774050243 (https://katalog.we-online.de/em/datasheet/9774050243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774050243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H6mm_9774060243
-Mounting Hardware, inside through hole M2, height 6, Wuerth electronics 9774060243 (https://katalog.we-online.de/em/datasheet/9774060243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774060243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H7mm_9774070243
-Mounting Hardware, inside through hole M2, height 7, Wuerth electronics 9774070243 (https://katalog.we-online.de/em/datasheet/9774070243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774070243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2_H8mm_9774080243
-Mounting Hardware, inside through hole M2, height 8, Wuerth electronics 9774080243 (https://katalog.we-online.de/em/datasheet/9774080243.pdf), generated with kicad-footprint-generator
-Mounting M2 9774080243
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H1.5mm_9774015360
-Mounting Hardware, inside through hole M3, height 1.5, Wuerth electronics 9774015360 (https://katalog.we-online.de/em/datasheet/9774015360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774015360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H1mm_9774010360
-Mounting Hardware, inside through hole M3, height 1, Wuerth electronics 9774010360 (https://katalog.we-online.de/em/datasheet/9774010360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774010360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H2.5mm_9774025360
-Mounting Hardware, inside through hole M3, height 2.5, Wuerth electronics 9774025360 (https://katalog.we-online.de/em/datasheet/9774025360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774025360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H2mm_9774020360
-Mounting Hardware, inside through hole M3, height 2, Wuerth electronics 9774020360 (https://katalog.we-online.de/em/datasheet/9774020360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774020360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H3mm_9774030360
-Mounting Hardware, inside through hole M3, height 3, Wuerth electronics 9774030360 (https://katalog.we-online.de/em/datasheet/9774030360R.pdf), generated with kicad-footprint-generator
-Mounting M3 9774030360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H4mm_9774040360
-Mounting Hardware, inside through hole M3, height 4, Wuerth electronics 9774040360 (https://katalog.we-online.de/em/datasheet/9774040360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774040360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H5mm_9774050360
-Mounting Hardware, inside through hole M3, height 5, Wuerth electronics 9774050360 (https://katalog.we-online.de/em/datasheet/9774050360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774050360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H6mm_9774060360
-Mounting Hardware, inside through hole M3, height 6, Wuerth electronics 9774060360 (https://katalog.we-online.de/em/datasheet/9774060360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774060360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H7mm_9774070360
-Mounting Hardware, inside through hole M3, height 7, Wuerth electronics 9774070360 (https://katalog.we-online.de/em/datasheet/9774070360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774070360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H8mm_9774080360
-Mounting Hardware, inside through hole M3, height 8, Wuerth electronics 9774080360 (https://katalog.we-online.de/em/datasheet/9774080360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774080360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H9mm_9774090360
-Mounting Hardware, inside through hole M3, height 9, Wuerth electronics 9774090360 (https://katalog.we-online.de/em/datasheet/9774090360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774090360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H10mm_9774100360
-Mounting Hardware, inside through hole M3, height 10, Wuerth electronics 9774100360 (https://katalog.we-online.de/em/datasheet/9774100360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774100360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360
-Mounting Hardware, inside through hole M3, height 11, Wuerth electronics 9774110360 (https://katalog.we-online.de/em/datasheet/9774110360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774110360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H12mm_9774120360
-Mounting Hardware, inside through hole M3, height 12, Wuerth electronics 9774120360 (https://katalog.we-online.de/em/datasheet/9774120360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774120360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H13mm_9774130360
-Mounting Hardware, inside through hole M3, height 13, Wuerth electronics 9774130360 (https://katalog.we-online.de/em/datasheet/9774130360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774130360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H14mm_9774140360
-Mounting Hardware, inside through hole M3, height 14, Wuerth electronics 9774140360 (https://katalog.we-online.de/em/datasheet/9774140360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774140360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M3_H15mm_9774150360
-Mounting Hardware, inside through hole M3, height 15, Wuerth electronics 9774150360 (https://katalog.we-online.de/em/datasheet/9774150360.pdf), generated with kicad-footprint-generator
-Mounting M3 9774150360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H2.6mm_ReverseMount_9775026960
-Mounting Hardware, inside through hole 3.2mm, height 2.6, Wuerth electronics 9775026960 (https://katalog.we-online.com/em/datasheet/9775026960R.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775026960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H3.1mm_ReverseMount_9775031960
-Mounting Hardware, inside through hole 3.2mm, height 3.1, Wuerth electronics 9775031960 (https://katalog.we-online.com/em/datasheet/9775031960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775031960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H3.6mm_ReverseMount_9775036960
-Mounting Hardware, inside through hole 3.2mm, height 3.6, Wuerth electronics 9775036960 (https://katalog.we-online.com/em/datasheet/9775036960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775036960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H4.1mm_ReverseMount_9775041960
-Mounting Hardware, inside through hole 3.2mm, height 4.1, Wuerth electronics 9775041960 (https://katalog.we-online.com/em/datasheet/9775041960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775041960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H4.6mm_ReverseMount_9775046960
-Mounting Hardware, inside through hole 3.2mm, height 4.6, Wuerth electronics 9775046960 (https://katalog.we-online.com/em/datasheet/9775046960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775046960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H5.1mm_ReverseMount_9775051960
-Mounting Hardware, inside through hole 3.2mm, height 5.1, Wuerth electronics 9775051960 (https://katalog.we-online.com/em/datasheet/9775051960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775051960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H5.6mm_ReverseMount_9775056960
-Mounting Hardware, inside through hole 3.2mm, height 5.6, Wuerth electronics 9775056960 (https://katalog.we-online.com/em/datasheet/9775056960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775056960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H6.6mm_ReverseMount_9775066960
-Mounting Hardware, inside through hole 3.2mm, height 6.6, Wuerth electronics 9775066960 (https://katalog.we-online.com/em/datasheet/9775066960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775066960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H7.6mm_ReverseMount_9775076960
-Mounting Hardware, inside through hole 3.2mm, height 7.6, Wuerth electronics 9775076960 (https://katalog.we-online.com/em/datasheet/9775076960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775076960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H8.6mm_ReverseMount_9775086960
-Mounting Hardware, inside through hole 3.2mm, height 8.6, Wuerth electronics 9775086960 (https://katalog.we-online.com/em/datasheet/9775086960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775086960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H9.6mm_ReverseMount_9775096960
-Mounting Hardware, inside through hole 3.2mm, height 9.6, Wuerth electronics 9775096960 (https://katalog.we-online.com/em/datasheet/9775096960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775096960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H10.6mm_ReverseMount_9775106960
-Mounting Hardware, inside through hole 3.2mm, height 10.6, Wuerth electronics 9775106960 (https://katalog.we-online.com/em/datasheet/9775106960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775106960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-3.2mm_H11.6mm_ReverseMount_9775116960
-Mounting Hardware, inside through hole 3.2mm, height 11.6, Wuerth electronics 9775116960 (https://katalog.we-online.com/em/datasheet/9775116960.pdf), generated with kicad-footprint-generator
-Mounting 3.2mm 9775116960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H2.6mm_ReverseMount_9775026360
-Mounting Hardware, inside through hole M3, height 2.6, Wuerth electronics 9775026360 (https://katalog.we-online.com/em/datasheet/9775026360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775026360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H3.1mm_ReverseMount_9775031360
-Mounting Hardware, inside through hole M3, height 3.1, Wuerth electronics 9775031360 (https://katalog.we-online.com/em/datasheet/9775031360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775031360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H3.6mm_ReverseMount_9775036360
-Mounting Hardware, inside through hole M3, height 3.6, Wuerth electronics 9775036360 (https://katalog.we-online.com/em/datasheet/9775036360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775036360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H4.1mm_ReverseMount_9775041360
-Mounting Hardware, inside through hole M3, height 4.1, Wuerth electronics 9775041360 (https://katalog.we-online.com/em/datasheet/9775041360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775041360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H4.6mm_ReverseMount_9775046360
-Mounting Hardware, inside through hole M3, height 4.6, Wuerth electronics 9775046360 (https://katalog.we-online.com/em/datasheet/9775046360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775046360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H5.1mm_ReverseMount_9775051360
-Mounting Hardware, inside through hole M3, height 5.1, Wuerth electronics 9775051360 (https://katalog.we-online.com/em/datasheet/9775051360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775051360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H5.6mm_ReverseMount_9775056360
-Mounting Hardware, inside through hole M3, height 5.6, Wuerth electronics 9775056360 (https://katalog.we-online.com/em/datasheet/9775056360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775056360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H6.6mm_ReverseMount_9775066360
-Mounting Hardware, inside through hole M3, height 6.6, Wuerth electronics 9775066360 (https://katalog.we-online.com/em/datasheet/9775066360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775066360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H7.6mm_ReverseMount_9775076360
-Mounting Hardware, inside through hole M3, height 7.6, Wuerth electronics 9775076360 (https://katalog.we-online.com/em/datasheet/9775076360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775076360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H8.6mm_ReverseMount_9775086360
-Mounting Hardware, inside through hole M3, height 8.6, Wuerth electronics 9775086360 (https://katalog.we-online.com/em/datasheet/9775086360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775086360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H9.6mm_ReverseMount_9775096360
-Mounting Hardware, inside through hole M3, height 9.6, Wuerth electronics 9775096360 (https://katalog.we-online.com/em/datasheet/9775096360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775096360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H10.6mm_ReverseMount_9775106360
-Mounting Hardware, inside through hole M3, height 10.6, Wuerth electronics 9775106360 (https://katalog.we-online.com/em/datasheet/9775106360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775106360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSR-M3_H11.6mm_ReverseMount_9775116360
-Mounting Hardware, inside through hole M3, height 11.6, Wuerth electronics 9775116360 (https://katalog.we-online.com/em/datasheet/9775116360.pdf), generated with kicad-footprint-generator
-Mounting M3 9775116360
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H2.5mm_SnapRivet_9776025960
-Mounting Hardware, inside through hole 3.3mm, height 2.5, Wuerth electronics 9776025960 (https://katalog.we-online.com/em/datasheet/9776025960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776025960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H2mm_SnapRivet_9776020960
-Mounting Hardware, inside through hole 3.3mm, height 2, Wuerth electronics 9776020960 (https://katalog.we-online.com/em/datasheet/9776020960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776020960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H3mm_SnapRivet_9776030960
-Mounting Hardware, inside through hole 3.3mm, height 3, Wuerth electronics 9776030960 (https://katalog.we-online.com/em/datasheet/9776030960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776030960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H4mm_SnapRivet_9776040960
-Mounting Hardware, inside through hole 3.3mm, height 4, Wuerth electronics 9776040960 (https://katalog.we-online.com/em/datasheet/9776040960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776040960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H5mm_SnapRivet_9776050960
-Mounting Hardware, inside through hole 3.3mm, height 5, Wuerth electronics 9776050960 (https://katalog.we-online.com/em/datasheet/9776050960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776050960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H6mm_SnapRivet_9776060960
-Mounting Hardware, inside through hole 3.3mm, height 6, Wuerth electronics 9776060960 (https://katalog.we-online.com/em/datasheet/9776060960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776060960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H7mm_SnapRivet_9776070960
-Mounting Hardware, inside through hole 3.3mm, height 7, Wuerth electronics 9776070960 (https://katalog.we-online.com/em/datasheet/9776070960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776070960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H8mm_SnapRivet_9776080960
-Mounting Hardware, inside through hole 3.3mm, height 8, Wuerth electronics 9776080960 (https://katalog.we-online.com/em/datasheet/9776080960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776080960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H9mm_SnapRivet_9776090960
-Mounting Hardware, inside through hole 3.3mm, height 9, Wuerth electronics 9776090960 (https://katalog.we-online.com/em/datasheet/9776090960.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776090960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMSSR-3.3mm_H10mm_SnapRivet_9776100960
-Mounting Hardware, inside through hole 3.3mm, height 10, Wuerth electronics 9776100960 (https://katalog.we-online.com/em/datasheet/9776100960R.pdf), generated with kicad-footprint-generator
-Mounting 3.3mm 9776100960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951
-Mounting Hardware, inside through hole 2.7mm, height 1.5, Wuerth electronics 9774015951 (https://katalog.we-online.de/em/datasheet/9774015951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774015951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H1mm_9774010951
-Mounting Hardware, inside through hole 2.7mm, height 1, Wuerth electronics 9774010951 (https://katalog.we-online.de/em/datasheet/9774010951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774010951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H2.5mm_9774025951
-Mounting Hardware, inside through hole 2.7mm, height 2.5, Wuerth electronics 9774025951 (https://katalog.we-online.de/em/datasheet/9774025951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774025951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H2mm_9774020951
-Mounting Hardware, inside through hole 2.7mm, height 2, Wuerth electronics 9774020951 (https://katalog.we-online.de/em/datasheet/9774020951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774020951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H3mm_9774030951
-Mounting Hardware, inside through hole 2.7mm, height 3, Wuerth electronics 9774030951 (https://katalog.we-online.de/em/datasheet/9774030951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774030951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H4mm_9774040951
-Mounting Hardware, inside through hole 2.7mm, height 4, Wuerth electronics 9774040951 (https://katalog.we-online.de/em/datasheet/9774040951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774040951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H5.5mm_9774055951
-Mounting Hardware, inside through hole 2.7mm, height 5.5, Wuerth electronics 9774055951 (https://katalog.we-online.de/em/datasheet/9774055951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774055951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H5mm_9774050951
-Mounting Hardware, inside through hole 2.7mm, height 5, Wuerth electronics 9774050951 (https://katalog.we-online.de/em/datasheet/9774050951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774050951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H6.5mm_9774065951
-Mounting Hardware, inside through hole 2.7mm, height 6.5, Wuerth electronics 9774065951 (https://katalog.we-online.de/em/datasheet/9774065951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774065951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H6mm_9774060951
-Mounting Hardware, inside through hole 2.7mm, height 6, Wuerth electronics 9774060951 (https://katalog.we-online.de/em/datasheet/9774060951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774060951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H7mm_9774070951
-Mounting Hardware, inside through hole 2.7mm, height 7, Wuerth electronics 9774070951 (https://katalog.we-online.de/em/datasheet/9774070951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774070951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H8mm_9774080951
-Mounting Hardware, inside through hole 2.7mm, height 8, Wuerth electronics 9774080951 (https://katalog.we-online.de/em/datasheet/9774080951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774080951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H9mm_9774090951
-Mounting Hardware, inside through hole 2.7mm, height 9, Wuerth electronics 9774090951 (https://katalog.we-online.de/em/datasheet/9774090951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774090951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.7mm_H10mm_9774100951
-Mounting Hardware, inside through hole 2.7mm, height 10, Wuerth electronics 9774100951 (https://katalog.we-online.de/em/datasheet/9774100951.pdf), generated with kicad-footprint-generator
-Mounting 2.7mm 9774100951
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H1.5mm_9774015943
-Mounting Hardware, inside through hole 2.25mm, height 1.5, Wuerth electronics 9774015943 (https://katalog.we-online.de/em/datasheet/9774015943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774015943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H1mm_9774010943
-Mounting Hardware, inside through hole 2.25mm, height 1, Wuerth electronics 9774010943 (https://katalog.we-online.de/em/datasheet/9774010943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774010943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H2.5mm_9774025943
-Mounting Hardware, inside through hole 2.25mm, height 2.5, Wuerth electronics 9774025943 (https://katalog.we-online.de/em/datasheet/9774025943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774025943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H2mm_9774020943
-Mounting Hardware, inside through hole 2.25mm, height 2, Wuerth electronics 9774020943 (https://katalog.we-online.de/em/datasheet/9774020943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774020943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H3.5mm_9774035943
-Mounting Hardware, inside through hole 2.25mm, height 3.5, Wuerth electronics 9774035943 (https://katalog.we-online.de/em/datasheet/9774035943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774035943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H3mm_9774030943
-Mounting Hardware, inside through hole 2.25mm, height 3, Wuerth electronics 9774030943 (https://katalog.we-online.de/em/datasheet/9774030943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774030943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H4.5mm_9774045943
-Mounting Hardware, inside through hole 2.25mm, height 4.5, Wuerth electronics 9774045943 (https://katalog.we-online.de/em/datasheet/9774045943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774045943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H4mm_9774040943
-Mounting Hardware, inside through hole 2.25mm, height 4, Wuerth electronics 9774040943 (https://katalog.we-online.de/em/datasheet/9774040943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774040943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H5mm_9774050943
-Mounting Hardware, inside through hole 2.25mm, height 5, Wuerth electronics 9774050943 (https://katalog.we-online.de/em/datasheet/9774050943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774050943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H6mm_9774060943
-Mounting Hardware, inside through hole 2.25mm, height 6, Wuerth electronics 9774060943 (https://katalog.we-online.de/em/datasheet/9774060943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774060943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H7mm_9774070943
-Mounting Hardware, inside through hole 2.25mm, height 7, Wuerth electronics 9774070943 (https://katalog.we-online.de/em/datasheet/9774070943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774070943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-2.25mm_H8mm_9774080943
-Mounting Hardware, inside through hole 2.25mm, height 8, Wuerth electronics 9774080943 (https://katalog.we-online.de/em/datasheet/9774080943.pdf), generated with kicad-footprint-generator
-Mounting 2.25mm 9774080943
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H1.5mm_9774015960
-Mounting Hardware, inside through hole 3.3mm, height 1.5, Wuerth electronics 9774015960 (https://katalog.we-online.de/em/datasheet/9774015960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774015960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H1mm_9774010960
-Mounting Hardware, inside through hole 3.3mm, height 1, Wuerth electronics 9774010960 (https://katalog.we-online.de/em/datasheet/9774010960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774010960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H2.5mm_9774025960
-Mounting Hardware, inside through hole 3.3mm, height 2.5, Wuerth electronics 9774025960 (https://katalog.we-online.de/em/datasheet/9774025960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774025960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H2mm_9774020960
-Mounting Hardware, inside through hole 3.3mm, height 2, Wuerth electronics 9774020960 (https://katalog.we-online.de/em/datasheet/9774020960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774020960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H3mm_9774030960
-Mounting Hardware, inside through hole 3.3mm, height 3, Wuerth electronics 9774030960 (https://katalog.we-online.de/em/datasheet/9774030960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774030960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H4mm_9774040960
-Mounting Hardware, inside through hole 3.3mm, height 4, Wuerth electronics 9774040960 (https://katalog.we-online.de/em/datasheet/9774040960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774040960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H5mm_9774050960
-Mounting Hardware, inside through hole 3.3mm, height 5, Wuerth electronics 9774050960 (https://katalog.we-online.de/em/datasheet/9774050960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774050960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H6mm_9774060960
-Mounting Hardware, inside through hole 3.3mm, height 6, Wuerth electronics 9774060960 (https://katalog.we-online.de/em/datasheet/9774060960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774060960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H7mm_9774070960
-Mounting Hardware, inside through hole 3.3mm, height 7, Wuerth electronics 9774070960 (https://katalog.we-online.de/em/datasheet/9774070960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774070960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H8mm_9774080960
-Mounting Hardware, inside through hole 3.3mm, height 8, Wuerth electronics 9774080960 (https://katalog.we-online.de/em/datasheet/9774080960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774080960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H9mm_9774090960
-Mounting Hardware, inside through hole 3.3mm, height 9, Wuerth electronics 9774090960 (https://katalog.we-online.de/em/datasheet/9774090960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774090960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H10mm_9774100960
-Mounting Hardware, inside through hole 3.3mm, height 10, Wuerth electronics 9774100960 (https://katalog.we-online.de/em/datasheet/9774100960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774100960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H11mm_9774110960
-Mounting Hardware, inside through hole 3.3mm, height 11, Wuerth electronics 9774110960 (https://katalog.we-online.de/em/datasheet/9774110960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774110960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H12mm_9774120960
-Mounting Hardware, inside through hole 3.3mm, height 12, Wuerth electronics 9774120960 (https://katalog.we-online.de/em/datasheet/9774120960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774120960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H13mm_9774130960
-Mounting Hardware, inside through hole 3.3mm, height 13, Wuerth electronics 9774130960 (https://katalog.we-online.de/em/datasheet/9774130960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774130960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H14mm_9774140960
-Mounting Hardware, inside through hole 3.3mm, height 14, Wuerth electronics 9774140960 (https://katalog.we-online.de/em/datasheet/9774140960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774140960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-3.3mm_H15mm_9774150960
-Mounting Hardware, inside through hole 3.3mm, height 15, Wuerth electronics 9774150960 (https://katalog.we-online.de/em/datasheet/9774150960.pdf,), generated with kicad-footprint-generator
-Mounting 3.3mm 9774150960
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H1mm_9774010982
-Mounting Hardware, inside through hole 4.5mm, height 1, Wuerth electronics 9774010982 (https://katalog.we-online.de/em/datasheet/9774010982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774010982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H2mm_9774020982
-Mounting Hardware, inside through hole 4.5mm, height 2, Wuerth electronics 9774020982 (https://katalog.we-online.de/em/datasheet/9774020982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774020982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H3mm_9774030982
-Mounting Hardware, inside through hole 4.5mm, height 3, Wuerth electronics 9774030982 (https://katalog.we-online.de/em/datasheet/9774030982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774030982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H4mm_9774040982
-Mounting Hardware, inside through hole 4.5mm, height 4, Wuerth electronics 9774040982 (https://katalog.we-online.de/em/datasheet/9774040982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774040982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H5mm_9774050982
-Mounting Hardware, inside through hole 4.5mm, height 5, Wuerth electronics 9774050982 (https://katalog.we-online.de/em/datasheet/9774050982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774050982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H6mm_9774060982
-Mounting Hardware, inside through hole 4.5mm, height 6, Wuerth electronics 9774060982 (https://katalog.we-online.de/em/datasheet/9774060982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774060982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H7mm_9774070982
-Mounting Hardware, inside through hole 4.5mm, height 7, Wuerth electronics 9774070982 (https://katalog.we-online.de/em/datasheet/9774070982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774070982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H8mm_9774080982
-Mounting Hardware, inside through hole 4.5mm, height 8, Wuerth electronics 9774080982 (https://katalog.we-online.de/em/datasheet/9774080982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774080982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H9mm_9774090982
-Mounting Hardware, inside through hole 4.5mm, height 9, Wuerth electronics 9774090982 (https://katalog.we-online.de/em/datasheet/9774090982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774090982
-0
-8
-1
-Mounting_Wuerth
-Mounting_Wuerth_WA-SMST-4.5mm_H10mm_9774100982
-Mounting Hardware, inside through hole 4.5mm, height 10, Wuerth electronics 9774100982 (https://katalog.we-online.de/em/datasheet/9774100982.pdf), generated with kicad-footprint-generator
-Mounting 4.5mm 9774100982
-0
-8
 1
 NetTie
 NetTie-2_SMD_Pad0.5mm
@@ -74388,34 +73275,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-RPi_Pico
-Crystal_SMD_HC49-US
-SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
-SMD SMT crystal
-0
-2
-2
-RPi_Pico
-RP2040-QFN-56
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-70
-57
-RPi_Pico
-RPi_Pico_SMD_TH
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-86
-43
-RPi_Pico
-RPi_Pico_TH_Perfboard
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-40
-40
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
@@ -76789,6629 +75648,6629 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
 BREADBOARD SPACING
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 CREATIVE_COMMONS
 CREATIVE COMMONS LICENSE TEMPLATE
 CREATIVE COMMONS LICENSE TEMPLATE
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 DUMMY
 DUMMY FOOTPRINT
 DUMMY FOOTPRINT
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 FIDUCIAL-1X2
 FIDUCIAL - CIRCLE, 1MM
 FIDUCIAL - CIRCLE, 1MM
 0
 1
 1
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 FIDUCIAL-FRAME-1_5MM
 FIDUCIAL - CIRCLE, 1MM
 FIDUCIAL - CIRCLE, 1MM
 0
 1
 1
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 FIDUCIAL-MICRO
 FIDUCIAL - CIRCLE, 0.25IN
 FIDUCIAL - CIRCLE, 0.25IN
 0
 1
 1
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 FIDUCIAL-MICRO-NO_PASTE
 FIDUCIAL - CIRCLE, 0.25IN
 FIDUCIAL - CIRCLE, 0.25IN
 0
 1
 1
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 FIDUCIALTAB
 FIDUCIAL PANEL TAB
 FIDUCIAL PANEL TAB
 0
 1
 1
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 FIO_LOGO
 FUNNEL IO (FIO) LOGO - SILKSCREEN
 FUNNEL IO (FIO) LOGO - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 FOUR_LAYER_WARNING
 FOUR-LAYER BOARD WARNING - TDOC LAYER
 FOUR-LAYER BOARD WARNING - TDOC LAYER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 GESTURESENSE_NOTEXT
 GESTURESENSE LOGO SILKSCREEN
 GESTURESENSE LOGO SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 GESTURESENSE_TEXT
 GESTURESENSE LOGO (W/ TEXT) SILKSCREEN
 GESTURESENSE LOGO (W/ TEXT) SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 IOIO-OTG-COPPER-EXPOSED
 IOIO OTG LOGO - EXPOSED COPPER
 IOIO OTG LOGO - EXPOSED COPPER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 LOGOMATIC_LOGO
 SPARKFUN LOGOMATIC LOGO - SILKSCREEN
 SPARKFUN LOGOMATIC LOGO - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 NO_PB_LOGO_0.120
 LEAD-FREE (NO PB) LOGO - 0.12IN DIAMETER
 LEAD-FREE (NO PB) LOGO - 0.12IN DIAMETER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 ORDERING_INSTRUCTIONS
 SPECIAL ORDERING INSTRUCTIONS ALERT
 SPECIAL ORDERING INSTRUCTIONS ALERT
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 OSHW-LOGO-L
 OPEN-SOURCE HARDWARE (OSHW) LOGO - LARGE - SILKSCREEN
 OPEN-SOURCE HARDWARE (OSHW) LOGO - LARGE - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 OSHW-LOGO-L_COPPER
 OPEN-SOURCE HARDWARE (OSHW) LOGO - LARGE - TOP COPPER
 OPEN-SOURCE HARDWARE (OSHW) LOGO - LARGE - TOP COPPER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 OSHW-LOGO-M
 OPEN-SOURCE HARDWARE (OSHW) LOGO - MEDIUM - SILKSCREEN
 OPEN-SOURCE HARDWARE (OSHW) LOGO - MEDIUM - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 OSHW-LOGO-MINI
 OPEN-SOURCE HARDWARE (OSHW) LOGO - MINI - SILKSCREEN
 OPEN-SOURCE HARDWARE (OSHW) LOGO - MINI - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 OSHW-LOGO-M_COPPER
 OPEN-SOURCE HARDWARE (OSHW) LOGO - MEDIUM - TOP COPPER
 OPEN-SOURCE HARDWARE (OSHW) LOGO - MEDIUM - TOP COPPER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 OSHW-LOGO-S
 OPEN-SOURCE HARDWARE (OSHW) LOGO - SMALL - SILKSCREEN
 OPEN-SOURCE HARDWARE (OSHW) LOGO - SMALL - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 OSHW-LOGO-S_COPPER
 OPEN-SOURCE HARDWARE (OSHW) LOGO - SMALL - TOP COPPER
 OPEN-SOURCE HARDWARE (OSHW) LOGO - SMALL - TOP COPPER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 PRODUCTION_INSTRUCTIONS
 SPECIAL PRODUCTION INSTRUCTIONS ALERT
 SPECIAL PRODUCTION INSTRUCTIONS ALERT
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 QTECHKNOW-LOGO-LARGE-SILK
 QTECHKNOW LOGO - LARGE - SILKSCREEN
 QTECHKNOW LOGO - LARGE - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 QTECHKNOW-LOGO-SMALL-SILK
 QTECHKNOW LOGO - SMALL - SILKSCREEN
 QTECHKNOW LOGO - SMALL - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 REDBOT_LOGO
 SPARKFUN REDBOT LOGO - SILKSCREEN
 SPARKFUN REDBOT LOGO - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 REVISION
 "REVISION BY" TEXT - TDOC
 "REVISION BY" TEXT - TDOC
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 ROHS_LOGO_0.18_IN
 RESTRICTION OF HAZARDOUS SUBSTANCES (ROHS) LOGO - 0.18IN HEIGHT
 RESTRICTION OF HAZARDOUS SUBSTANCES (ROHS) LOGO - 0.18IN HEIGHT
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.1
 SPARKFUN FLAME LOGO - 0.1" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.1" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.2
 SPARKFUN FLAME LOGO - 0.2" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.2" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.3
 SPARKFUN FLAME LOGO - 0.3" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.3" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.4
 SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-0
-0
-0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.05
 SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+0
+0
+0
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.6
 SPARKFUN FLAME LOGO - 0.6" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.6" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.7
 SPARKFUN FLAME LOGO - 0.7" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.7" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.8
 SPARKFUN FLAME LOGO - 0.8" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.8" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_.9
 SPARKFUN FLAME LOGO - 0.9" HEIGHT - SILKSCREEN
 SPARKFUN FLAME LOGO - 0.9" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_COPPER_.1
 SPARKFUN FLAME LOGO - 0.1" HEIGHT - TOP COPPER
 SPARKFUN FLAME LOGO - 0.1" HEIGHT - TOP COPPER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_COPPER_.2
 SPARKFUN FLAME LOGO - 0.2" HEIGHT - TOP COPPER
 SPARKFUN FLAME LOGO - 0.2" HEIGHT - TOP COPPER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_COPPER_.3
 SPARKFUN FLAME LOGO - 0.3" HEIGHT - TOP COPPER
 SPARKFUN FLAME LOGO - 0.3" HEIGHT - TOP COPPER
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_COPPER_EXPOSED_.1
 SPARKFUN FLAME LOGO - 0.1" HEIGHT - TOP COPPER (EXPOSED)
 SPARKFUN FLAME LOGO - 0.1" HEIGHT - TOP COPPER (EXPOSED)
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_COPPER_EXPOSED_.2
 SPARKFUN FLAME LOGO - 0.2" HEIGHT - TOP COPPER (EXPOSED)
 SPARKFUN FLAME LOGO - 0.2" HEIGHT - TOP COPPER (EXPOSED)
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_COPPER_EXPOSED_.3
 SPARKFUN FLAME LOGO - 0.3" HEIGHT - TOP COPPER (EXPOSED)
 SPARKFUN FLAME LOGO - 0.3" HEIGHT - TOP COPPER (EXPOSED)
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_FLAME_STOP_.1
 SPARKFUN FLAME LOGO - 0.1" HEIGHT - TOP STOPMASK
 SPARKFUN FLAME LOGO - 0.1" HEIGHT - TOP STOPMASK
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.1
 SPARKFUN FONT LOGO - 0.1" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.1" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.2
 SPARKFUN FONT LOGO - 0.2" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.2" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.3
 SPARKFUN FONT LOGO - 0.3" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.3" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.4
 SPARKFUN FONT LOGO - 0.4" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.5
 SPARKFUN FONT LOGO - 0.5" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.6
 SPARKFUN FONT LOGO - 0.6" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.6" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.7
 SPARKFUN FONT LOGO - 0.7" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.7" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.8
 SPARKFUN FONT LOGO - 0.8" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.8" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_.9
 SPARKFUN FONT LOGO - 0.9" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 0.9" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_1
 SPARKFUN FONT LOGO - 1.0" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO - 1.0" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.1
 SPARKFUN FONT LOGO W/ FLAME - 0.1" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.1" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.2
 SPARKFUN FONT LOGO W/ FLAME - 0.2" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.2" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.3
 SPARKFUN FONT LOGO W/ FLAME - 0.3" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.3" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.4
 SPARKFUN FONT LOGO W/ FLAME - 0.4" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.4" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.5
 SPARKFUN FONT LOGO W/ FLAME - 0.5" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.6
 SPARKFUN FONT LOGO W/ FLAME - 0.6" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.6" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.7
 SPARKFUN FONT LOGO W/ FLAME - 0.7" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.7" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.8
 SPARKFUN FONT LOGO W/ FLAME - 0.8" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.8" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_.9
 SPARKFUN FONT LOGO W/ FLAME - 0.9" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 0.9" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_FLAME_1
 SPARKFUN FONT LOGO W/ FLAME - 1.0" HEIGHT - SILKSCREEN
 SPARKFUN FONT LOGO W/ FLAME - 1.0" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LOGO_NAME_WEB
 SPARKFUN LOGO W/ ".COM" AND FLAME
 SPARKFUN LOGO W/ ".COM" AND FLAME
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LUDUS-L
 SPARKFUN EDUCATION MASCOT - LUDUS! - LARGE - SILKSCREEN
 SPARKFUN EDUCATION MASCOT - LUDUS! - LARGE - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LUDUS-M
 SPARKFUN EDUCATION MASCOT - LUDUS! - MEDIUM - SILKSCREEN
 SPARKFUN EDUCATION MASCOT - LUDUS! - MEDIUM - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SFE_LUDUS-S
 SPARKFUN EDUCATION MASCOT - LUDUS! - SMALL - SILKSCREEN
 SPARKFUN EDUCATION MASCOT - LUDUS! - SMALL - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SMART_BASIC_LOGO
 SPARKFUN SMART BASIC LOGO - SILKSCREEN
 SPARKFUN SMART BASIC LOGO - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SPARKPUNK_LOGO_.1
 SPARKPUNK LOGO - 0.1" HEIGHT - SILKSCREEN
 SPARKPUNK LOGO - 0.1" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SPARKPUNK_LOGO_.2
 SPARKPUNK LOGO - 0.2" HEIGHT - SILKSCREEN
 SPARKPUNK LOGO - 0.2" HEIGHT - SILKSCREEN
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SPECTACLE_LOGO_NEGATIVE_1.5X0.5
 
 
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SPECTACLE_LOGO_NEGATIVE_2.2X1.0
 
 
 0
 0
 0
-Sparkfun Aesthetics
+SparkFun-Aesthetics
 SPECTACLE_LOGO_TITLE_0.35X0.70
 
 
 0
 0
 0
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCOM_20MM_PTH
 20MM (CR2032) COIN CELL BATTERY HOLDER - PTH
 20MM (CR2032) COIN CELL BATTERY HOLDER - PTH
 0
 2
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCON-6.8MM
 PART#: MS621FE-FL11E
 PART#: MS621FE-FL11E
 0
 2
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCON_9V
 PCMOUNT 9V BATTERY HOLDER
 PCMOUNT 9V BATTERY HOLDER
 0
 2
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCON_12MM
 12MM COIN CELL (CR1225) BATTERY HOLDER - SMD
 12MM COIN CELL (CR1225) BATTERY HOLDER - SMD
 0
 3
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCON_12MM_PTH
 12MM COIN CELL BATTERY (CR1225) HOLDER - PTH
 12MM COIN CELL BATTERY (CR1225) HOLDER - PTH
 0
 3
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCON_20MM
 20MM COIN CELL BATTERY (CR2032) HOLDER - SMD (SINGLE PAD)
 20MM COIN CELL BATTERY (CR2032) HOLDER - SMD (SINGLE PAD)
 0
 3
 3
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCON_20MM_4LEGS
 20MM COIN CELL BATTERY (CR2032) HOLDER - SMD (DUAL PAD)
 20MM COIN CELL BATTERY (CR2032) HOLDER - SMD (DUAL PAD)
 0
 5
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCON_20MM_4LEGS_OVERPASTE
 20MM COIN CELL BATTERY (CR2032) HOLDER - SMD (DUAL PAD) (OVERPASTE ON PADS)
 20MM COIN CELL BATTERY (CR2032) HOLDER - SMD (DUAL PAD) (OVERPASTE ON PADS)
 0
 5
 5
-Sparkfun Batteries
+SparkFun-Batteries
 BATTCON_24.5MM_PTH
 24.5MM COIN CELL BATTERY (CR2450) HOLDER - PTH
 24.5MM COIN CELL BATTERY (CR2450) HOLDER - PTH
 0
 3
 3
-Sparkfun Batteries
+SparkFun-Batteries
 BATTERY-AA
 AA BATTERY CLIPS
 AA BATTERY CLIPS
 0
 4
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTERY-AA-KIT
 AA BATTERY CLIPS (KIT VARIANT)
 AA BATTERY CLIPS (KIT VARIANT)
 0
 4
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTERY-AAA
 AAA BATTERY CLIPS
 AAA BATTERY CLIPS
 0
 4
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTERY-AAA-KIT
 AAA BATTERY CLIPS (KIT VARIANT)
 AAA BATTERY CLIPS (KIT VARIANT)
 0
 4
 2
-Sparkfun Batteries
+SparkFun-Batteries
 BATTERY_18650-HOLDER
 18650 LITHIUM ION CELL BATTERY HOLDERS
 18650 LITHIUM ION CELL BATTERY HOLDERS
 0
 6
 2
-Sparkfun Batteries
+SparkFun-Batteries
 LIPO-110
 110MAH LITHIUM POLYMER (LIPO) BATTERY OUTLINE
 110MAH LITHIUM POLYMER (LIPO) BATTERY OUTLINE
 0
 0
 0
-Sparkfun Batteries
+SparkFun-Batteries
 LIPO-1000
 1000MAH LITHIUM POLYMER (LIPO) BATTERY OUTLINE
 1000MAH LITHIUM POLYMER (LIPO) BATTERY OUTLINE
 0
 0
 0
-Sparkfun Batteries
+SparkFun-Batteries
 LIPO-2000
 2000MAH LITHIUM POLYMER (LIPO) BATTERY OUTLINE
 2000MAH LITHIUM POLYMER (LIPO) BATTERY OUTLINE
 0
 0
 0
-Sparkfun Boards
+SparkFun-Boards
 ARDUINO_MEGA
 ARDUINO MEGA R3 FOOTPRINT
 ARDUINO MEGA R3 FOOTPRINT
 0
 82
 78
-Sparkfun Boards
+SparkFun-Boards
 ARDUINO_PRO_MINI
 ARDUINO PRO MINI FOOTPRINT
 ARDUINO PRO MINI FOOTPRINT
 0
 34
 34
-Sparkfun Boards
+SparkFun-Boards
 ARDUINO_R3
 ARDUINO UNO R3 FOOTPRINT
 ARDUINO UNO R3 FOOTPRINT
 0
 38
 34
-Sparkfun Boards
+SparkFun-Boards
 ARDUINO_R3_NO_HOLES
 ARDUINO UNO R3 FOOTPRINT
 ARDUINO UNO R3 FOOTPRINT
 0
 38
 34
-Sparkfun Boards
+SparkFun-Boards
 AUDIO-AMP-MONO
 AUDIO AMP MONO PCB
 AUDIO AMP MONO PCB
 0
 10
 10
-Sparkfun Boards
+SparkFun-Boards
 BEAGLE_BONE_BLACK_CAPE
 BEAGLEBONE BLACK CAPE FOOTPRINT
 BEAGLEBONE BLACK CAPE FOOTPRINT
 0
 92
 18
-Sparkfun Boards
+SparkFun-Boards
 BREADBOARD-MINI
 BREADBOARD MINI
 BREADBOARD MINI
 0
 0
 0
-Sparkfun Boards
+SparkFun-Boards
 DIL40_0.9
 DUAL INLINE 40 PIN PACKAGE FOR MBED MICROCONTROLLER DEVELOPMENT PLATFORM.
 DUAL INLINE 40 PIN PACKAGE FOR MBED MICROCONTROLLER DEVELOPMENT PLATFORM.
 0
 40
 40
-Sparkfun Boards
+SparkFun-Boards
 ELECTRIC_IMP_IMP002
 
 
 0
 35
 35
-Sparkfun Boards
+SparkFun-Boards
 ESP32_THING
 SPARKFUN ESP32 THING BOARD
 SPARKFUN ESP32 THING BOARD
 0
 40
 40
-Sparkfun Boards
+SparkFun-Boards
 ESP32_THING_NO_ANT
 
 
 0
 40
 40
-Sparkfun Boards
+SparkFun-Boards
 FLANGED_RED_ENCLOSURE-DIMENSION
 BIG RED ENCLOSURE PCB
 BIG RED ENCLOSURE PCB
 0
 0
 0
-Sparkfun Boards
+SparkFun-Boards
 FLANGED_RED_ENCLOSURE-OUTLINE
 BIG RED ENCLOSURE PCB
 BIG RED ENCLOSURE PCB
 0
 0
 0
-Sparkfun Boards
+SparkFun-Boards
 ISL29125
 SPARKFUN ISL29125 BREAKOUT
 SPARKFUN ISL29125 BREAKOUT
 0
 5
 5
-Sparkfun Boards
+SparkFun-Boards
 MICRO-SDCARD
 MICROSD CARD FOOTPRINT
 MICROSD CARD FOOTPRINT
 0
 8
 8
-Sparkfun Boards
+SparkFun-Boards
 MOJO_V3
 MOJO V3 FPGA FOOTPRINT
 MOJO V3 FPGA FOOTPRINT
 0
 110
 104
-Sparkfun Boards
+SparkFun-Boards
 MOJO_V3_NO_LABEL
 MOJO V3 FPGA FOOTPRINT
 MOJO V3 FPGA FOOTPRINT
 0
 110
 104
-Sparkfun Boards
+SparkFun-Boards
 PARTICLE_PHOTON
 PARTICLE PHOTON
 PARTICLE PHOTON
 0
 24
 24
-Sparkfun Boards
+SparkFun-Boards
 PARTICLE_PHOTON_TEMPLATE
 PARTICLE PHOTON TEMPLATE
 PARTICLE PHOTON TEMPLATE
 0
 48
 47
-Sparkfun Boards
+SparkFun-Boards
 PARTICLE_PHOTON_TEMPLATE_NO_STANDOFF
 
 
 0
 48
 47
-Sparkfun Boards
+SparkFun-Boards
 PARTICLE_PHOTON_TEMPLATE_WIDE
 PARTICLE PHOTON TEMPLATE WIDE
 PARTICLE PHOTON TEMPLATE WIDE
 0
 48
 47
-Sparkfun Boards
+SparkFun-Boards
 QDUINO_MINI_V15
 QDUINO MINI BOARD OUTLINE AND PINS
 QDUINO MINI BOARD OUTLINE AND PINS
 0
 27
 27
-Sparkfun Boards
+SparkFun-Boards
 SD-MMC-CARD
 SD MMC CARD FOOTPRINT
 SD MMC CARD FOOTPRINT
 0
 9
 9
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_BLACKBERRY_TRACKBALLER
 SPARKFUN BLACKBERRY TRACKBALLER
 SPARKFUN BLACKBERRY TRACKBALLER
 0
 11
 11
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_EDISON_DAUGHTER
 SPARKFUN EDISON DAUGHTER
 SPARKFUN EDISON DAUGHTER
 0
 70
 70
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_EDISON_PCB
 SPARKFUN EDISON PCB
 SPARKFUN EDISON PCB
 0
 70
 70
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_ESP8266_THING
 SPARKFUN THING BOARD FOOTPRINT
 SPARKFUN THING BOARD FOOTPRINT
 0
 20
 17
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_ESP8266_THING_DEV
 SPARKFUN THING DEVELOPMENT BOARD FOOTPRINT
 SPARKFUN THING DEVELOPMENT BOARD FOOTPRINT
 0
 20
 18
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_LOGIC_LEVEL_CONVERTER
 SPARKFUN LOGIC LEVEL CONVERTER
 SPARKFUN LOGIC LEVEL CONVERTER
 0
 12
 12
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_LOGIC_LEVEL_CONVERTER_LOCK
 
 
 0
 12
 12
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_MS5803-14BA_BREAKOUT
 SPARKFUN MS5803-14BA BREAKOUT
 SPARKFUN MS5803-14BA BREAKOUT
 0
 7
 7
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_NRF52832_BREAKOUT
 SPARKFUN NRF42832 BREAKOUT
 SPARKFUN NRF42832 BREAKOUT
 0
 42
 41
-Sparkfun Boards
+SparkFun-Boards
 SPARKFUN_PRO_MICRO
 SPARKFUN PRO MICO FOOTPRINT (WITH USB CONNECTOR)
 SPARKFUN PRO MICO FOOTPRINT (WITH USB CONNECTOR)
 0
 24
 24
-Sparkfun Boards
+SparkFun-Boards
 TEENSY-3.1
 TEENSY 3 FOOTPRINT
 TEENSY 3 FOOTPRINT
 0
 37
 37
-Sparkfun Boards
+SparkFun-Boards
 TEENSY-3.1_NOSILK
 TEENSY 3 FOOTPRINT- NO SILK LABEL ON PINS
 TEENSY 3 FOOTPRINT- NO SILK LABEL ON PINS
 0
 37
 37
-Sparkfun Boards
+SparkFun-Boards
 UNO_R3_SHIELD
 ARDUINO UNO-COMPATIBLE FOOTPRINT
 ARDUINO UNO-COMPATIBLE FOOTPRINT
 0
 32
 30
-Sparkfun Boards
+SparkFun-Boards
 UNO_R3_SHIELD_ICSP
 ARDUINO UNO-COMPATIBLE FOOTPRINT WITH ICSP
 ARDUINO UNO-COMPATIBLE FOOTPRINT WITH ICSP
 0
 38
 36
-Sparkfun Boards
+SparkFun-Boards
 UNO_R3_SHIELD_ICSP_NOLABELS
 ARDUINO UNO-COMPATIBLE FOOTPRINT WITH ICSP
 ARDUINO UNO-COMPATIBLE FOOTPRINT WITH ICSP
 0
 38
 36
-Sparkfun Boards
+SparkFun-Boards
 UNO_R3_SHIELD_LOCK
 ARDUINO UNO-COMPATIBLE FOOTPRINT
 ARDUINO UNO-COMPATIBLE FOOTPRINT
 0
 32
 30
-Sparkfun Boards
+SparkFun-Boards
 UNO_R3_SHIELD_NOLABELS
 ARDUINO UNO-COMPATIBLE FOOTPRINT
 ARDUINO UNO-COMPATIBLE FOOTPRINT
 0
 32
 30
-Sparkfun Boards
+SparkFun-Boards
 UNO_R3_SHIELD_NOLABELS_LOCK
 ARDUINO UNO-COMPATIBLE FOOTPRINT
 ARDUINO UNO-COMPATIBLE FOOTPRINT
 0
 32
 30
-Sparkfun Boards
+SparkFun-Boards
 WIZ811MJ
 WIZNET W5100 NETWORK MODULE WITH MAGJACK - WIZ811MJ FOOTPRINT
 WIZNET W5100 NETWORK MODULE WITH MAGJACK - WIZ811MJ FOOTPRINT
 0
 40
 40
-Sparkfun Capacitors
+SparkFun-Capacitors
 0402
 GENERIC 1005 (0402) PACKAGE
 GENERIC 1005 (0402) PACKAGE
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 0603
 GENERIC 1608 (0603) PACKAGE
 GENERIC 1608 (0603) PACKAGE
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 0603-POLAR
 POLARIZED 1608 (0603) PACKAGE
 POLARIZED 1608 (0603) PACKAGE
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 0805
 GENERIC 2012 (0805) PACKAGE
 GENERIC 2012 (0805) PACKAGE
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 1007
 GENERIC 2518 (1007) PACKAGE
 GENERIC 2518 (1007) PACKAGE
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 1206
 GENERIC 3216 (1206) PACKAGE
 GENERIC 3216 (1206) PACKAGE
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 1210
 GENERIC 3225 (1210) PACKAGE
 GENERIC 3225 (1210) PACKAGE
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CAP-PTH-2.54
 2 PTH SPACED 0.1" APART
 2 PTH SPACED 0.1" APART
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CAP-PTH-5MM
 2 PTH SPACED 5MM APART
 2 PTH SPACED 5MM APART
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CAP-PTH-10MM
 2 PTH SPACED 10MM APART
 2 PTH SPACED 10MM APART
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CAP-PTH-LARGE
 
 
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CAP-PTH-SMALL-KIT
 CAP-PTH-SMALL-KIT
 CAP-PTH-SMALL-KIT
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CPOL-RADIAL-2.5MM-5MM
 2.5 MM SPACED PTHS WITH 5 MM DIAMETER OUTLINE AND STANDARD SOLDER MASK
 2.5 MM SPACED PTHS WITH 5 MM DIAMETER OUTLINE AND STANDARD SOLDER MASK
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CPOL-RADIAL-2.5MM-5MM-KIT
 2.5 MM SPACED PTHS WITH TOP COPPER MASKED
 2.5 MM SPACED PTHS WITH TOP COPPER MASKED
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CPOL-RADIAL-2.5MM-6.5MM
 2.5 MM SPACED PTHS WITH 6.5 MM DIAMETER OUTLINE
 2.5 MM SPACED PTHS WITH 6.5 MM DIAMETER OUTLINE
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CPOL-RADIAL-5MM-10MM
 5 MM SPACED PTHS IN 10 MM DIAMETER SILK RING
 5 MM SPACED PTHS IN 10 MM DIAMETER SILK RING
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 CPOL-RADIAL-5MM-10MM-KIT
 5 MM SPACED PTHS, WITH 10 MM SILK RING AND NO EXPOSED COPPER ON TOP
 5 MM SPACED PTHS, WITH 10 MM SILK RING AND NO EXPOSED COPPER ON TOP
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 EIA3216
 GENERIC EIA 3216 (1206) POLARIZED TANTALUM CAPACITOR
 GENERIC EIA 3216 (1206) POLARIZED TANTALUM CAPACITOR
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 EIA3528
 GENERIC EIA 3528 POLARIZED TANTALUM CAPACITOR
 GENERIC EIA 3528 POLARIZED TANTALUM CAPACITOR
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 EIA6032-NOM
 METRIC SIZE CODE EIA 6032-25 MEDIAN (NOMINAL) LAND PROTRUSION
 METRIC SIZE CODE EIA 6032-25 MEDIAN (NOMINAL) LAND PROTRUSION
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 EIA7343
 EIA 7343 TANTALUM CAPACITOR
 EIA 7343 TANTALUM CAPACITOR
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 NIC_10X10.5_CAP
 SOME OLD PACKAGE IN OUR LIBRARY
 SOME OLD PACKAGE IN OUR LIBRARY
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 PANASONIC_C
 PANASONIC ALUMINIUM ELECTROLYTIC CAPACITOR VS-SERIE PACKAGE E
 PANASONIC ALUMINIUM ELECTROLYTIC CAPACITOR VS-SERIE PACKAGE E
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 PANASONIC_D
 PANASONIC ALUMINIUM ELECTROLYTIC CAPACITOR VS-SERIE PACKAGE E
 PANASONIC ALUMINIUM ELECTROLYTIC CAPACITOR VS-SERIE PACKAGE E
 0
 2
 2
-Sparkfun Capacitors
+SparkFun-Capacitors
 PANASONIC_G
 PANASONIC ALUMINIUM ELECTROLYTIC CAPACITOR VS-SERIE PACKAGE G
 PANASONIC ALUMINIUM ELECTROLYTIC CAPACITOR VS-SERIE PACKAGE G
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-PTH-2X6-CYL
 2X6MM CYLINDRICAL CAN (RADIAL) PTH CRYSTAL
 2X6MM CYLINDRICAL CAN (RADIAL) PTH CRYSTAL
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-PTH-2X6-CYL-KIT
 2X6MM CYLINDRICAL CAN (RADIAL) PTH CRYSTAL
 2X6MM CYLINDRICAL CAN (RADIAL) PTH CRYSTAL
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-PTH-3X8-CYL
 3X8MM CYLINDRICAL CAN (RADIAL) PTH CRYSTAL
 3X8MM CYLINDRICAL CAN (RADIAL) PTH CRYSTAL
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-SMD-2.0X1.6MM
 2.0 X 1.6 MM CRYSTAL
 2.0 X 1.6 MM CRYSTAL
 0
 4
 4
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-SMD-2X6-CYL
 6.0X2.0MM CYLINDRICAL CAN (RADIAL) SMD CRYSTAL
 6.0X2.0MM CYLINDRICAL CAN (RADIAL) SMD CRYSTAL
 0
 3
 3
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-SMD-3.2X1.5MM
 3.2 X 1.5MM SMD CRYSTAL PACKAGE
 3.2 X 1.5MM SMD CRYSTAL PACKAGE
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-SMD-3.2X2.5MM
 3.2 X 2.5MM SMD CRYSTAL PACKAGE
 3.2 X 2.5MM SMD CRYSTAL PACKAGE
 0
 4
 4
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-SMD-5X3.2-2PAD
 5X3.2MM 2-PAD SMD CRYSTAL
 5X3.2MM 2-PAD SMD CRYSTAL
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-SMD-5X3.2-4PAD
 5X3.2MM SMD CRYSTAL
 5X3.2MM SMD CRYSTAL
 0
 4
 4
-Sparkfun Clocks
+SparkFun-Clocks
 CRYSTAL-SMD-MC-146
 7X1.5MM MC-146 FLAT LEAD SMD CRYSTAL
 7X1.5MM MC-146 FLAT LEAD SMD CRYSTAL
 0
 4
 4
-Sparkfun Clocks
+SparkFun-Clocks
 HC49U
 HC49/U 11.6X4.6MM PTH CRYSTAL (13.46MM HEIGHT)
 HC49/U 11.6X4.6MM PTH CRYSTAL (13.46MM HEIGHT)
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 HC49UP
 HC-49/UP 11.4X4.8MM SMD CRYSTAL
 HC-49/UP 11.4X4.8MM SMD CRYSTAL
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 HC49US
 HC49/US 11.6X4.6MM PTH CRYSTAL
 HC49/US 11.6X4.6MM PTH CRYSTAL
 0
 2
 2
-Sparkfun Clocks
+SparkFun-Clocks
 OSCILLATOR-SMD-5X3.2
 5.0X3.2 MM 4-SMD OSCILLATOR (POLARIZED)
 5.0X3.2 MM 4-SMD OSCILLATOR (POLARIZED)
 0
 4
 4
-Sparkfun Clocks
+SparkFun-Clocks
 OSCILLATOR-SMD-7.5X5.2-6PIN
 7X5MM, 6-PIN FXO-HC73 OSCILLATOR (POLARIZED)
 7X5MM, 6-PIN FXO-HC73 OSCILLATOR (POLARIZED)
 0
 6
 6
-Sparkfun Clocks
+SparkFun-Clocks
 OSCILLATOR-SMD-7X5-4PAD
 7X5MM, 4-PIN OSCILLATOR (POLARIZED)
 7X5MM, 4-PIN OSCILLATOR (POLARIZED)
 0
 4
 4
-Sparkfun Clocks
+SparkFun-Clocks
 RESONATOR-PTH-7.6X3.8
 7.6X3.8MM 3-PIN PTH RESONATOR
 7.6X3.8MM 3-PIN PTH RESONATOR
 0
 3
 3
-Sparkfun Clocks
+SparkFun-Clocks
 RESONATOR-SMD-3.2X1.3
 3.2X1.3MM 3-PIN SMD RESONATOR
 3.2X1.3MM 3-PIN SMD RESONATOR
 0
 3
 3
-Sparkfun Clocks
+SparkFun-Clocks
 RESONATOR-SMD-4.5X2.0
 4.5X2.0MM 3-PIN SMD RESONATOR
 4.5X2.0MM 3-PIN SMD RESONATOR
 0
 9
 3
-Sparkfun Clocks
+SparkFun-Clocks
 RESONATOR-SMD-7.4X3.4
 7.4X3.4MM 3-PIN SMD RESONATOR
 7.4X3.4MM 3-PIN SMD RESONATOR
 0
 3
 3
-Sparkfun Coils
+SparkFun-Coils
 0402
 GENERIC 1005 (0402) PACKAGE
 GENERIC 1005 (0402) PACKAGE
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 0603
 GENERIC 1608 (0603) PACKAGE
 GENERIC 1608 (0603) PACKAGE
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 0805
 GENERIC 2012 (0805) PACKAGE
 GENERIC 2012 (0805) PACKAGE
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 COILCRAFT_DA230X
 COILCRAFT DA2303, DA2304
 COILCRAFT DA2303, DA2304
 0
 8
 8
-Sparkfun Coils
+SparkFun-Coils
 CR54
 CR54 FOOTPRINT
 CR54 FOOTPRINT
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 CR75
 4600 SERIES FOOTPRINT
 4600 SERIES FOOTPRINT
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 INDUCTOR_2.2UH
 
 
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 INDUCTOR_4.7UH
 CDRH2D18/HPNP FOOTPRINT
 CDRH2D18/HPNP FOOTPRINT
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 INDUCTOR_SDR1307
 SDR1307 SERIES FOOTPRINT
 SDR1307 SERIES FOOTPRINT
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 SRN6045
 SRN6045 SERIES  FOOTPRINT
 SRN6045 SERIES  FOOTPRINT
 0
 2
 2
-Sparkfun Coils
+SparkFun-Coils
 TRANSFORMER
 
 
 0
 4
 4
-Sparkfun Coils
+SparkFun-Coils
 TRANSFORMER_SMD
 TTC-5023
 TTC-5023
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X01
 PLATED THROUGH HOLE
 PLATED THROUGH HOLE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 1X01NS_KIT
 PLATED THROUGH HOLE - NO SILK OUTLINE KIT VERSION
 PLATED THROUGH HOLE - NO SILK OUTLINE KIT VERSION
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 1X01_2MM
 PLATED THROUGH HOLE - 2MM
 PLATED THROUGH HOLE - 2MM
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 1X01_LONGPAD
 PLATED THROUGH HOLE - LONG PAD
 PLATED THROUGH HOLE - LONG PAD
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 1X01_NO_SILK
 PLATED THROUGH HOLE - NO SILK OUTLINE
 PLATED THROUGH HOLE - NO SILK OUTLINE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 1X01_OFFSET
 PLATED THROUGH HOLE - LONG PAD W/ OFFSET HOLE
 PLATED THROUGH HOLE - LONG PAD W/ OFFSET HOLE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 1X01_POGOPIN_HOLE_0.58_DIA
 POGO PIN HOLE - 0.58"
 POGO PIN HOLE - 0.58"
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 1X01_POGOPIN_HOLE_0.061_DIA
 POGO PIN - 0.061"
 POGO PIN - 0.061"
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 1X02
 PLATED THROUGH HOLE
 PLATED THROUGH HOLE
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_2.54_SCREWTERM
 2 PIN SCREW TERMINAL - 2.54MM
 2 PIN SCREW TERMINAL - 2.54MM
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_BIG
 PLATED THROUGH HOLE
 PLATED THROUGH HOLE
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_LOCK
 PLATED THROUGH HOLE - LOCKING FOOTPRINT
 PLATED THROUGH HOLE - LOCKING FOOTPRINT
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_LOCK_LONGPADS
 PLATED THROUGH HOLE - LONG PADS WITH LOCKING FOOTPRINT
 PLATED THROUGH HOLE - LONG PADS WITH LOCKING FOOTPRINT
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_LONGPADS
 PLATED THROUGH HOLE - LONG PADS WITHOUT SILK OUTLINE
 PLATED THROUGH HOLE - LONG PADS WITHOUT SILK OUTLINE
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_NO_SILK
 PLATED THROUGH HOLE - NO SILK OUTLINE
 PLATED THROUGH HOLE - NO SILK OUTLINE
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_POKEHOME
 2 PIN POKE-HOME CONNECTOR
 2 PIN POKE-HOME CONNECTOR
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_PP_HOLES_ONLY
 POGO PINS CONNECTOR - NO SILK OUTLINE
 POGO PINS CONNECTOR - NO SILK OUTLINE
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_RA_PTH_FEMALE
 
 
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X02_XTRA_BIG
 PLATED THROUGH HOLE - 0.1" HOLES
 PLATED THROUGH HOLE - 0.1" HOLES
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 1X03
 PLATED THROUGH HOLE - 3 PIN
 PLATED THROUGH HOLE - 3 PIN
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03-1MM-RA
 PLATED THROUGH HOLE - 3 PIN SMD
 PLATED THROUGH HOLE - 3 PIN SMD
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_LOCK
 PLATED THROUGH HOLE - 3 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 3 PIN LOCKING FOOTPRINT
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_LOCK_LONGPADS
 PLATED THROUGH HOLE - 3 PIN LONG PAD W/ LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 3 PIN LONG PAD W/ LOCKING FOOTPRINT
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_LOCK_NO_SILK
 PLATED THROUGH HOLE - 3 PIN LOCKING FOOTPRINT W/OUT SILK OUTLINE
 PLATED THROUGH HOLE - 3 PIN LOCKING FOOTPRINT W/OUT SILK OUTLINE
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_LONGPADS
 PLATED THROUGH HOLE - 3 PIN LONG PADS
 PLATED THROUGH HOLE - 3 PIN LONG PADS
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_NO_SILK
 PLATED THROUGH HOLE - 3 PIN NO SILK OUTLINE
 PLATED THROUGH HOLE - 3 PIN NO SILK OUTLINE
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_PP_HOLES_ONLY
 POGO PINS - 3 PIN
 POGO PINS - 3 PIN
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_SMD_RA_FEMALE
 SMD - 3 PIN RIGHT ANGLE FEMALE HEADER
 SMD - 3 PIN RIGHT ANGLE FEMALE HEADER
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_SMD_RA_MALE
 SMD- 3 PIN RIGHT ANGLE MALE HEADERS
 SMD- 3 PIN RIGHT ANGLE MALE HEADERS
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_SMD_RA_MALE_POST
 SMD - 3 PIN RIGHT ANGLE MALE HEADER W/ ALIGNMENT POSTS
 SMD - 3 PIN RIGHT ANGLE MALE HEADER W/ ALIGNMENT POSTS
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_SMD_RA_MALE_POST_SMALLER
 SMD - 3 PIN RIGHT ANGLE MALE HEADER W/ ALIGNMENT POSTS
 SMD - 3 PIN RIGHT ANGLE MALE HEADER W/ ALIGNMENT POSTS
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X03_SMD_RA_MALE_POST_SMALLEST
 
 
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 1X04
 PLATED THROUGH HOLE - 4 PIN
 PLATED THROUGH HOLE - 4 PIN
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_1.27MM
 PLATED THROUGH HOLE - 4 PIN
 PLATED THROUGH HOLE - 4 PIN
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_1MM_RA
 SMD- 4 PIN RIGHT ANGLE
 SMD- 4 PIN RIGHT ANGLE
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_1MM_RA_STRESSRELIEF
 QWIIC CONNECTOR WITH MILLED CUTOUT. SLIDING THE CABLE INTO THIS SLOT PREVENTS THE CABLE FROM COMING UNPLUGGED.
 QWIIC CONNECTOR WITH MILLED CUTOUT. SLIDING THE CABLE INTO THIS SLOT PREVENTS THE CABLE FROM COMING UNPLUGGED.
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_LOCK
 PLATED THROUGH HOLE - 4 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 4 PIN LOCKING FOOTPRINT
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_LOCK_LONGPADS
 PLATED THROUGH HOLE - 4 PIN LONG PADS W/ LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 4 PIN LONG PADS W/ LOCKING FOOTPRINT
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_LONGPADS
 PLATED THROUGH HOLE - 4 PIN LONG PADS
 PLATED THROUGH HOLE - 4 PIN LONG PADS
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_NO_SILK
 PLATED THROUGH HOLE - 4 PIN NO SILK OUTLINE
 PLATED THROUGH HOLE - 4 PIN NO SILK OUTLINE
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_SMD_LONG
 SMD - 4 PIN W/ LONG SOLDER PADS
 SMD - 4 PIN W/ LONG SOLDER PADS
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_SMD_RA_FEMALE
 SMD - 4 PIN RIGHT-ANGLE FEMALE HEADER
 SMD - 4 PIN RIGHT-ANGLE FEMALE HEADER
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_SMD_RA_MALE
 SMD - 4 PIN RIGHT ANGLE MALE HEADER
 SMD - 4 PIN RIGHT ANGLE MALE HEADER
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 1X04_SMD_VERTICAL_COMBO
 SMD - 4 PIN VERTICAL CONNECTOR
 SMD - 4 PIN VERTICAL CONNECTOR
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X05
 PLATED THROUGH HOLE - 5 PIN
 PLATED THROUGH HOLE - 5 PIN
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 1X05_1.27MM
 PLATED THROUGH HOLE - 5 PIN
 PLATED THROUGH HOLE - 5 PIN
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 1X05_1MM
 SMD - 5 PIN
 SMD - 5 PIN
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 1X05_1MM_RA
 SMD - 5 PIN RIGHT ANGLE
 SMD - 5 PIN RIGHT ANGLE
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 1X05_LOCK
 PLATED THROUGH HOLE - 5 PIN WITH LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 5 PIN WITH LOCKING FOOTPRINT
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 1X05_LOCK_LONGPADS
 PLATED THROUGH HOLE - 5 PIN LONG PAD WITH LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 5 PIN LONG PAD WITH LOCKING FOOTPRINT
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 1X05_LONGPADS
 PLATED THROUGH HOLE - 5 PIN LONG PADS
 PLATED THROUGH HOLE - 5 PIN LONG PADS
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 1X05_NO_SILK
 PLATED THROUGH HOLE - 5 PIN NO SILK OUTLINE
 PLATED THROUGH HOLE - 5 PIN NO SILK OUTLINE
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 1X06
 PLATED THROUGH HOLE - 6 PIN
 PLATED THROUGH HOLE - 6 PIN
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06-1MM
 JST SH VERTICAL  6-PIN CONNECTOR -SMD
 JST SH VERTICAL  6-PIN CONNECTOR -SMD
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X06-KIT
 PLATED THROUGH HOLE - 6 PIN KIT
 PLATED THROUGH HOLE - 6 PIN KIT
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06-SMD-FEMALE
 HEADER - 6 PIN FEMALE SMD
 HEADER - 6 PIN FEMALE SMD
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06-SMD_RA_MALE
 SMD - 6 PIN RIGHT ANGLE MALE HEADER
 SMD - 6 PIN RIGHT ANGLE MALE HEADER
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_1.27MM
 PLATED THROUGH HOLE - 6 PIN
 PLATED THROUGH HOLE - 6 PIN
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_FEMALE_LOCK.010
 PLATED THROUGH HOLE - 6 PIN LOCKING HEADER
 PLATED THROUGH HOLE - 6 PIN LOCKING HEADER
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_HOLES_ONLY
 6 PIN HOLES
 6 PIN HOLES
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_LOCK
 PLATED THROUGH HOLE - 6 PIN WITH LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 6 PIN WITH LOCKING FOOTPRINT
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_LOCK_LONGPADS
 PLATED THROUGH HOLE - 6 PIN WITH LOCKING FOOTPRINT WITH LONG PADS
 PLATED THROUGH HOLE - 6 PIN WITH LOCKING FOOTPRINT WITH LONG PADS
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_LONGPADS
 PLATED THROUGH HOLE - 6 PIN WITH LONG PADS
 PLATED THROUGH HOLE - 6 PIN WITH LONG PADS
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_NO_SILK
 PLATED THROUGH HOLE - 6 PIN NO SILK OUTLINE
 PLATED THROUGH HOLE - 6 PIN NO SILK OUTLINE
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_SMD_MALE
 6 PIN SMD MALE HEADER
 6 PIN SMD MALE HEADER
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_SMD_STRAIGHT
 6 PIN SMD FEMALE HEADER
 6 PIN SMD FEMALE HEADER
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_SMD_STRAIGHT_ALT
 6 PIN SMD FEMALE HEADER
 6 PIN SMD FEMALE HEADER
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 1X06_SMD_STRAIGHT_COMBO
 6 PIN SMD FEMALE HEADER - COMBINED FOOTPRINT
 6 PIN SMD FEMALE HEADER - COMBINED FOOTPRINT
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X07
 PLATED THROUGH HOLE -7 PIN
 PLATED THROUGH HOLE -7 PIN
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 1X07_HOLES_ONLY
 7 PIN HOLES
 7 PIN HOLES
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 1X07_LOCK
 PLATED THROUGH HOLE -7 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -7 PIN LOCKING FOOTPRINT
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 1X07_LOCK_LONGPADS
 PLATED THROUGH HOLE -7 PIN LOCKING FOOTPRINT W/ LONG PADS
 PLATED THROUGH HOLE -7 PIN LOCKING FOOTPRINT W/ LONG PADS
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 1X07_LONGPADS
 PLATED THROUGH HOLE -7 PIN  LONG PADS
 PLATED THROUGH HOLE -7 PIN  LONG PADS
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 1X07_NO_SILK
 PLATED THROUGH HOLE -7 PIN  NO SILK
 PLATED THROUGH HOLE -7 PIN  NO SILK
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 1X08
 PLATED THROUGH HOLE -8 PIN
 PLATED THROUGH HOLE -8 PIN
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_FEMALE_LOCK
 PLATED THROUGH HOLE -8 PIN LOCKING FEMALE HEADERS
 PLATED THROUGH HOLE -8 PIN LOCKING FEMALE HEADERS
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_LOCK
 PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_LOCK_LONGPADS
 PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT WITH LONG PADS
 PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT WITH LONG PADS
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_LOCK_NO_SILK
 PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT NO SILK
 PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT NO SILK
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_LONGPADS
 PLATED THROUGH HOLE -8 PIN LONG PADS
 PLATED THROUGH HOLE -8 PIN LONG PADS
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_NO_SILK
 PLATED THROUGH HOLE -8 PIN NO SILK
 PLATED THROUGH HOLE -8 PIN NO SILK
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_SMD
 SMD -8 PIN VERTICAL FEMALE
 SMD -8 PIN VERTICAL FEMALE
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_SMD_ALT
 SMD -8 PIN VERTICAL FEMALE
 SMD -8 PIN VERTICAL FEMALE
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_SMD_COMBINED
 SMD -8 PIN VERTICAL FEMALE
 SMD -8 PIN VERTICAL FEMALE
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 1X08_SMD_MALE
 SMD -8 PIN VERTICAL MALE
 SMD -8 PIN VERTICAL MALE
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 1X09
 PLATED THROUGH HOLE -9 PIN
 PLATED THROUGH HOLE -9 PIN
 0
 9
 9
-Sparkfun Connectors
+SparkFun-Connectors
 1X09_LOCK
 PLATED THROUGH HOLE -9 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -9 PIN LOCKING FOOTPRINT
 0
 9
 9
-Sparkfun Connectors
+SparkFun-Connectors
 1X09_LOCK_LONGPADS
 PLATED THROUGH HOLE -9 PIN LOCKING FOOTPRINT W/ LONG PADS
 PLATED THROUGH HOLE -9 PIN LOCKING FOOTPRINT W/ LONG PADS
 0
 9
 9
-Sparkfun Connectors
+SparkFun-Connectors
 1X09_LONGPADS
 PLATED THROUGH HOLE -9 PIN LONG PADS
 PLATED THROUGH HOLE -9 PIN LONG PADS
 0
 9
 9
-Sparkfun Connectors
+SparkFun-Connectors
 1X09_NO_SILK
 PLATED THROUGH HOLE -9 PIN NO SILK
 PLATED THROUGH HOLE -9 PIN NO SILK
 0
 9
 9
-Sparkfun Connectors
+SparkFun-Connectors
 1X10
 PLATED THROUGH HOLE -10 PIN
 PLATED THROUGH HOLE -10 PIN
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 1X10-2MM
 PLATED THROUGH HOLE -10 PIN 2MM
 PLATED THROUGH HOLE -10 PIN 2MM
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 1X10-2MM-SMD
 PLATED THROUGH HOLE -10 PIN 2MM SMD
 PLATED THROUGH HOLE -10 PIN 2MM SMD
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 1X10_LOCK
 PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 1X10_LOCK_LONGPADS
 PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT WITH LONG PADS
 PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT WITH LONG PADS
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 1X10_LOCK_NS
 PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT - NO SILK
 PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT - NO SILK
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 1X10_NO_SILK
 PLATED THROUGH HOLE -10 PIN NO SILK
 PLATED THROUGH HOLE -10 PIN NO SILK
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 1X10_SMD_COMBINED
 SMD -10 PIN
 SMD -10 PIN
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 1X10_SMD_MALE
 SMD -10 PIN
 SMD -10 PIN
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 1X11
 PLATED THROUGH HOLE -11 PIN
 PLATED THROUGH HOLE -11 PIN
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 1X11-1.27MM
 PLATED THROUGH HOLE -11 PIN 1.27MM
 PLATED THROUGH HOLE -11 PIN 1.27MM
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 1X11_HOLES_ONLY
 11 PIN HOLES
 11 PIN HOLES
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 1X11_LOCK
 PLATED THROUGH HOLE -11 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -11 PIN LOCKING FOOTPRINT
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 1X11_LOCK_LONGPADS
 PLATED THROUGH HOLE -11 PIN LOCKING FOOTPRINT W/ LONG PADS
 PLATED THROUGH HOLE -11 PIN LOCKING FOOTPRINT W/ LONG PADS
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 1X11_LONGPADS
 PLATED THROUGH HOLE -11 PIN W/ LONG PADS
 PLATED THROUGH HOLE -11 PIN W/ LONG PADS
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 1X11_NO_SILK
 PLATED THROUGH HOLE -11 PIN NO SILK
 PLATED THROUGH HOLE -11 PIN NO SILK
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 1X11_NO_SILK_KIT
 PLATED THROUGH HOLE -11 PIN NO SILK  KIT
 PLATED THROUGH HOLE -11 PIN NO SILK  KIT
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 1X12
 PLATED THROUGH HOLE -12 PIN
 PLATED THROUGH HOLE -12 PIN
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X12_HOLES_ONLY
 HOLES -12 PIN
 HOLES -12 PIN
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X12_LOCK
 PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X12_LOCK_LONGPADS
 PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT WITH LONG PADS
 PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT WITH LONG PADS
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X12_LOCK_NO_SILK
 PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT NO SILK
 PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT NO SILK
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X12_LONGPADS
 PLATED THROUGH HOLE -12 PIN LONG PADS
 PLATED THROUGH HOLE -12 PIN LONG PADS
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X12_MACHINE-PIN-HEADER_LOCK.004
 PLATED THROUGH HOLE -12 PIN MACHINE PIN HEADERS
 PLATED THROUGH HOLE -12 PIN MACHINE PIN HEADERS
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X12_NO_SILK
 PLATED THROUGH HOLE -12 PIN NO SILK
 PLATED THROUGH HOLE -12 PIN NO SILK
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X12_NO_SILK_KIT
 PLATED THROUGH HOLE -12 PIN NO SILK KIT
 PLATED THROUGH HOLE -12 PIN NO SILK KIT
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 1X13
 PLATED THROUGH HOLE -13 PIN
 PLATED THROUGH HOLE -13 PIN
 0
 13
 13
-Sparkfun Connectors
+SparkFun-Connectors
 1X13-LONGPADS
 PLATED THROUGH HOLE -13 PIN LONG PADS
 PLATED THROUGH HOLE -13 PIN LONG PADS
 0
 13
 13
-Sparkfun Connectors
+SparkFun-Connectors
 1X13_LOCK
 PLATED THROUGH HOLE -13 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -13 PIN LOCKING FOOTPRINT
 0
 13
 13
-Sparkfun Connectors
+SparkFun-Connectors
 1X13_LOCK_NO_SILK
 PLATED THROUGH HOLE -13 PIN LOCKING FOOTPRINT NO SILK OUTLINE
 PLATED THROUGH HOLE -13 PIN LOCKING FOOTPRINT NO SILK OUTLINE
 0
 13
 13
-Sparkfun Connectors
+SparkFun-Connectors
 1X14
 PLATED THROUGH HOLE -14 PIN
 PLATED THROUGH HOLE -14 PIN
 0
 14
 14
-Sparkfun Connectors
+SparkFun-Connectors
 1X14-LONGPADS
 PLATED THROUGH HOLE -14 PIN LONG PADS
 PLATED THROUGH HOLE -14 PIN LONG PADS
 0
 14
 14
-Sparkfun Connectors
+SparkFun-Connectors
 1X14_LOCK
 PLATED THROUGH HOLE -14 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -14 PIN LOCKING FOOTPRINT
 0
 14
 14
-Sparkfun Connectors
+SparkFun-Connectors
 1X14_LOCK_LONGPADS
 PLATED THROUGH HOLE -14 PIN LOCKING FOOTPRINT W/ LONG PADS
 PLATED THROUGH HOLE -14 PIN LOCKING FOOTPRINT W/ LONG PADS
 0
 14
 14
-Sparkfun Connectors
+SparkFun-Connectors
 1X14_NO_SILK
 PLATED THROUGH HOLE -14 PIN NO SILK OUTLINE
 PLATED THROUGH HOLE -14 PIN NO SILK OUTLINE
 0
 14
 14
-Sparkfun Connectors
+SparkFun-Connectors
 1X15
 PLATED THROUGH HOLE -15 PIN
 PLATED THROUGH HOLE -15 PIN
 0
 15
 15
-Sparkfun Connectors
+SparkFun-Connectors
 1X15_LOCK
 PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT
 0
 15
 15
-Sparkfun Connectors
+SparkFun-Connectors
 1X15_LOCK_LONGPADS
 PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT WITH LONG PADS
 PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT WITH LONG PADS
 0
 15
 15
-Sparkfun Connectors
+SparkFun-Connectors
 1X15_LOCK_NO_SILK
 PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT NO SILK OUTLINE
 PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT NO SILK OUTLINE
 0
 15
 15
-Sparkfun Connectors
+SparkFun-Connectors
 1X16
 PLATED THROUGH HOLE -16 PIN
 PLATED THROUGH HOLE -16 PIN
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 1X16_LOCK
 PLATED THROUGH HOLE -16 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -16 PIN LOCKING FOOTPRINT
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 1X16_LOCK_LONGPADS
 PLATED THROUGH HOLE -16 PIN LOCKING FOOTPRINT W/ LONG PADS
 PLATED THROUGH HOLE -16 PIN LOCKING FOOTPRINT W/ LONG PADS
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 1X16_LONGPADS
 PLATED THROUGH HOLE -16 PIN LONG PADS
 PLATED THROUGH HOLE -16 PIN LONG PADS
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 1X16_MACHINE-PIN-HEADER_LOCK.004
 PLATED THROUGH HOLE -16 PIN MACHINE PIN HEADER LOCKING FOOTPRINT
 PLATED THROUGH HOLE -16 PIN MACHINE PIN HEADER LOCKING FOOTPRINT
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 1X16_NO_SILK
 PLATED THROUGH HOLE -16 PIN NO SILK
 PLATED THROUGH HOLE -16 PIN NO SILK
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 1X17
 PLATED THROUGH HOLE -17 PIN
 PLATED THROUGH HOLE -17 PIN
 0
 17
 17
-Sparkfun Connectors
+SparkFun-Connectors
 1X17_NO_SILK
 PLATED THROUGH HOLE -17 PIN NO SILK
 PLATED THROUGH HOLE -17 PIN NO SILK
 0
 17
 17
-Sparkfun Connectors
+SparkFun-Connectors
 1X17_NO_SILK_KIT
 PLATED THROUGH HOLE -17 PIN NO SILK KIT
 PLATED THROUGH HOLE -17 PIN NO SILK KIT
 0
 17
 17
-Sparkfun Connectors
+SparkFun-Connectors
 1X18
 PLATED THROUGH HOLE -18 PIN
 PLATED THROUGH HOLE -18 PIN
 0
 18
 18
-Sparkfun Connectors
+SparkFun-Connectors
 1X19
 PLATED THROUGH HOLE -19 PIN
 PLATED THROUGH HOLE -19 PIN
 0
 19
 19
-Sparkfun Connectors
+SparkFun-Connectors
 1X19_NO_SILK
 PLATED THROUGH HOLE -19 PIN NO SILK
 PLATED THROUGH HOLE -19 PIN NO SILK
 0
 19
 19
-Sparkfun Connectors
+SparkFun-Connectors
 1X20
 PLATED THROUGH HOLE -20 PIN
 PLATED THROUGH HOLE -20 PIN
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 1X20_LOCK
 PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 1X20_LOCK_LONGPADS
 PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT LONG PADS
 PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT LONG PADS
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 1X20_LOCK_NOSILK
 PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT NO SILK
 PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT NO SILK
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 1X20_LOCK_SPECIAL
 PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 1X20_NOSILK
 PLATED THROUGH HOLE -20 PIN NO SILK
 PLATED THROUGH HOLE -20 PIN NO SILK
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 1X20_NO_SILK_KIT
 PLATED THROUGH HOLE -20 PIN NO SILK KIT
 PLATED THROUGH HOLE -20 PIN NO SILK KIT
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 1X23
 PLATED THROUGH HOLE -23 PIN
 PLATED THROUGH HOLE -23 PIN
 0
 23
 23
-Sparkfun Connectors
+SparkFun-Connectors
 1X23_LOCK
 PLATED THROUGH HOLE -23 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -23 PIN LOCKING FOOTPRINT
 0
 23
 23
-Sparkfun Connectors
+SparkFun-Connectors
 1X23_LONGPADS
 PLATED THROUGH HOLE -23 PIN LONG PADS
 PLATED THROUGH HOLE -23 PIN LONG PADS
 0
 24
 24
-Sparkfun Connectors
+SparkFun-Connectors
 1X24
 PLATED THROUGH HOLE -24 PIN
 PLATED THROUGH HOLE -24 PIN
 0
 24
 24
-Sparkfun Connectors
+SparkFun-Connectors
 1X24_LOCK
 PLATED THROUGH HOLE -24 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -24 PIN LOCKING FOOTPRINT
 0
 24
 24
-Sparkfun Connectors
+SparkFun-Connectors
 1X24_LONGPADS
 PLATED THROUGH HOLE -24 PIN LONG PADS
 PLATED THROUGH HOLE -24 PIN LONG PADS
 0
 24
 24
-Sparkfun Connectors
+SparkFun-Connectors
 1X25
 PLATED THROUGH HOLE -25
 PLATED THROUGH HOLE -25
 0
 25
 25
-Sparkfun Connectors
+SparkFun-Connectors
 1X25_LOCK
 PLATED THROUGH HOLE -25 PIN LOCKING FOOTPRINT
 PLATED THROUGH HOLE -25 PIN LOCKING FOOTPRINT
 0
 25
 25
-Sparkfun Connectors
+SparkFun-Connectors
 1X25_LOCK_LONGPADS
 PLATED THROUGH HOLE -25 PIN LOCKING FOOTPRINT W/ LONG PADS
 PLATED THROUGH HOLE -25 PIN LOCKING FOOTPRINT W/ LONG PADS
 0
 25
 25
-Sparkfun Connectors
+SparkFun-Connectors
 1X25_LONGPAD
 PLATED THROUGH HOLE -25 PIN LONG PADS
 PLATED THROUGH HOLE -25 PIN LONG PADS
 0
 25
 25
-Sparkfun Connectors
+SparkFun-Connectors
 1X27
 PLATED THROUGH HOLE -27 PINS
 PLATED THROUGH HOLE -27 PINS
 0
 27
 27
-Sparkfun Connectors
+SparkFun-Connectors
 1X29
 PLATED THROUGH HOLE -29 PINS
 PLATED THROUGH HOLE -29 PINS
 0
 29
 29
-Sparkfun Connectors
+SparkFun-Connectors
 1X29_NO_SILK
 PLATED THROUGH HOLE -29 PINS NO SILK OUTLINE
 PLATED THROUGH HOLE -29 PINS NO SILK OUTLINE
 0
 29
 29
-Sparkfun Connectors
+SparkFun-Connectors
 1X30
 PLATED THROUGH HOLE -30 PINS
 PLATED THROUGH HOLE -30 PINS
 0
 30
 30
-Sparkfun Connectors
+SparkFun-Connectors
 1X30_NO_SILK
 PLATED THROUGH HOLE -30 PINS NO SILK OUTLINE
 PLATED THROUGH HOLE -30 PINS NO SILK OUTLINE
 0
 30
 30
-Sparkfun Connectors
+SparkFun-Connectors
 1X40
 PLATED THROUGH HOLE -40 PINS
 PLATED THROUGH HOLE -40 PINS
 0
 40
 40
-Sparkfun Connectors
+SparkFun-Connectors
 1X40_OFFSET
 PLATED THROUGH HOLE -40 PINS OFFSET
 PLATED THROUGH HOLE -40 PINS OFFSET
 0
 40
 40
-Sparkfun Connectors
+SparkFun-Connectors
 2X3
 PLATED THROUGH HOLE - 2X3
 PLATED THROUGH HOLE - 2X3
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X3-NS
 PLATED THROUGH HOLE - 2X3 NO SILK OUTLINE
 PLATED THROUGH HOLE - 2X3 NO SILK OUTLINE
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X3-SHROUDED
 PLATED THROUGH HOLE - 2X3 SHROUDED HEADER
 PLATED THROUGH HOLE - 2X3 SHROUDED HEADER
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X3_LOCK
 PLATED THROUGH HOLE - 2X3 LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 2X3 LOCKING FOOTPRINT
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X3_OFFSET
 PLATED THROUGH HOLE - 2X3 LONG PADS W/ OFFSET HOLES
 PLATED THROUGH HOLE - 2X3 LONG PADS W/ OFFSET HOLES
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X3_POGO
 PLATED THROUGH HOLE - 2X3 POGO PINS
 PLATED THROUGH HOLE - 2X3 POGO PINS
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X3_SMD
 SURFACE MOUNT - 2X3
 SURFACE MOUNT - 2X3
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X3_SMT_POSTS
 SURFACE MOUNT - 2X3 MALE HEADER WITH KEYING POSTS
 SURFACE MOUNT - 2X3 MALE HEADER WITH KEYING POSTS
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X3_TEST_POINTS
 PLATED THROUGH HOLE - 2X3 TEST POINT HEADER
 PLATED THROUGH HOLE - 2X3 TEST POINT HEADER
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 2X4
 PLATED THROUGH HOLE - 2X4
 PLATED THROUGH HOLE - 2X4
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 2X5
 PLATED THROUGH HOLE - 2X5
 PLATED THROUGH HOLE - 2X5
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5-PTH-1.27MM
 PLATED THROUGH HOLE - 2X5 ARM CORTEX DEBUG CONNECTOR (10-PIN)
 PLATED THROUGH HOLE - 2X5 ARM CORTEX DEBUG CONNECTOR (10-PIN)
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5-RA
 PLATED THROUGH HOLE - 2X5 RIGHT ANGLE MALE HEADERS
 PLATED THROUGH HOLE - 2X5 RIGHT ANGLE MALE HEADERS
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5-RAF
 PLATED THROUGH HOLE - 2X5 RIGHT ANGLE FEMALE HEADER
 PLATED THROUGH HOLE - 2X5 RIGHT ANGLE FEMALE HEADER
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5-SHROUDED
 PLATED THROUGH HOLE - 2X5 SHROUDED HEADER
 PLATED THROUGH HOLE - 2X5 SHROUDED HEADER
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5-SHROUDED-NS
 PLATED THROUGH HOLE - 2X5 SHROUDED HEADER NO SILK
 PLATED THROUGH HOLE - 2X5 SHROUDED HEADER NO SILK
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5-SHROUDED_LOCK
 PLATED THROUGH HOLE - 2X5 SHROUDED HEADER LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 2X5 SHROUDED HEADER LOCKING FOOTPRINT
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5-SHROUDED_SMD
 SURFACE MOUNT - 2X5 SHROUDED HEADER
 SURFACE MOUNT - 2X5 SHROUDED HEADER
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5_NOSILK
 PLATED THROUGH HOLE - 2X5 NO SILK OUTLINE
 PLATED THROUGH HOLE - 2X5 NO SILK OUTLINE
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X5_PTH_SILK_.05
 PLATED THROUGH HOLE - 2X5
 PLATED THROUGH HOLE - 2X5
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 2X6
 PLATED THROUGH HOLE - 2X6
 PLATED THROUGH HOLE - 2X6
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 2X6_SMD
 SURFACE MOUNT - 2X6
 SURFACE MOUNT - 2X6
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 2X8
 PLATED THROUGH HOLE - 2X8
 PLATED THROUGH HOLE - 2X8
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 2X10
 PLATED THROUGH HOLE - 2X10
 PLATED THROUGH HOLE - 2X10
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 2X10_LOCK
 PLATED THROUGH HOLE - 2X10 LOCKING FOOTPRINT
 PLATED THROUGH HOLE - 2X10 LOCKING FOOTPRINT
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 2X10_LOCK_SPECIAL
 PLATED THROUGH HOLE - 2X10 LOCKING FOOTPRINT SPECIAL
 PLATED THROUGH HOLE - 2X10 LOCKING FOOTPRINT SPECIAL
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 2X10_NOSILK
 PLATED THROUGH HOLE - 2X10 NO SILK OUTLINE
 PLATED THROUGH HOLE - 2X10 NO SILK OUTLINE
 0
 20
 20
-Sparkfun Connectors
+SparkFun-Connectors
 2X12
 PLATED THROUGH HOLE - 2X12
 PLATED THROUGH HOLE - 2X12
 0
 24
 24
-Sparkfun Connectors
+SparkFun-Connectors
 2X13
 PLATED THROUGH HOLE - 2X13
 PLATED THROUGH HOLE - 2X13
 0
 26
 26
-Sparkfun Connectors
+SparkFun-Connectors
 2X20
 PLATED THROUGH HOLE - 2X20
 PLATED THROUGH HOLE - 2X20
 0
 40
 40
-Sparkfun Connectors
+SparkFun-Connectors
 2X20_NOSILK
 PLATED THROUGH HOLE - 2X20 NO SILK OUTLINE
 PLATED THROUGH HOLE - 2X20 NO SILK OUTLINE
 0
 40
 40
-Sparkfun Connectors
+SparkFun-Connectors
 2X20_SHROUDED
 PLATED THROUGH HOLE - 2X20 SHROUDED HEADER
 PLATED THROUGH HOLE - 2X20 SHROUDED HEADER
 0
 40
 40
-Sparkfun Connectors
+SparkFun-Connectors
 2X20_SHROUDED_SMT
 SURFACE MOUNT - 2X20 SHROUDED HEADER
 SURFACE MOUNT - 2X20 SHROUDED HEADER
 0
 40
 40
-Sparkfun Connectors
+SparkFun-Connectors
 2X26
 PLATED THROUGH HOLE - 2X26
 PLATED THROUGH HOLE - 2X26
 0
 52
 52
-Sparkfun Connectors
+SparkFun-Connectors
 3.81MM_TERMINAL_BLOCK_FEMALE_LOCKING
 MYDAQ FEMALE RIGHT ANGLE TERMINAL BLOCK W/ LOCKING FOOTPRINT
 MYDAQ FEMALE RIGHT ANGLE TERMINAL BLOCK W/ LOCKING FOOTPRINT
 0
 40
 40
-Sparkfun Connectors
+SparkFun-Connectors
 6_PIN_SERIAL_TARGET_SIDE_RA_SMT
 6 PIN SERIAL TARGET - RIGHT ANGLE  SMT
 6 PIN SERIAL TARGET - RIGHT ANGLE  SMT
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 6_PIN_SERIAL_TARGET_SIDE_W_SILK
 6 PIN SERIAL TARGET - RIGHT ANGLE  SMT WITH SILK
 6 PIN SERIAL TARGET - RIGHT ANGLE  SMT WITH SILK
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 ATX24_RIGHT_ANGLE
 MOLEX MINI-FIT JR. - 24 PIN, RIGHT ANGLE
 MOLEX MINI-FIT JR. - 24 PIN, RIGHT ANGLE
 0
 24
 24
-Sparkfun Connectors
+SparkFun-Connectors
 AUDIO-JACK
 3.5MM STEREO AUDIO JACK
 3.5MM STEREO AUDIO JACK
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 AUDIO-JACK-3.5MM-SMD
 3.5MM STEREO AUDIO JACK - SURFACE MOUNT
 3.5MM STEREO AUDIO JACK - SURFACE MOUNT
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 AUDIO-JACK-KIT
 3.5MM STEREO AUDIO JACK -KIT VERSION
 3.5MM STEREO AUDIO JACK -KIT VERSION
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 AUDIO_JACK_0.25%5c%22_TRS_PTH_RA
 RIGHT ANGLE -1/4" STEREO JACK
 RIGHT ANGLE -1/4" STEREO JACK
 0
 6
 4
-Sparkfun Connectors
+SparkFun-Connectors
 AUDIO_JACK_0.25_TRS_PTH_RA
 RIGHT ANGLE -1/4" STEREO JACK
 RIGHT ANGLE -1/4" STEREO JACK
 0
 6
 4
-Sparkfun Connectors
+SparkFun-Connectors
 AUDIO_JACK_3.5MM_TRRS_SMD_RA
 TRRS 3.5MM RIGHT ANGLE STEREO JACK - SMT
 TRRS 3.5MM RIGHT ANGLE STEREO JACK - SMT
 0
 4
 3
-Sparkfun Connectors
+SparkFun-Connectors
 BANANA_CONN
 BANANA PLUG PTH
 BANANA PLUG PTH
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 BC9VPC
 9V BATTERY HOLDER (OPEN) - PTH
 9V BATTERY HOLDER (OPEN) - PTH
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 BC9VPC_KIT
 9V BATTERY HOLDER (OPEN) - PTH KIT
 9V BATTERY HOLDER (OPEN) - PTH KIT
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 BINDING_POST
 INSULATED BINDING POST
 INSULATED BINDING POST
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 BM08B-SRSS-TB
 JST VERTICAL CRIMP CONNECT
 JST VERTICAL CRIMP CONNECT
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 BNC
 BNC JACK - MOUSER PART#5227161
 BNC JACK - MOUSER PART#5227161
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 BTA
 BRITISH TELECOM CONNECTOR - ANALOG RIGHT ANGLE
 BRITISH TELECOM CONNECTOR - ANALOG RIGHT ANGLE
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 BTD
 BRITISH TELECOM CONNECTOR - RIGHT ANGLE FEMALE DIGITAL
 BRITISH TELECOM CONNECTOR - RIGHT ANGLE FEMALE DIGITAL
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 DB9
 9 PIN SERIAL CONNECTOR - FEMALE PCB MOUNT RIGHT ANGLE
 9 PIN SERIAL CONNECTOR - FEMALE PCB MOUNT RIGHT ANGLE
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 DB9_MALE
 9 PIN SERIAL CONNECTOR - MALE PCB MOUNT RIGHT ANGLE
 9 PIN SERIAL CONNECTOR - MALE PCB MOUNT RIGHT ANGLE
 0
 11
 11
-Sparkfun Connectors
+SparkFun-Connectors
 DEANS
 DEANS CONNECTOR
 DEANS CONNECTOR
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 DF40-XC-(X.X)-70DS-0.4V(51)
 HIROSE DF40C-70DP-0.4V(51) PLUG
 HIROSE DF40C-70DP-0.4V(51) PLUG
 0
 70
 70
-Sparkfun Connectors
+SparkFun-Connectors
 DF40C-70DP-0.4(51)
 HIROSE DF30C-70DP-0.4V(51) RECEIVER
 HIROSE DF30C-70DP-0.4V(51) RECEIVER
 0
 74
 74
-Sparkfun Connectors
+SparkFun-Connectors
 DIL28-3-ZIF_SOCKET
 ZIF SOCKET 28-PIN 0.3"
 ZIF SOCKET 28-PIN 0.3"
 0
 28
 28
-Sparkfun Connectors
+SparkFun-Connectors
 DIN5-RA-PTH
 DIN5/180 CONNECTOR - RIGHT ANGLE FEMALE
 DIN5/180 CONNECTOR - RIGHT ANGLE FEMALE
 0
 7
 7
-Sparkfun Connectors
+SparkFun-Connectors
 DIN7
 MINIDIN RIGHT ANGLE
 MINIDIN RIGHT ANGLE
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 DS_TOUCH_CONNECTOR
 4-PIN DS TOUCH SCREEN CONNECTOR
 4-PIN DS TOUCH SCREEN CONNECTOR
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 EB-85A
 EB-85A CONNECTOR
 EB-85A CONNECTOR
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 EDISON_DAUGHTER
 HIROSE DF30C-70DP-0.4V(51) RECEIVER FOOTPRINT W/ EDISON OUTLINE
 HIROSE DF30C-70DP-0.4V(51) RECEIVER FOOTPRINT W/ EDISON OUTLINE
 0
 70
 70
-Sparkfun Connectors
+SparkFun-Connectors
 FTDI_BASIC
 FTDI BASIC
 FTDI BASIC
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 JST-2-PTH
 JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE
 JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 JST-2-PTH-KIT
 JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE - KIT
 JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE - KIT
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 JST-2-PTH-NS
 JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE- NO SILK
 JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE- NO SILK
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 JST-2-SMD
 JST-RIGHT ANGLE MALE HEADER SMT
 JST-RIGHT ANGLE MALE HEADER SMT
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 JST-2-SMD-VERT
 JST-VERTICAL MALE HEADER SMT
 JST-VERTICAL MALE HEADER SMT
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 JST-3-PTH
 JST 3 PIN RIGHT ANGLE PLATED THROUGH HOLE
 JST 3 PIN RIGHT ANGLE PLATED THROUGH HOLE
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 JST-3-PTH-NS
 JST 3 PIN RIGHT ANGLE PLATED THROUGH HOLE &NDASH; NO SILK
 JST 3 PIN RIGHT ANGLE PLATED THROUGH HOLE &NDASH; NO SILK
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 JST-3-PTH-VERT
 JST 3 PIN VERTICAL PLATED THROUGH HOLE
 JST 3 PIN VERTICAL PLATED THROUGH HOLE
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 JST-3-SMD
 JST 3 PIN RIGHT ANGLE SMT
 JST 3 PIN RIGHT ANGLE SMT
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 JST-4-PTH
 JST RIGHT ANGLE 4 PIN PLATED THROUGH HOLE
 JST RIGHT ANGLE 4 PIN PLATED THROUGH HOLE
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 JST-4-PTH-VERT
 JST VERTICAL 4 PIN PLATED THROUGH HOLE
 JST VERTICAL 4 PIN PLATED THROUGH HOLE
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 JST-5-PTH
 JST 5 PIN RIGHT ANGLE PLATED THROUGH HOLE
 JST 5 PIN RIGHT ANGLE PLATED THROUGH HOLE
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 JST-5-PTH-VERT
 JST 5 PIN VERTICAL PLATED THROUGH HOLE
 JST 5 PIN VERTICAL PLATED THROUGH HOLE
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 JST-6-SMD-VERT-1.0MM
 JST SH VERTICAL 6-PIN SMT
 JST SH VERTICAL 6-PIN SMT
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 MAGJACK
 RJ45 ETHERNET MAGJACK-COMPATIBLE
 RJ45 ETHERNET MAGJACK-COMPATIBLE
 0
 14
 14
-Sparkfun Connectors
+SparkFun-Connectors
 MAGJACK-POE
 RJ45 POE MAGJACK
 RJ45 POE MAGJACK
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 MICRO-SD-SOCKET
 MICROSD SOCKET SMD
 MICROSD SOCKET SMD
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 MICRO-SD-SOCKET-SDIO
 
 
 0
 12
 12
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X2
 MOLEX 2-PIN PLATED THROUGH-HOLE
 MOLEX 2-PIN PLATED THROUGH-HOLE
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X2_LOCK
 MOLEX 2-PIN PLATED THROUGH-HOLE LOCKING FOOTPRINT
 MOLEX 2-PIN PLATED THROUGH-HOLE LOCKING FOOTPRINT
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X3
 PTH - 3 PIN VERTICAL MOLEX POLARIZED HEADER
 PTH - 3 PIN VERTICAL MOLEX POLARIZED HEADER
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X3_LOCK
 PTH - 3 PIN VERTICAL MOLEX POLARIZED HEADER
 PTH - 3 PIN VERTICAL MOLEX POLARIZED HEADER
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X4
 MOLEX 4-PIN PLATED THROUGH-HOLE
 MOLEX 4-PIN PLATED THROUGH-HOLE
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X4_LOCK
 MOLEX 4-PIN PLATED THROUGH-HOLE LOCKING
 MOLEX 4-PIN PLATED THROUGH-HOLE LOCKING
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X6
 MOLEX 6-PIN PLATED THROUGH-HOLE
 MOLEX 6-PIN PLATED THROUGH-HOLE
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X6-RA
 MOLEX 6-PIN PLATED THROUGH-HOLE RIGHT ANGLE
 MOLEX 6-PIN PLATED THROUGH-HOLE RIGHT ANGLE
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX-1X6_LOCK
 MOLEX 6-PIN PLATED THROUGH-HOLE LOCKING FOOTPRINT
 MOLEX 6-PIN PLATED THROUGH-HOLE LOCKING FOOTPRINT
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 MOLEX_1X6_RA_LOCK
 MOLEX 6-PIN PLATED THROUGH-HOLE RIGHT ANGLE LOCKING FOOTPRINT
 MOLEX 6-PIN PLATED THROUGH-HOLE RIGHT ANGLE LOCKING FOOTPRINT
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 OBDII
 OBD-II AUTOMOTIVE CONNECTOR
 OBD-II AUTOMOTIVE CONNECTOR
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 PAD.02X.02
 ELECTRICALLY CONDUCTIVE PAD 0.02" SQUARE
 ELECTRICALLY CONDUCTIVE PAD 0.02" SQUARE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 PAD.03X.03
 ELECTRICALLY CONDUCTIVE PAD 0.03" CIRCLE
 ELECTRICALLY CONDUCTIVE PAD 0.03" CIRCLE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 PAD.03X.04
 ELECTRICALLY CONDUCTIVE PAD 0.04" CIRCLE
 ELECTRICALLY CONDUCTIVE PAD 0.04" CIRCLE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 PAD.03X.05
 ELECTRICALLY CONDUCTIVE PAD 0.05" CIRCLE
 ELECTRICALLY CONDUCTIVE PAD 0.05" CIRCLE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 PIC_ICSP_MINI_5_PIN
 MINI ICSP CONNECTOR - 5 PIN
 MINI ICSP CONNECTOR - 5 PIN
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 POWER_JACK_COMBO
 
 
 0
 7
 3
-Sparkfun Connectors
+SparkFun-Connectors
 POWER_JACK_PTH
 DC BARREL POWER JACK/CONNECTOR PTH
 DC BARREL POWER JACK/CONNECTOR PTH
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 POWER_JACK_PTH_BREAD
 DC BARREL POWER JACK/CONNECTOR BREADBOARD COMPATIBLE
 DC BARREL POWER JACK/CONNECTOR BREADBOARD COMPATIBLE
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 POWER_JACK_PTH_LOCK
 DC BARREL POWER JACK/CONNECTOR PTH LOCKING FOOTPRINT
 DC BARREL POWER JACK/CONNECTOR PTH LOCKING FOOTPRINT
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 POWER_JACK_SLOT
 DC BARREL POWER JACK/CONNECTOR PTH SLOT PADS
 DC BARREL POWER JACK/CONNECTOR PTH SLOT PADS
 0
 3
 2
-Sparkfun Connectors
+SparkFun-Connectors
 POWER_JACK_SMD
 DC BARREL POWER JACK/CONNECTOR -SMD
 DC BARREL POWER JACK/CONNECTOR -SMD
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 POWER_JACK_SMD_GND
 DC BARREL POWER JACK/CONNECTOR -SMD
 DC BARREL POWER JACK/CONNECTOR -SMD
 0
 4
 3
-Sparkfun Connectors
+SparkFun-Connectors
 POWER_JACK_SMD_OVERPASTE_TOE
 DC BARREL POWER JACK/CONNECTOR -SMD OVERPASTE
 DC BARREL POWER JACK/CONNECTOR -SMD OVERPASTE
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 PSP_CONNECTOR
 ZIF PSP CONNECTOR
 ZIF PSP CONNECTOR
 0
 43
 40
-Sparkfun Connectors
+SparkFun-Connectors
 PSP_TOUCH_CONNECTOR
 SMD PSP TOUCH SCREEN CONNECTOR
 SMD PSP TOUCH SCREEN CONNECTOR
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 RCA
 RCA JACK - PLATED THROUGH-HOLE
 RCA JACK - PLATED THROUGH-HOLE
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 RCA_LOCK
 RCA JACK - PLATED THROUGH-HOLE LOCKING
 RCA JACK - PLATED THROUGH-HOLE LOCKING
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 RJ11-6
 RJ11 6-PIN SOCKET WITH PCB MOUNTING POST
 RJ11 6-PIN SOCKET WITH PCB MOUNTING POST
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 RJ45-8
 RJ45 SOCKET WITH PCB MOUNTING POSTS
 RJ45 SOCKET WITH PCB MOUNTING POSTS
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 SAMTECH_FTSH-105-01
 ARM CORTEX DEBUG CONNECTOR (10-PIN)
 ARM CORTEX DEBUG CONNECTOR (10-PIN)
 0
 10
 10
-Sparkfun Connectors
+SparkFun-Connectors
 SCREENKEY_MATING_CONNECTOR
 FPC/FFC LOCKING CONNECTOR - SMD
 FPC/FFC LOCKING CONNECTOR - SMD
 0
 16
 16
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-2
 SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH
 SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-2-NS
 SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH NO SILK OUTLINE
 SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH NO SILK OUTLINE
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-2_LOCK
 SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH LOCKING
 SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH LOCKING
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-3
 SCREW TERMINAL  3.5MM PITCH -3 PIN PTH
 SCREW TERMINAL  3.5MM PITCH -3 PIN PTH
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-3-NS
 SCREW TERMINAL  3.5MM PITCH -3 PIN PTH &NDASH; NO SILK
 SCREW TERMINAL  3.5MM PITCH -3 PIN PTH &NDASH; NO SILK
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-3_LOCK.007S
 SCREW TERMINAL  3.5MM PITCH -3 PIN PTH LOCKING
 SCREW TERMINAL  3.5MM PITCH -3 PIN PTH LOCKING
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-4
 SCREW TERMINAL  3.5MM PITCH -4 PIN PTH
 SCREW TERMINAL  3.5MM PITCH -4 PIN PTH
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-4_LOCK
 SCREW TERMINAL  3.5MM PITCH -4 PIN PTH LOCKING
 SCREW TERMINAL  3.5MM PITCH -4 PIN PTH LOCKING
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-5
 SCREW TERMINAL  3.5MM PITCH -5 PIN PTH
 SCREW TERMINAL  3.5MM PITCH -5 PIN PTH
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-6
 SCREW TERMINAL  3.5MM PITCH -6 PIN PTH
 SCREW TERMINAL  3.5MM PITCH -6 PIN PTH
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-3.5MM-8
 SCREW TERMINAL  3.5MM PITCH -8 PIN PTH
 SCREW TERMINAL  3.5MM PITCH -8 PIN PTH
 0
 8
 8
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-5MM-2
 SCREW TERMINAL  5MM PITCH -2 PIN PTH
 SCREW TERMINAL  5MM PITCH -2 PIN PTH
 0
 2
 2
-Sparkfun Connectors
+SparkFun-Connectors
 SCREWTERMINAL-5MM-3
 SCREW TERMINAL  5MM PITCH -3 PIN PTH
 SCREW TERMINAL  5MM PITCH -3 PIN PTH
 0
 3
 3
-Sparkfun Connectors
+SparkFun-Connectors
 SD
 SD/MMC SOCKET
 SD/MMC SOCKET
 0
 13
 13
-Sparkfun Connectors
+SparkFun-Connectors
 SIMHOLDER
 SIM CARD SOCKET SMT
 SIM CARD SOCKET SMT
 0
 6
 6
-Sparkfun Connectors
+SparkFun-Connectors
 SMTSO-256-ET-0.165DIA
 SMTSO-256-ET FLUSH MOUNT NUT
 SMTSO-256-ET FLUSH MOUNT NUT
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 SNAP-FEMALE
 SEW-ON FABRIC SNAP - FEMALE
 SEW-ON FABRIC SNAP - FEMALE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 SNAP-MALE
 SEW-ON FABRIC SNAP - MALE
 SEW-ON FABRIC SNAP - MALE
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 SPRING-CONNECTOR
 SPRING CONNECTOR
 SPRING CONNECTOR
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 SPRINGTERMINAL-2.54MM-2
 SPRING TERMINAL- PCB MOUNT 2 PIN PTH
 SPRING TERMINAL- PCB MOUNT 2 PIN PTH
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 STEREOJACK2.5MM
 2.5MM STEREO AUDIO JACK - SMT
 2.5MM STEREO AUDIO JACK - SMT
 0
 5
 5
-Sparkfun Connectors
+SparkFun-Connectors
 STEREOJACK2.5MM_SPECIAL_HOLES-ONLY
 2.5MM STEREO AUDIO JACK - PTH HOLES ONLY
 2.5MM STEREO AUDIO JACK - PTH HOLES ONLY
 0
 4
 3
-Sparkfun Connectors
+SparkFun-Connectors
 STEREOJACK2.5MM_SPECIAL_POGOPINS
 2.5MM STEREO AUDIO JACK - PTH POGO PIN COMPATIBLE
 2.5MM STEREO AUDIO JACK - PTH POGO PIN COMPATIBLE
 0
 4
 3
-Sparkfun Connectors
+SparkFun-Connectors
 STEREOJACK2.5MM_STEREOJACK2.5MM
 2.5MM STEREO AUDIO JACK - PTH
 2.5MM STEREO AUDIO JACK - PTH
 0
 4
 3
-Sparkfun Connectors
+SparkFun-Connectors
 TP_15TH
 ELECTRICALLY CONDUCTIVE VIA 0.015" DRILL
 ELECTRICALLY CONDUCTIVE VIA 0.015" DRILL
 0
 1
 1
-Sparkfun Connectors
+SparkFun-Connectors
 U.FL
 U.FL SMD ANTENNA CONNECTOR
 U.FL SMD ANTENNA CONNECTOR
 0
 4
 4
-Sparkfun Connectors
+SparkFun-Connectors
 USB-A-H
 USB TYPE 'A' MALE CONNECTOR - PTH
 USB TYPE 'A' MALE CONNECTOR - PTH
 0
 6
 5
-Sparkfun Connectors
+SparkFun-Connectors
 USB-A-S-NOSILK-FEMALE
 USB TYPE 'A' FEMALE CONNECTOR - SMT NO SILK
 USB TYPE 'A' FEMALE CONNECTOR - SMT NO SILK
 0
 6
 5
-Sparkfun Connectors
+SparkFun-Connectors
 USB-A-S-SILK-FEMALE
 USB TYPE 'A' FEMALE CONNECTOR - SMT SILK OUTLINE
 USB TYPE 'A' FEMALE CONNECTOR - SMT SILK OUTLINE
 0
 6
 5
-Sparkfun Connectors
+SparkFun-Connectors
 USB-A-SMT-MALE
 USB TYPE 'A' MALE CONNECTOR - SMT
 USB TYPE 'A' MALE CONNECTOR - SMT
 0
 6
 5
-Sparkfun Connectors
+SparkFun-Connectors
 USB-AB-MICRO-SMD
 USB TYPE AB - SMT
 USB TYPE AB - SMT
 0
 8
 6
-Sparkfun Connectors
+SparkFun-Connectors
 USB-B-MICRO-SMD
 USB - MICROB SMD
 USB - MICROB SMD
 0
 8
 6
-Sparkfun Connectors
+SparkFun-Connectors
 USB-B-MICRO-SMD_RED_PASTE
 USB - MICROB SMD REDUCED PASTE
 USB - MICROB SMD REDUCED PASTE
 0
 8
 6
-Sparkfun Connectors
+SparkFun-Connectors
 USB-B-PTH
 USB TYPE B FEMALE PTH MOUNTED
 USB TYPE B FEMALE PTH MOUNTED
 0
 6
 5
-Sparkfun Connectors
+SparkFun-Connectors
 USB-MICROB
 USB TYPE MICROUSB CONNECTOR-NO BOSSED PINS
 USB TYPE MICROUSB CONNECTOR-NO BOSSED PINS
 0
 9
 9
-Sparkfun Connectors
+SparkFun-Connectors
 USB-MICROB-PTH
 
 
 0
 17
 15
-Sparkfun Connectors
+SparkFun-Connectors
 USB-MINIB
 USB TYPE MINI-B SURFACE MOUNTED
 USB TYPE MINI-B SURFACE MOUNTED
 0
 9
 9
-Sparkfun Connectors
+SparkFun-Connectors
 USB_MICROB_VERTICAL
 USB MICRO-B PLUG CONNECTOR
 USB MICRO-B PLUG CONNECTOR
 0
 9
 6
-Sparkfun Displays
+SparkFun-Displays
 LCD-8X2
 8X2 CHARACTER LCD W/ BACKLIGHT
 8X2 CHARACTER LCD W/ BACKLIGHT
 0
 16
 16
-Sparkfun Displays
+SparkFun-Displays
 LCD-8X2-KIT
 LCD-8X2 FOR KITS
 LCD-8X2 FOR KITS
 0
 16
 16
-Sparkfun Displays
+SparkFun-Displays
 LCD-16X2
 LCD-16X2
 LCD-16X2
 0
 16
 16
-Sparkfun Displays
+SparkFun-Displays
 LCD-16X2_NOHOLESNOSILK
 LCD-16X2 NO SILK OR MOUNTING HOLES
 LCD-16X2 NO SILK OR MOUNTING HOLES
 0
 16
 16
-Sparkfun Displays
+SparkFun-Displays
 LCD-16X2_NOSILK
 LCD-16X2
 LCD-16X2
 0
 16
 16
-Sparkfun Displays
+SparkFun-Displays
 LCD-16X2_NOSILK-KIT
 LCD-16X2 FOR KITS
 LCD-16X2 FOR KITS
 0
 18
 18
-Sparkfun Displays
+SparkFun-Displays
 LCD-16X2_NOSILK-KIT-4BIT
 LCD-16X2, 4 BIT FOR KITS
 LCD-16X2, 4 BIT FOR KITS
 0
 14
 14
-Sparkfun Displays
+SparkFun-Displays
 LCD-G12864
 G12864
 G12864
 0
 20
 20
-Sparkfun Displays
+SparkFun-Displays
 LCD_BACKLIGHT_PADS
 PADS FOR FLYING BACKLIGHT LEADS
 PADS FOR FLYING BACKLIGHT LEADS
 0
 2
 2
-Sparkfun Displays
+SparkFun-Displays
 NOKIA6100_LCD
 NOKIA 6100 LED SHAPE AND CONNECTOR
 NOKIA 6100 LED SHAPE AND CONNECTOR
 0
 10
 10
-Sparkfun Displays
+SparkFun-Displays
 OLED-0.66-64X48
 OLDE DISPLAY, 0.66 INCH
 OLDE DISPLAY, 0.66 INCH
 0
 28
 28
-Sparkfun Displays
+SparkFun-Displays
 OLED-UG-2832HLBEG04
 OLDE DISPLAY
 OLDE DISPLAY
 0
 30
 30
-Sparkfun Displays
+SparkFun-Displays
 OLED-UG-2832TSWGG01
 OLDE DISPLAY
 OLDE DISPLAY
 0
 15
 15
-Sparkfun Displays
+SparkFun-Displays
 OLED-UG-2832TSWGG01-REAR
 OLDE DISPLAY
 OLDE DISPLAY
 0
 15
 15
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 BUZZER-12MM
 12MM BUZZER - PTH
 12MM BUZZER - PTH
 0
 2
 2
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 BUZZER-12MM-KIT
 12MM BUZZER - PTH (KIT VARIANT)
 12MM BUZZER - PTH (KIT VARIANT)
 0
 2
 2
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 BUZZER-12MM-NS
 12MM BUZZER - PTH (NO SILKSCREENT VARIANT)
 12MM BUZZER - PTH (NO SILKSCREENT VARIANT)
 0
 2
 2
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 BUZZER-12MM-NS-KIT
 12MM BUZZER - PTH (KIT, NO-SILKSCREEN VARIANT)
 12MM BUZZER - PTH (KIT, NO-SILKSCREEN VARIANT)
 0
 2
 2
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 BUZZER-CCV
 9MM BUZZER - SMD
 9MM BUZZER - SMD
 0
 2
 2
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 BUZZER-CCV-KIT
 9MM BUZZER - SMD (KIT VARIANT)
 9MM BUZZER - SMD (KIT VARIANT)
 0
 2
 2
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 HEATSINK_PRT-9576
 
 
 0
 2
 2
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 PCB_MOUNT_SPEAKER
 SPEAKER - PCB MOUNT
 SPEAKER - PCB MOUNT
 0
 2
 2
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 RELAY-JZC
 RELAY SPDT SEALED (JZC-11F-5V-1Z)
 RELAY SPDT SEALED (JZC-11F-5V-1Z)
 0
 5
 5
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 RELAY-T90
 RELAY SPDT SEALED - 20A (JQX-15F/005)
 RELAY SPDT SEALED - 20A (JQX-15F/005)
 0
 5
 4
-Sparkfun Electromechanical
+SparkFun-Electromechanical
 VIBE-MOTOR-10MM
 VIBRATION MOTOR
 VIBRATION MOTOR
 0
 2
 2
-Sparkfun Fuses
+SparkFun-Fuses
 1206
 GENERIC 3216 (1206) PACKAGE
 GENERIC 3216 (1206) PACKAGE
 0
 2
 2
-Sparkfun Fuses
+SparkFun-Fuses
 PTH
 TWO 0.8 MM PTHS SPACED 0.2 IN APART FOR THROUGH HOLE PARTS.
 TWO 0.8 MM PTHS SPACED 0.2 IN APART FOR THROUGH HOLE PARTS.
 0
 2
 2
-Sparkfun GPS
+SparkFun-GPS
 ANT-GPS-2X7MM
 GPS CHIP ANTENNA - 7.0 X 2.0 X 0.8 MM
 GPS CHIP ANTENNA - 7.0 X 2.0 X 0.8 MM
 0
 2
 2
-Sparkfun GPS
+SparkFun-GPS
 ANT-GPS-2X8MM
 GPS CHIP ANTENNA - 2.0 X 8.0 X 1.5 MM
 GPS CHIP ANTENNA - 2.0 X 8.0 X 1.5 MM
 0
 2
 2
-Sparkfun GPS
+SparkFun-GPS
 COPERNICUS
 TRIMBLE COPERNICUS AND COPERNICUS II GPS RECEIVER
 TRIMBLE COPERNICUS AND COPERNICUS II GPS RECEIVER
 0
 28
 28
-Sparkfun GPS
+SparkFun-GPS
 EM-506_OUTLINE
 EM-406 AND EM-506 MODULE DIMENSIONS
 EM-406 AND EM-506 MODULE DIMENSIONS
 0
 0
 0
-Sparkfun GPS
+SparkFun-GPS
 GP3906-TLP
 GP3906-TLP POT GPS MODULE
 GP3906-TLP POT GPS MODULE
 0
 20
 20
-Sparkfun GPS
+SparkFun-GPS
 JST-6PIN-1MM
 6-PIN VERTICAL JST CONNECTOR
 6-PIN VERTICAL JST CONNECTOR
 0
 8
 8
-Sparkfun GPS
+SparkFun-GPS
 TITAN_X1_GPS
 
 
 0
 24
 24
-Sparkfun GPS
+SparkFun-GPS
 VENUS638FLPX
 SKYTRAQ VENUS638FLPX GPS RECEIVER - 44-PIN 10 X 10 MM QFN
 SKYTRAQ VENUS638FLPX GPS RECEIVER - 44-PIN 10 X 10 MM QFN
 0
 69
 69
-Sparkfun Hardware
+SparkFun-Hardware
 6400BG_HEATSINK
 6400BG HEATSINK
 6400BG HEATSINK
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_3
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_3.75
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_4.5
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_6
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_9
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_12
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_15
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_18
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_24
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 ACTOBOTICS_CHANNEL_SINGLE_DRILL_REF
 
 
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 MAGNET-18MM
 MAGNET DISK - 0.709"
 MAGNET DISK - 0.709"
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 STAND-OFF
 STANDOFF (#4 SCREW)
 STANDOFF (#4 SCREW)
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 STAND-OFF-TIGHT
 STANDOFF (#4 SCREW) - TIGHT FIT AROUND SCREW BODY
 STANDOFF (#4 SCREW) - TIGHT FIT AROUND SCREW BODY
 0
 0
 0
-Sparkfun Hardware
+SparkFun-Hardware
 STANDOFF-ELECTRICAL
 STANDOFF (#4 SCREW) - W/ ELECTRICAL CONNECTION
 STANDOFF (#4 SCREW) - W/ ELECTRICAL CONNECTION
 0
 1
 1
-Sparkfun Hardware
+SparkFun-Hardware
 STANDOFF_GROUNDING
 
 
 0
 9
 1
-Sparkfun Hardware
+SparkFun-Hardware
 VIA-.010
 
 
 0
 1
 1
-Sparkfun Hardware
+SparkFun-Hardware
 VIA-.013
 
 
 0
 1
 1
-Sparkfun Hardware
+SparkFun-Hardware
 VIA-.015
 
 
 0
 1
 1
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_2_NC_PASTE_NO-SILK
 
 
 0
 2
 2
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_2_NC_PASTE_SILK
 
 
 0
 2
 2
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_2_NC_TRACE_NO-SILK
 
 
 0
 2
 2
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_2_NC_TRACE_SILK
 
 
 0
 2
 2
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_2_NO_NO-SILK
 
 
 0
 2
 2
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_2_NO_NO-SILK_ROUND
 
 
 0
 2
 2
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_2_NO_SILK
 
 
 0
 2
 2
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_2_NO_SILK_ROUND
 
 
 0
 2
 2
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_1-NC_PASTE_NO-SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_1-NC_PASTE_SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_1-NC_TRACE_NO-SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_1-NC_TRACE_SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_2-NC_PASTE_NO-SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_2-NC_PASTE_SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_2-NC_TRACE_NO-SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_2-NC_TRACE_SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_NO_NO-SILK
 
 
 0
 3
 3
-Sparkfun Jumpers
+SparkFun-Jumpers
 SMT-JUMPER_3_NO_SILK
 
 
 0
 3
 3
-Sparkfun LED
+SparkFun-LED
 7-SEGMENT-1DIGIT-PTH
 7 SEGMENT DISPLAY STOREFRONT SKU#: COM-08546
 7 SEGMENT DISPLAY STOREFRONT SKU#: COM-08546
 0
 10
 10
-Sparkfun LED
+SparkFun-LED
 7-SEGMENT-1DIGIT-PTH-EZ
 
 
 0
 10
 10
-Sparkfun LED
+SparkFun-LED
 7-SEGMENT-4DIGIT-20MM
 
 
 0
 12
 12
-Sparkfun LED
+SparkFun-LED
 7-SEGMENT-4DIGIT-YOUNGSUN
 THIS IS A PACKAGE FOR THE 4-DIGIT 7-SEGMENT RED LED FROM YOUNG SUN.
 THIS IS A PACKAGE FOR THE 4-DIGIT 7-SEGMENT RED LED FROM YOUNG SUN.
 0
 16
 16
-Sparkfun LED
+SparkFun-LED
 7-SEGMENT-4DIGIT-YOUNGSUN-LONGPADS
 
 
 0
 16
 16
-Sparkfun LED
+SparkFun-LED
 APA102C
 
 
 0
 6
 6
-Sparkfun LED
+SparkFun-LED
 CHIPLED-6
 CHIPLED-6 PACKAGE
 CHIPLED-6 PACKAGE
 0
 6
 6
-Sparkfun LED
+SparkFun-LED
 DIP12-HP-BUBBLE
 
 
 0
 12
 12
-Sparkfun LED
+SparkFun-LED
 FKIT-LED-1206
 LED 1206 SMT
 LED 1206 SMT
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED-0603
 LED 0603 SMT
 LED 0603 SMT
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED-1206
 LED 1206 SMT
 LED 1206 SMT
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED-1206-BOTTOM
 LED 1206 SMT
 LED 1206 SMT
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED-RGB-THRU
 LED - RGB PTH
 LED - RGB PTH
 0
 4
 4
-Sparkfun LED
+SparkFun-LED
 LED-TRICOLOR-5050
 5050 SMD RGB LED
 5050 SMD RGB LED
 0
 6
 6
-Sparkfun LED
+SparkFun-LED
 LED-TRICOLOR-5050-IC
 5060 SMD RGB LED
 5060 SMD RGB LED
 0
 6
 6
-Sparkfun LED
+SparkFun-LED
 LED-TRICOLOR-SMD
 TRI-COLOR SMD
 TRI-COLOR SMD
 0
 4
 4
-Sparkfun LED
+SparkFun-LED
 LED_3MM
 LED 3MM PTH
 LED 3MM PTH
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED_3MM-NS
 LED 3MM PTH- NO SILK
 LED 3MM PTH- NO SILK
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED_5MM
 LED 5MM PTH
 LED 5MM PTH
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED_5MM-KIT
 LED 5MM KIT PTH
 LED 5MM KIT PTH
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED_10MM
 LED 10MM PTH
 LED 10MM PTH
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED_550_T1-.75_RT_ANG_PCB
 
 
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LED_BARGRAPH_10
 10 SEGMENT LED BAR GRAPH
 10 SEGMENT LED BAR GRAPH
 0
 20
 20
-Sparkfun LED
+SparkFun-LED
 LED_BAR_SMD
 SMA-B520LB LED BARGRAPH - 5 SEGMENT
 SMA-B520LB LED BARGRAPH - 5 SEGMENT
 0
 6
 6
-Sparkfun LED
+SparkFun-LED
 LED_PIRANHA_5MM
 LED 5MM PTH - PIRANHA
 LED 5MM PTH - PIRANHA
 0
 4
 4
-Sparkfun LED
+SparkFun-LED
 LED_RING
 16 LED RING - LED-CCL-A
 16 LED RING - LED-CCL-A
 0
 20
 20
-Sparkfun LED
+SparkFun-LED
 LTE-302
 IR EMITTER/DETECTOR
 IR EMITTER/DETECTOR
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 LTST-C195KGJRKT
 0606 - LED SMT
 0606 - LED SMT
 0
 4
 4
-Sparkfun LED
+SparkFun-LED
 P-LCC-4-3
 LED P-LCC-4-3 - SMT
 LED P-LCC-4-3 - SMT
 0
 4
 4
-Sparkfun LED
+SparkFun-LED
 PLCC-6-LED
 PLCC-6-LED
 PLCC-6-LED
 0
 6
 6
-Sparkfun LED
+SparkFun-LED
 RGB_BAR_GRAPH
 
 
 0
 25
 25
-Sparkfun LED
+SparkFun-LED
 SFH4641
 SFH4641
 SFH4641
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 SFH4641-NARROW
 SFH4641
 SFH4641
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 SFH4641-OVERSIZE
 SFH4641
 SFH4641
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 SFH4641-SHORT
 SFH4641
 SFH4641
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 SFH4641-SHORT2
 SFH4641
 SFH4641
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 SUPER_BRIGHT_SMD_LED_3014
 3014 PACKAGE FOR LEDS
 3014 PACKAGE FOR LEDS
 0
 2
 2
-Sparkfun LED
+SparkFun-LED
 WS2812B
 WS2812B
 WS2812B
 0
 4
 4
-Sparkfun PowerSymbols
+SparkFun-PowerSymbols
 2PT_GND_TIE
 
 
 0
 2
 2
-Sparkfun RF
+SparkFun-RF
 ANT-2.4GHZ-6.5X2.2MM
 2.45GHZ CHIP ANTENNA - 6.5 X 2.2 X 1.0 MM
 2.45GHZ CHIP ANTENNA - 6.5 X 2.2 X 1.0 MM
 0
 2
 2
-Sparkfun RF
+SparkFun-RF
 ANT-2.4GHZ-8.0X1.0MM
 2.4GHZ CHIP ANTENNA - 8.0X1.0MM
 2.4GHZ CHIP ANTENNA - 8.0X1.0MM
 0
 2
 2
-Sparkfun RF
+SparkFun-RF
 ANT-2.4GHZ-9.5X2.0MM
 2.4GHZ CHIP ANTENNA - 9.5 X 2.0 X 1.2 MM
 2.4GHZ CHIP ANTENNA - 9.5 X 2.0 X 1.2 MM
 0
 2
 2
-Sparkfun RF
+SparkFun-RF
 BALUN-0805
 BALUN - 0805 PACKAGE
 BALUN - 0805 PACKAGE
 0
 6
 6
-Sparkfun RF
+SparkFun-RF
 BC118
 BLUE CREATION BC118 BLUETOOTH 4.0 AUDIO MODULE
 BLUE CREATION BC118 BLUETOOTH 4.0 AUDIO MODULE
 0
 35
 35
-Sparkfun RF
+SparkFun-RF
 BC127
 BC127 BLUETOOTH 4.0 AUDIO MODULE
 BC127 BLUETOOTH 4.0 AUDIO MODULE
 0
 51
 51
-Sparkfun RF
+SparkFun-RF
 BLUERADIO_BR-LE4.0-S2
 BLUERADIO BR-LE4.0-S2 BLUETOOTH 4.0 MODULE
 BLUERADIO BR-LE4.0-S2 BLUETOOTH 4.0 MODULE
 0
 30
 30
-Sparkfun RF
+SparkFun-RF
 BTM182
 RAYSON BTM-182 BLUETOOTH MODULE
 RAYSON BTM-182 BLUETOOTH MODULE
 0
 32
 32
-Sparkfun RF
+SparkFun-RF
 ID-12
 ID-2, ID-12, AND ID-20 LOW-VOLTAGE RFID READERS
 ID-2, ID-12, AND ID-20 LOW-VOLTAGE RFID READERS
 0
 11
 11
-Sparkfun RF
+SparkFun-RF
 ID-12_LOCK
 ID-2, ID-12, AND ID-20 LOW-VOLTAGE RFID READERS
 ID-2, ID-12, AND ID-20 LOW-VOLTAGE RFID READERS
 0
 12
 12
-Sparkfun RF
+SparkFun-RF
 ID-12_SMD
 ID-2, ID-12, AND ID-20 LOW-VOLTAGE RFID READERS - SMD FOOTPRINT
 ID-2, ID-12, AND ID-20 LOW-VOLTAGE RFID READERS - SMD FOOTPRINT
 0
 12
 12
-Sparkfun RF
+SparkFun-RF
 RF-LINK_RX
 RF LINK RECEIVER, PTH PACKAGE
 RF LINK RECEIVER, PTH PACKAGE
 0
 8
 4
-Sparkfun RF
+SparkFun-RF
 RF-LINK_TX
 RF LINK TRANSMITTER, PTH PACKAGE
 RF LINK TRANSMITTER, PTH PACKAGE
 0
 4
 4
-Sparkfun RF
+SparkFun-RF
 RFD77101
 SIMBLEE ? BLE MODULE RFD77101
 SIMBLEE ? BLE MODULE RFD77101
 0
 45
 45
-Sparkfun RF
+SparkFun-RF
 RFM22-XXX-S2
 HOPE RF RFM22 RF TRANSCEIVER
 HOPE RF RFM22 RF TRANSCEIVER
 0
 16
 16
-Sparkfun RF
+SparkFun-RF
 RFM69CW-XXXS2
 HOPE RF RFM69CW RF TRANSCIEVER
 HOPE RF RFM69CW RF TRANSCIEVER
 0
 14
 14
-Sparkfun RF
+SparkFun-RF
 RFM69HCW-XXXS2
 HOPE RF RFM69HCW RF TRANSCIEVER
 HOPE RF RFM69HCW RF TRANSCIEVER
 0
 16
 16
-Sparkfun RF
+SparkFun-RF
 RFM69W-XXXS2
 HOPE RF RFM69HW RF TRANSCEIVER
 HOPE RF RFM69HW RF TRANSCEIVER
 0
 16
 16
-Sparkfun RF
+SparkFun-RF
 RMCM01
 POLAR RMCM-01 HEART RATE RECEIVER MODULE
 POLAR RMCM-01 HEART RATE RECEIVER MODULE
 0
 11
 11
-Sparkfun RF
+SparkFun-RF
 RN-52
 ROVING NETWORKS RN-52 BLUETOOTH AUDIO MODULE
 ROVING NETWORKS RN-52 BLUETOOTH AUDIO MODULE
 0
 50
 50
-Sparkfun RF
+SparkFun-RF
 RN41
 ROVING NETWORKS RN-41 BLUETOOTH MODULE
 ROVING NETWORKS RN-41 BLUETOOTH MODULE
 0
 32
 32
-Sparkfun RF
+SparkFun-RF
 RN171
 ROVING NETWORKS RN-171 WI-FI MODULE
 ROVING NETWORKS RN-171 WI-FI MODULE
 0
 49
 49
-Sparkfun RF
+SparkFun-RF
 SD-CARD
 SD CARD SOCKET
 SD CARD SOCKET
 0
 13
 13
-Sparkfun RF
+SparkFun-RF
 SM130
 SM130 13.56 MHZ RFID MIFARE(R) R/W MODULE
 SM130 13.56 MHZ RFID MIFARE(R) R/W MODULE
 0
 28
 28
-Sparkfun RF
+SparkFun-RF
 SM5100B
 SM5100B GSM/GPRS MODULE - 60-PIN 0.5MM-PITCH BOARD-TO-BOARD CONNECTOR
 SM5100B GSM/GPRS MODULE - 60-PIN 0.5MM-PITCH BOARD-TO-BOARD CONNECTOR
 0
 60
 60
-Sparkfun RF
+SparkFun-RF
 TRACE_ANTENNA_2.4GHZ_15.2MM
 2.4GHZ MEANDER PCB TRACE ANTENNA
 2.4GHZ MEANDER PCB TRACE ANTENNA
 0
 2
 2
-Sparkfun RF
+SparkFun-RF
 TRACE_ANTENNA_2.4GHZ_25.7MM
 2.4GHZ INVERTED F PCB TRACE ANTENNA
 2.4GHZ INVERTED F PCB TRACE ANTENNA
 0
 3
 3
-Sparkfun RF
+SparkFun-RF
 WIFLY_GSX
 ROVING NETWORKS RN-131C (WIFLY GSX) 802.11B/G MODULE
 ROVING NETWORKS RN-131C (WIFLY GSX) 802.11B/G MODULE
 0
 44
 44
-Sparkfun RF
+SparkFun-RF
 XBEE
 DIGI XBEE AND XBEE-PRO RF MODULES
 DIGI XBEE AND XBEE-PRO RF MODULES
 0
 20
 20
-Sparkfun RF
+SparkFun-RF
 XBEE-LOCK
 DIGI XBEE AND XBEE-PRO RF MODULES (LOCKING FOOTPRINT)
 DIGI XBEE AND XBEE-PRO RF MODULES (LOCKING FOOTPRINT)
 0
 20
 20
-Sparkfun RF
+SparkFun-RF
 XBEE-LONGPAD
 DIGI XBEE AND XBEE-PRO RF MODULES (LONG PADS)
 DIGI XBEE AND XBEE-PRO RF MODULES (LONG PADS)
 0
 20
 20
-Sparkfun RF
+SparkFun-RF
 XBEE-SILK
 DIGI XBEE AND XBEE-PRO RF MODULES (SILKSCREEN DIMENSION INDICATORS)
 DIGI XBEE AND XBEE-PRO RF MODULES (SILKSCREEN DIMENSION INDICATORS)
 0
 20
 20
-Sparkfun RF
+SparkFun-RF
 XBEE-SMD
 DIGI XBEE AND XBEE-PRO RF MODULES (SMD PADS)
 DIGI XBEE AND XBEE-PRO RF MODULES (SMD PADS)
 0
 20
 20
-Sparkfun RF
+SparkFun-RF
 XTEND-DIGI-MODEM
 DIGI XTEND 900 1W RF MODULE
 DIGI XTEND 900 1W RF MODULE
 0
 20
 20
-Sparkfun Resistors
+SparkFun-Resistors
 0402
 GENERIC 1005 (0402) PACKAGE
 GENERIC 1005 (0402) PACKAGE
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 0603
 GENERIC 1608 (0603) PACKAGE
 GENERIC 1608 (0603) PACKAGE
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 0805
 GENERIC 2012 (0805) PACKAGE
 GENERIC 2012 (0805) PACKAGE
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 0805-ARV
 4X2012(0805) RESISTOR ARRAY
 4X2012(0805) RESISTOR ARRAY
 0
 8
 8
-Sparkfun Resistors
+SparkFun-Resistors
 1206
 GENERIC 3216 (1206) PACKAGE
 GENERIC 3216 (1206) PACKAGE
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 1210
 GENERIC 3225 (1210) PACKAGE
 GENERIC 3225 (1210) PACKAGE
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 2010
 GENERIC 5025 (2010) PACKAGE
 GENERIC 5025 (2010) PACKAGE
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 AXIAL-0.1
 AXIAL-0.1
 AXIAL-0.1
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 AXIAL-0.1-KIT
 AXIAL-0.1-KIT
 AXIAL-0.1-KIT
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 AXIAL-0.3
 AXIAL-0.3
 AXIAL-0.3
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 AXIAL-0.3-KIT
 AXIAL-0.3-KIT
 AXIAL-0.3-KIT
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 AXIAL-0.3EZ
 THIS IS THE "EZ" VERSION OF THE STANDARD .3" SPACED RESISTOR PACKAGE.
 THIS IS THE "EZ" VERSION OF THE STANDARD .3" SPACED RESISTOR PACKAGE.
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 AXIAL-2.0
 
 
 0
 2
 2
-Sparkfun Resistors
+SparkFun-Resistors
 C2031N-1A2-B10K-GP
 
 
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 POT-DUAL-PTH-PANASONIC-VERT
 PANASONIC DUAL-GANG 12MM PTH POTENTIOMETER
 PANASONIC DUAL-GANG 12MM PTH POTENTIOMETER
 0
 8
 8
-Sparkfun Resistors
+SparkFun-Resistors
 POT-DUAL-PTH-PANASONIC-VERT-KIT
 PANASONIC DUAL-GANG 12MM PTH POTENTIOMETER (KIT VARIANT)
 PANASONIC DUAL-GANG 12MM PTH POTENTIOMETER (KIT VARIANT)
 0
 8
 8
-Sparkfun Resistors
+SparkFun-Resistors
 POT-PTH-ALPS
 9MM SQUARE ROTARY POTENTIOMETER - PTH
 9MM SQUARE ROTARY POTENTIOMETER - PTH
 0
 5
 5
-Sparkfun Resistors
+SparkFun-Resistors
 POT-PTH-ALPS-KIT
 9MM SQUARE ROTARY POTENTIOMETER - PTH (KIT VARIANT)
 9MM SQUARE ROTARY POTENTIOMETER - PTH (KIT VARIANT)
 0
 5
 5
-Sparkfun Resistors
+SparkFun-Resistors
 POT-SWITCH-PTH
 17MM PTH POTENTIOMETER (POT) WITH SWITCH
 17MM PTH POTENTIOMETER (POT) WITH SWITCH
 0
 5
 5
-Sparkfun Resistors
+SparkFun-Resistors
 RPACK-SIP-PTH-5
 BASED ON THIS DATASHEET.
 BASED ON THIS DATASHEET.
 0
 6
 6
-Sparkfun Resistors
+SparkFun-Resistors
 SLIDER-MEDIUM
 SLIDE POTENTIOMETER - PTH, 30MM TRAVEL
 SLIDE POTENTIOMETER - PTH, 30MM TRAVEL
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 SLIDER-MEDIUM-KIT
 SLIDE POTENTIOMETER - PTH, 30MM TRAVEL (KIT VARIANT)
 SLIDE POTENTIOMETER - PTH, 30MM TRAVEL (KIT VARIANT)
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 SLIDER-SMALL
 SLIDE POTENTIOMETER - PTH, 20MM TRAVEL
 SLIDE POTENTIOMETER - PTH, 20MM TRAVEL
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 SLIDER-XLARGE
 SLIDE POTENTIOMETER - PTH 60MM TRAVEL
 SLIDE POTENTIOMETER - PTH 60MM TRAVEL
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 TRIMPOT-PTH-3386U
 TRIMPOT - PTH, TRIMPOT W/ FINGER-ADJUSTABLE KNOB
 TRIMPOT - PTH, TRIMPOT W/ FINGER-ADJUSTABLE KNOB
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 TRIMPOT-SMD-3MM-CLOSED
 TRIMPOT - SMD, 3MM SQUARE, CLOSED-FRAME
 TRIMPOT - SMD, 3MM SQUARE, CLOSED-FRAME
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 TRIMPOT-SMD-3MM-OPEN
 TRIMPOT - SMD, 3MM SQUARE, OPEN-FRAME
 TRIMPOT - SMD, 3MM SQUARE, OPEN-FRAME
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 TRIMPOT-SMD-5MM
 TRIMPOT - SMD, 5MM SQUARE, CLOSED-FRAME
 TRIMPOT - SMD, 5MM SQUARE, CLOSED-FRAME
 0
 3
 3
-Sparkfun Resistors
+SparkFun-Resistors
 TRIMPOT-SMD-TC33X
 BOURNS TC33X TRIMPOT - SMD, 3MM SQUARE, OPEN-FRAME
 BOURNS TC33X TRIMPOT - SMD, 3MM SQUARE, OPEN-FRAME
 0
 3
 3
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 78XXL
 VOLTAGE REGULATOR
 VOLTAGE REGULATOR
 0
 3
 3
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 AD9837
 
 
 0
 11
 11
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 ADMP401
 ADMP401 BOTTOM PORT MICROPHONE
 ADMP401 BOTTOM PORT MICROPHONE
 0
 5
 5
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 ALS-PT19
 ALS-PT19-315C/L177/TR8 AMBIENT LIGHT SENSOR
 ALS-PT19-315C/L177/TR8 AMBIENT LIGHT SENSOR
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 APDS-9960
 APDS-9960 PROXIMITY, LIGHT, RGB, GESTURE SENSOR
 APDS-9960 PROXIMITY, LIGHT, RGB, GESTURE SENSOR
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 BGA-116
 
 
 0
 116
 116
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 BGA8DS
 
 
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 BMP180
 BMP180 PRESSURE SENSOR
 BMP180 PRESSURE SENSOR
 0
 7
 7
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 BPW34
 BPW34, BPW34S PIN PHOTODIODE
 BPW34, BPW34S PIN PHOTODIODE
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 BRM-2508
 BRM-2A18 INFRARED RECEIVER - HORIZONTAL FACING
 BRM-2A18 INFRARED RECEIVER - HORIZONTAL FACING
 0
 3
 3
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 BRM-2508_VERT
 BRM-2A18 INFRARED RECEIVE - VERTICAL FACINGR
 BRM-2A18 INFRARED RECEIVE - VERTICAL FACINGR
 0
 3
 3
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DC-DC_CONVERTER
 
 
 0
 10
 10
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DC-DC_CONVERTER_78XX
 
 
 0
 3
 3
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DFN-6-3X3-HTU21D
 6-PIN DUAL FLAT NO-LEAD (DFN) W/ CENTER PAD (3.0 X 3.0 MM) - DESIGNED FOR HTU21D
 6-PIN DUAL FLAT NO-LEAD (DFN) W/ CENTER PAD (3.0 X 3.0 MM) - DESIGNED FOR HTU21D
 0
 7
 7
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DFN-6-3X3-SI7021
 6-PIN DFN W/ CENTER PAD (3 X 3 MM) - DESIGNED FOR SI7021
 6-PIN DFN W/ CENTER PAD (3 X 3 MM) - DESIGNED FOR SI7021
 0
 7
 7
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DIODE-1N4001
 
 
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DIODE-1N4001-KIT
 
 
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DIODE-1N4148
 
 
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DIODE-1N4148-KIT
 
 
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DIP08-KIT
 
 
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DIP14-KIT
 
 
 0
 14
 14
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DIP16-KIT
 
 
 0
 16
 16
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DIP28-SIMON-KIT
 28-PIN "EZ" PACKAGE.
 28-PIN "EZ" PACKAGE.
 0
 27
 27
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 DPAK-5
 DPAK 5, CENTER LEAD CROP, CASE 175AA
 DPAK 5, CENTER LEAD CROP, CASE 175AA
 0
 5
 5
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 GAS_SENSOR
 GAS SENSORS - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8
 GAS SENSORS - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8
 0
 6
 6
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 GEIGER_TUBE
 LND, INC LND712 GEIGER TUBE
 LND, INC LND712 GEIGER TUBE
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 GP1A57HR
 SHARP GP1A57HR TRANSMISSIVE PHOTOINTERRUPTER
 SHARP GP1A57HR TRANSMISSIVE PHOTOINTERRUPTER
 0
 5
 5
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 HIH-4030
 HIH-4030 HUMIDITY SENSOR
 HIH-4030 HUMIDITY SENSOR
 0
 4
 4
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 HTSSOP28
 
 
 0
 50
 29
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LCC-8
 8-PIN LCC (5 X 5 X 2 MM)
 8-PIN LCC (5 X 5 X 2 MM)
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LCC-36
 36-PIN LCC (9 X 9 MM)
 36-PIN LCC (9 X 9 MM)
 0
 36
 36
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LFCSP-16-3X3
 16-PIN LEAD FRAME CHIP SCALE (LFCSP) W/ CENTER PAD (3 X 3 MM)
 16-PIN LEAD FRAME CHIP SCALE (LFCSP) W/ CENTER PAD (3 X 3 MM)
 0
 17
 17
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LFCSP-16-4X4
 16-PIN LFCSP W/ CENTER PAD (4 X 4 MM)
 16-PIN LFCSP W/ CENTER PAD (4 X 4 MM)
 0
 17
 17
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LGA-8-5X3
 8-PIN LAND GRID ARRAY (LGA) (5 X 3 MM)
 8-PIN LAND GRID ARRAY (LGA) (5 X 3 MM)
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LGA-12
 LGA-12 2X2X1 MM 12-LEAD
 LGA-12 2X2X1 MM 12-LEAD
 0
 12
 12
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LGA-14
 14-PIN LGA (3 X 5 X 1 MM) (1:1 FOOTPRINT)
 14-PIN LGA (3 X 5 X 1 MM) (1:1 FOOTPRINT)
 0
 14
 14
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LGA-16-4X4
 16-PIN LGA PACKAGE
 16-PIN LGA PACKAGE
 0
 16
 16
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LGA-24
 LGA 4X4X1 MM 24-LEAD
 LGA 4X4X1 MM 24-LEAD
 0
 24
 24
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LGA-24-3.5X3
 24-PIN LGA (3.5 X 3 MM)
 24-PIN LGA (3.5 X 3 MM)
 0
 24
 24
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LGA10-MILLABLE
 10-PIN LGA PACKAGE - 2.7 X 4.0MM, 0.6MM PITCH
 10-PIN LGA PACKAGE - 2.7 X 4.0MM, 0.6MM PITCH
 0
 11
 11
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LGA20
 
 
 0
 20
 20
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 LTR-301
 LTR-301 IR PHOTOTRANSISTOR (SIDE-RECEIVING)
 LTR-301 IR PHOTOTRANSISTOR (SIDE-RECEIVING)
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 MICROFET_2X2
 1206-8 CHIPFET
 1206-8 CHIPFET
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 MICROPHONE-PTH-9.7MM
 MICROPHONE - 9.7 MM DIAMETER, PTH
 MICROPHONE - 9.7 MM DIAMETER, PTH
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 MICROPHONE-SMD-6MM
 SMD OMNI-DIRECTIONAL CONDENSER MICROPHONE
 SMD OMNI-DIRECTIONAL CONDENSER MICROPHONE
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 ML8511
 ML8511 UV SENSOR 12-PIN (4 X 3.7 MM)
 ML8511 UV SENSOR 12-PIN (4 X 3.7 MM)
 0
 12
 12
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 MULTIWATT15
 MULTIWATT15V PACKAGE FOR THE L298 DUAL FULL BRIDGE DRIVER
 MULTIWATT15V PACKAGE FOR THE L298 DUAL FULL BRIDGE DRIVER
 0
 15
 15
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 MULTIWATT15_6400BGHEATSINK
 
 
 0
 15
 15
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 MULTIWATT15_6400BGHEATSINK_2
 
 
 0
 17
 17
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 MULTIWATT15_YB324GHEATSINK
 
 
 0
 15
 15
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 OLGA-14
 OLGA - 14 PIN
 OLGA - 14 PIN
 0
 14
 14
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 PANASONIC_SMINI2-F5-B
 FROM HTTP://WWW.SEMICON.PANASONIC.CO.JP/DS4/DZ2J150_E.PDF
 FROM HTTP://WWW.SEMICON.PANASONIC.CO.JP/DS4/DZ2J150_E.PDF
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 PCA9306DC
 PCA9306DC
 PCA9306DC
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 PDSO-N12
 12-PIN VSON 2.5 X 4.0 MM IC
 12-PIN VSON 2.5 X 4.0 MM IC
 0
 17
 17
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 PHOTOCELL
 CDS PHOTOCOUNDUCTIVE PHOTOCELL (PTH)
 CDS PHOTOCOUNDUCTIVE PHOTOCELL (PTH)
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 PHOTOCELL-KIT
 CDS PHOTOCOUNDUCTIVE PHOTOCELL (PTH) - KIT
 CDS PHOTOCOUNDUCTIVE PHOTOCELL (PTH) - KIT
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 PT17-21C-L41-TR8
 
 
 0
 2
 2
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 Q5-DD_SPX29300
 
 
 0
 6
 6
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 QFN-16
 16-PIN QUAD FLAT NO-LEAD (QFN) (3 X 3 MM)
 16-PIN QUAD FLAT NO-LEAD (QFN) (3 X 3 MM)
 0
 16
 16
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 QRD1114
 QRD1113, QRD1114 REFLECTIVE OBJECT SENSOR
 QRD1113, QRD1114 REFLECTIVE OBJECT SENSOR
 0
 4
 4
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 QRE1113
 QRE1113, QRE1113GR SMD REFLECTIVE OBJECT SENSOR
 QRE1113, QRE1113GR SMD REFLECTIVE OBJECT SENSOR
 0
 4
 4
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 QRE1113-W
 QRE1113, QRE1113GR SMD REFLECTIVE OBJECT SENSOR (WIDE PIN FOOTPRINT)
 QRE1113, QRE1113GR SMD REFLECTIVE OBJECT SENSOR (WIDE PIN FOOTPRINT)
 0
 4
 4
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 RFD77402
 
 
 0
 12
 12
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 SHT1X
 SHT1X (SHT10, SHT11, SHT15) HUMIDITY AND TEMPERATURE SENSORS
 SHT1X (SHT10, SHT11, SHT15) HUMIDITY AND TEMPERATURE SENSORS
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 SON10
 
 
 0
 10
 10
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 T5403
 T5400, T54003 DIGITAL BAROMETRIC PRESSURE SENSOR
 T5400, T54003 DIGITAL BAROMETRIC PRESSURE SENSOR
 0
 8
 8
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 TCM8240MD
 TCM8240 CMOS CAMERA
 TCM8240 CMOS CAMERA
 0
 24
 24
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 TEMT6000
 3-PIN TEMT6000 AMBIENT LIGHT SENSOR
 3-PIN TEMT6000 AMBIENT LIGHT SENSOR
 0
 3
 3
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 TMB-6
 6-PIN TMB
 6-PIN TMB
 0
 6
 6
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 V-REG_DPACK
 DPAK
 DPAK
 0
 3
 3
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 VL6180
 VL6180
 VL6180
 0
 12
 12
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 VNH2SP30
 
 
 0
 33
 31
-Sparkfun Silicon-Custom
+SparkFun-Silicon-Custom
 _STN_SCANTOOL_QFN-28-S
 QUAD FLAT NO LEADS PACKAGE
 QUAD FLAT NO LEADS PACKAGE
 0
 29
 29
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 8-SMD
 
 
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 D2PACK_A
 D2PAK/A V-REG PACKAGE
 D2PAK/A V-REG PACKAGE
 0
 4
 4
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DFN-6-2X2
 6-PIN DUAL-FLAT NO-LEAD (DFN) (2.0 X 2.0 MM)
 6-PIN DUAL-FLAT NO-LEAD (DFN) (2.0 X 2.0 MM)
 0
 6
 6
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DFN-6-3X3
 6-PIN DUAL FLAT NO-LEAD (DFN) W/ CENTER PAD (3.0 X 3.0 MM) - DESIGNED FOR HTU21D
 6-PIN DUAL FLAT NO-LEAD (DFN) W/ CENTER PAD (3.0 X 3.0 MM) - DESIGNED FOR HTU21D
 0
 7
 7
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DFN-8
 NOW FOLLOWS HTTP://PDFSERV.MAXIMINTEGRATED.COM/LAND_PATTERNS/90-0065.PDF
 NOW FOLLOWS HTTP://PDFSERV.MAXIMINTEGRATED.COM/LAND_PATTERNS/90-0065.PDF
 0
 9
 9
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DFN-10
 10-PIN DUAL-FLAT NO-LEAD (DFN) (2.0 X 2.0 MM) (1:1 FOOTPRINT)
 10-PIN DUAL-FLAT NO-LEAD (DFN) (2.0 X 2.0 MM) (1:1 FOOTPRINT)
 0
 10
 10
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DHVQFN-16-2.5X3.5MM
 16-PIN DHVQFN (SOT763-1) - 2.5 X 3.5 X 0.85 MM
 16-PIN DHVQFN (SOT763-1) - 2.5 X 3.5 X 0.85 MM
 0
 17
 17
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DIL18
 DUAL IN LINE PACKAGE - 18 PIN
 DUAL IN LINE PACKAGE - 18 PIN
 0
 18
 18
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DIP6SMD
 
 
 0
 6
 6
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DIP08
 DUAL IN LINE PACKAGE
 DUAL IN LINE PACKAGE
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DIP8SMD
 
 
 0
 6
 6
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DIP14
 
 
 0
 14
 14
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DIP16
 DUAL IN LINE PACKAGE
 DUAL IN LINE PACKAGE
 0
 16
 16
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DIP18
 DUAL IN LINE
 DUAL IN LINE
 0
 18
 18
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DIP28
 STANDARD 28-PIN DIP PACKAGE.
 STANDARD 28-PIN DIP PACKAGE.
 0
 28
 28
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 DPAK
 
 
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 HVSS0P-10
 
 
 0
 11
 11
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LCC20
 LEADLESS CHIP CARRIER CERAMIC PACKAGE
 LEADLESS CHIP CARRIER CERAMIC PACKAGE
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LFCSP_20
 
 
 0
 21
 21
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LGA-8-2.5X2.5
 LGA 8-PIN &NDASH;  2.5MM X 2.5MM, 0.65MM PITCH
 LGA 8-PIN &NDASH;  2.5MM X 2.5MM, 0.65MM PITCH
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LGA-16-3X2.5
 16-PIN LGA (3 X 3.25 MM) (1:1 FOOTPRINT)
 16-PIN LGA (3 X 3.25 MM) (1:1 FOOTPRINT)
 0
 16
 16
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LGA-16-3X3
 16-PIN LAND GRID ARRAY (LGA) (3 X 3 MM)
 16-PIN LAND GRID ARRAY (LGA) (3 X 3 MM)
 0
 16
 16
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LGA10
 
 
 0
 11
 11
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LPCC-16
 16-PIN LCC (3 X 3 X 0.9 MM)
 16-PIN LCC (3 X 3 X 0.9 MM)
 0
 16
 16
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LQFP-48
 LQFP -48
 LQFP -48
 0
 48
 48
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 LQFP-80
 LQFP-80
 LQFP-80
 0
 80
 80
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 MLF32
 32M1-A MICRO LEAD FRAME PACKAGE (MLF)
 32M1-A MICRO LEAD FRAME PACKAGE (MLF)
 0
 32
 32
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 MLF32-PAD
 
 
 0
 33
 33
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 MS5803
 MS5803-14BA PRESSURE SENSOR 8-PIN 6.4 X6.2 MM
 MS5803-14BA PRESSURE SENSOR 8-PIN 6.4 X6.2 MM
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 MSOP-10-GNDPAD
 10-LEAD MSOP W/ CENTER GND PAD
 10-LEAD MSOP W/ CENTER GND PAD
 0
 11
 11
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 MSOP-12_GND
 
 
 0
 13
 13
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 MSOP8
 8M, 8-LEAD, 0.118" WIDE, MINIATURE SMALL OUTLINE PACKAGE
 8M, 8-LEAD, 0.118" WIDE, MINIATURE SMALL OUTLINE PACKAGE
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 MSOP10
 10 LEAD PLATIC MSOP
 10 LEAD PLATIC MSOP
 0
 10
 10
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 ODFN-6
 6-PIN OPTICAL DUAL FLAT NO-LEAD (ODFN) (1.65 X 1.65 MM)
 6-PIN OPTICAL DUAL FLAT NO-LEAD (ODFN) (1.65 X 1.65 MM)
 0
 6
 6
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 PLCC20S
 PLCC 20 PIN SQUARE
 PLCC 20 PIN SQUARE
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 POWER-SOP8
 8M, 8-LEAD, 0.118" WIDE, MINIATURE SMALL OUTLINE PACKAGE
 8M, 8-LEAD, 0.118" WIDE, MINIATURE SMALL OUTLINE PACKAGE
 0
 9
 9
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 POWERSO20
 
 
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 POWERSO20_L298_PAD
 
 
 0
 21
 21
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 PSOP-8
 PSOP-8
 PSOP-8
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 PVQFN-N16
 16-PIN VSON (VQFN) 3.0 X 3.0 MM IC
 16-PIN VSON (VQFN) 3.0 X 3.0 MM IC
 0
 17
 17
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-8_PAD
 
 
 0
 13
 13
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-10-RSE
 
 
 0
 10
 10
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-10_PAD
 
 
 0
 15
 15
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-20
 20-PIN QUAD FLAT NO-LEAD (QFN) (3 X 3 MM)
 20-PIN QUAD FLAT NO-LEAD (QFN) (3 X 3 MM)
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-20-3X3MM
 20-PIN QFN PACKAGE 3 X 3 MM
 20-PIN QFN PACKAGE 3 X 3 MM
 0
 21
 21
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-24
 24-PIN QFN (4 X 4 MM) (1:1 FOOTPRINT)
 24-PIN QFN (4 X 4 MM) (1:1 FOOTPRINT)
 0
 24
 24
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-24-EP
 24-PIN QFN W/ CENTER PAD (4 X 4 MM)
 24-PIN QFN W/ CENTER PAD (4 X 4 MM)
 0
 25
 25
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-28
 
 
 0
 29
 29
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-28-5MM
 
 
 0
 29
 29
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-28-5MM-1to1
 
 
 0
 29
 29
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-28-5MM_ALT1
 
 
 0
 29
 29
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-28-5MM_ALT2
 
 
 0
 29
 29
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-32
 QFN 32-PIN PACKAGE W/ THERMAL PAD
 QFN 32-PIN PACKAGE W/ THERMAL PAD
 0
 33
 33
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-40
 40-QFN FROM CYPRESS 4245 DATASHEET, WITH SPARKFUN DFM
 40-QFN FROM CYPRESS 4245 DATASHEET, WITH SPARKFUN DFM
 0
 41
 41
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-44
 
 
 0
 44
 44
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-44-NOPAD
 
 
 0
 44
 44
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-44-NOPAD_1to1
 
 
 0
 44
 44
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-44-NOPAD_1to1-LESS_PASTE
 
 
 0
 44
 44
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-46-13.5X16.3MM
 TEXAS INSTRUMENTS CC3000 WI-FI MODULE
 TEXAS INSTRUMENTS CC3000 WI-FI MODULE
 0
 46
 37
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-48
 48-PIN QFN (7X7MM, 0.5MM PITCH)
 48-PIN QFN (7X7MM, 0.5MM PITCH)
 0
 49
 49
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-64-9X9MM
 64-PIN QFN 9X9MM, 0.5MM PITCH
 64-PIN QFN 9X9MM, 0.5MM PITCH
 0
 64
 64
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN-68
 
 
 0
 69
 69
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN16-3X3MM
 3MM X 3MM QFN 16 PIN
 3MM X 3MM QFN 16 PIN
 0
 17
 17
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN20
 
 
 0
 21
 21
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN20-4X4MM
 QFN 20-PIN, 4X4MM
 QFN 20-PIN, 4X4MM
 0
 21
 21
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN24-3X3
 24-PIN QFN -  3.0 X 3.0 MM - NO CENTER PAD
 24-PIN QFN -  3.0 X 3.0 MM - NO CENTER PAD
 0
 24
 24
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN48-0.4MM
 QFN 48 PIN
 QFN 48 PIN
 0
 49
 49
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 QFN48-6X6MM
 QFN-48 PIN 6X6MM
 QFN-48 PIN 6X6MM
 0
 49
 49
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SC70
 SC-70
 SC-70
 0
 5
 5
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SC70-6
 SC-88/SC70-6/SOT-363 6-PIN PACKAGE
 SC-88/SC70-6/SOT-363 6-PIN PACKAGE
 0
 6
 6
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SMA-DIODE
 DIODE
 DIODE
 0
 2
 2
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO08
 SOIC, 0.15 INCH WIDTH
 SOIC, 0.15 INCH WIDTH
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO08-EIAJ
 FITS EIAJ PACKAGES (WIDE VERSION OF THE SOIC-8).
 FITS EIAJ PACKAGES (WIDE VERSION OF THE SOIC-8).
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO08-TIGHT
 
 
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO08_PAD
 SOIC, 0.15 INCH WIDTH
 SOIC, 0.15 INCH WIDTH
 0
 9
 9
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO14
 SOIC, 0.15 INCH WIDTH
 SOIC, 0.15 INCH WIDTH
 0
 14
 14
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO16
 SOIC, 0.15 INCH WIDTH
 SOIC, 0.15 INCH WIDTH
 0
 16
 16
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO16A
 SOP-16L
 SOP-16L
 0
 16
 16
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO18L
 
 
 0
 18
 18
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO18W
 SMALL OUTLINE WIDE PLASTIC GULL WING
 SMALL OUTLINE WIDE PLASTIC GULL WING
 0
 18
 18
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SO20-0.3
 20-PIN SOIC (0.3" WIDE)
 20-PIN SOIC (0.3" WIDE)
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOD-323
 SOD-323 (SMALL OUTLINE DIODE)
 SOD-323 (SMALL OUTLINE DIODE)
 0
 2
 2
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOD-523
 SOD-523 (SMALL OUTLINE DIODE)
 SOD-523 (SMALL OUTLINE DIODE)
 0
 2
 2
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOIC-8
 8-PIN SOIC 208-MIL
 8-PIN SOIC 208-MIL
 0
 8
 8
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOIC-18
 
 
 0
 18
 18
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOIC-28
 
 
 0
 28
 28
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOP20W
 SMALL OUTLINE PACKAGE
 SMALL OUTLINE PACKAGE
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOT23-3
 SOT23-3
 SOT23-3
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOT23-5
 SMALL OUTLINE TRANSISTOR
 SMALL OUTLINE TRANSISTOR
 0
 5
 5
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOT23-6
 SOT23-6
 SOT23-6
 0
 6
 6
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOT26
 FOOTPRINT FOR SOT-26 PART DMP2240UDM
 FOOTPRINT FOR SOT-26 PART DMP2240UDM
 0
 6
 6
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOT223
 SOT-223
 SOT-223
 0
 4
 4
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOT323
 
 
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOT353
 SOT353 AKA SC70-5
 SOT353 AKA SC70-5
 0
 5
 5
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SOT563
 6-PIN SOT563 (1:1 FOOTPRINT)
 6-PIN SOT563 (1:1 FOOTPRINT)
 0
 6
 6
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SSOP16
 
 
 0
 16
 16
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SSOP20
 SHRINK SMALL OUTLINE PACKAGE
 SHRINK SMALL OUTLINE PACKAGE
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SSOP20_L
 SSOP-20 -LONG VERSION
 SSOP-20 -LONG VERSION
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SSOP24
 
 
 0
 24
 24
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SSOP28DB
 SMALL SHRINK OUTLINE PACKAGE - 28 DB
 SMALL SHRINK OUTLINE PACKAGE - 28 DB
 0
 28
 28
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 SSOP_20
 20-PIN .65MM PITCH/5.2MM BODY SMT
 20-PIN .65MM PITCH/5.2MM BODY SMT
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TDFN-8
 TDFN - 8PIN, 2MMX3MM
 TDFN - 8PIN, 2MMX3MM
 0
 9
 9
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO-39
 TO-39 4-PIN PTH
 TO-39 4-PIN PTH
 0
 4
 4
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO-92
 TO 92
 TO 92
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO-92-AMMO
 TO-92 3-PIN PTH AMMO PACKAGE
 TO-92 3-PIN PTH AMMO PACKAGE
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO-92-EZ
 
 
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO-92-KIT
 TO-92 3-PIN PTH FOOTPRINT - KIT VERSION
 TO-92 3-PIN PTH FOOTPRINT - KIT VERSION
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO-220-ALT
 
 
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO-252
 
 
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO-263_D2PAK
 
 
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO220-ADJ
 
 
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO220-IGO
 
 
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TO220V
 TO 220 VERTICAL PACKAGE WORKS WITH VARIOUS PARTS INCLUDING N-CHANNEL MOSFET SPARKFUN SKU: COM-10213
 TO 220 VERTICAL PACKAGE WORKS WITH VARIOUS PARTS INCLUDING N-CHANNEL MOSFET SPARKFUN SKU: COM-10213
 0
 3
 3
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TQFP-48
 48-PIN TQFP (7X7MM, 0.5MM PITCH)
 48-PIN TQFP (7X7MM, 0.5MM PITCH)
 0
 48
 48
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TQFP-100-14X14MM
 
 
 0
 100
 100
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TQFP32-5MM
 TQFP - 32
 TQFP - 32
 0
 32
 32
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TQFP32-08
 THIN PLASIC QUAD FLAT PACKAGE GRID 0.8 MM
 THIN PLASIC QUAD FLAT PACKAGE GRID 0.8 MM
 0
 32
 32
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TQFP44
 
 
 0
 44
 44
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TQFP64
 64-LEAD TQFP PLASTIC THIN QUAD FLATPACK - 10X10X1MM BODY, 2MMFP
 64-LEAD TQFP PLASTIC THIN QUAD FLATPACK - 10X10X1MM BODY, 2MMFP
 0
 64
 64
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TQFP64_14X14MM
 64-LEAD TQFP PLASTIC THIN QUAD FLATPACK - 14X14X1MM BODY
 64-LEAD TQFP PLASTIC THIN QUAD FLATPACK - 14X14X1MM BODY
 0
 64
 64
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TQFP100
 100-LEAD THIN QUAD FLAT PACK PACKAGE OUTLINE
 100-LEAD THIN QUAD FLAT PACK PACKAGE OUTLINE
 0
 100
 100
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TSOP572
 TSOP572
 TSOP572
 0
 4
 4
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TSSOP-14
 
 
 0
 14
 14
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TSSOP-28_4MM
 
 
 0
 28
 28
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TSSOP14
 TSSOP  (THIN SHRINK SMALL OUTLINE PLASTIC) - 14
 TSSOP  (THIN SHRINK SMALL OUTLINE PLASTIC) - 14
 0
 14
 14
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TSSOP16
 TSOP16
 TSOP16
 0
 16
 16
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 TSSOP28
 
 
 0
 28
 28
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 UFDFN-20
 UFDFN-20
 UFDFN-20
 0
 20
 20
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 VQFN-28
 
 
 0
 29
 29
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 VSSOP-10
 
 
 0
 10
 10
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 WQFN-24
 WQFN - 24 PIN
 WQFN - 24 PIN
 0
 25
 25
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 WSON-8-PAD
 
 
 0
 9
 9
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 WSON-12
 WSON-12
 WSON-12
 0
 13
 13
-Sparkfun Silicon-Standard
+SparkFun-Silicon-Standard
 WSON8-6X5MM
 
 
 0
 9
 9
-Sparkfun Switches
+SparkFun-Switches
 BUTTON-18MM
 MAGNETIC METAL SNAPS
 MAGNETIC METAL SNAPS
 0
 2
 2
-Sparkfun Switches
+SparkFun-Switches
 BUTTON-CONDUCTIVE
 CONDUCTIVE BUTTON
 CONDUCTIVE BUTTON
 0
 2
 2
-Sparkfun Switches
+SparkFun-Switches
 BUTTONPAD-2X2
 2X2 BUTTON PAD W/ RGB LEDS
 2X2 BUTTON PAD W/ RGB LEDS
 0
 24
 24
-Sparkfun Switches
+SparkFun-Switches
 BUTTONPAD-2X2-SINGLE-LED
 2X2 BUTTON PAD W/ SINGLE LEDS
 2X2 BUTTON PAD W/ SINGLE LEDS
 0
 16
 16
-Sparkfun Switches
+SparkFun-Switches
 BUTTONPAD-2X2-SINGLE-LED-KIT
 2X2 BUTTON PAD W/ SINGLE LEDS
 2X2 BUTTON PAD W/ SINGLE LEDS
 0
 16
 16
-Sparkfun Switches
+SparkFun-Switches
 BUTTONPAD-2X2-STAGGERED
 2X2 BUTTON PAD W/ RGB LEDS - STAGGERED LED FOOTPRINT
 2X2 BUTTON PAD W/ RGB LEDS - STAGGERED LED FOOTPRINT
 0
 24
 24
-Sparkfun Switches
+SparkFun-Switches
 BUTTONPAD-4X4
 4X4 BUTTON PAD W/ RGB LEDS
 4X4 BUTTON PAD W/ RGB LEDS
 0
 96
 50
-Sparkfun Switches
+SparkFun-Switches
 BUTTONPAD-4X4-STAGGERED
 4X4 BUTTON PAD W/ RGB LEDS - STAGGERED LED FOOTPRINT
 4X4 BUTTON PAD W/ RGB LEDS - STAGGERED LED FOOTPRINT
 0
 96
 50
-Sparkfun Switches
+SparkFun-Switches
 CHERRY-MX-LED
 CHERRY MX SWITCH - ELECTROMECHANICAL SWITH W/ LED
 CHERRY MX SWITCH - ELECTROMECHANICAL SWITH W/ LED
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 DIPSWITCH-02-50MIL
 2-PIN DIP SWITCH - SMD, 0.05"-PITCH
 2-PIN DIP SWITCH - SMD, 0.05"-PITCH
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 DIPSWITCH-02-209-2LPST
 2-POSITION DIP SWITCH - PTH 0.1"-PITCH
 2-POSITION DIP SWITCH - PTH 0.1"-PITCH
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 DIPSWITCH-02-CHS-02A
 2-POSITION DIP SWITCH - SMD, J-HOOK PADS, 0.05"-PITCH
 2-POSITION DIP SWITCH - SMD, J-HOOK PADS, 0.05"-PITCH
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 DIPSWITCH-04-SMD
 4-POSITION DIP SWITCH - SMD, 0.1"-PITCH
 4-POSITION DIP SWITCH - SMD, 0.1"-PITCH
 0
 8
 8
-Sparkfun Switches
+SparkFun-Switches
 DIPSWITCH-06-SMD
 
 
 0
 12
 12
-Sparkfun Switches
+SparkFun-Switches
 DIPSWITCH-08
 8-POSITION DIP SWITCH - PTH, 0.1"-PITCH
 8-POSITION DIP SWITCH - PTH, 0.1"-PITCH
 0
 16
 16
-Sparkfun Switches
+SparkFun-Switches
 ENCODER-16MM-QUAD
 ROTARY ENCODER - 16MM TOP WIDTH
 ROTARY ENCODER - 16MM TOP WIDTH
 0
 5
 5
-Sparkfun Switches
+SparkFun-Switches
 ENCODER_LED_2
 ILLUMINATED ROTARY ENCODER W/ 2 LEDS
 ILLUMINATED ROTARY ENCODER W/ 2 LEDS
 0
 9
 9
-Sparkfun Switches
+SparkFun-Switches
 ENCODER_LED_2_KIT
 ILLUMINATED ROTARY ENCODER W/ 2 LEDS - KIT PACKAGE
 ILLUMINATED ROTARY ENCODER W/ 2 LEDS - KIT PACKAGE
 0
 9
 9
-Sparkfun Switches
+SparkFun-Switches
 ENCODER_LED_3
 ILLUMINATED ROTARY ENCODER W/ RGB LED AND SELECT SWITCH
 ILLUMINATED ROTARY ENCODER W/ RGB LED AND SELECT SWITCH
 0
 10
 10
-Sparkfun Switches
+SparkFun-Switches
 ENCODER_LED_3_KIT
 ILLUMINATED ROTARY ENCODER W/ RGB LED AND SELECT SWITCH
 ILLUMINATED ROTARY ENCODER W/ RGB LED AND SELECT SWITCH
 0
 10
 10
-Sparkfun Switches
+SparkFun-Switches
 JOYSTICK
 THUMB JOYSTICK
 THUMB JOYSTICK
 0
 14
 11
-Sparkfun Switches
+SparkFun-Switches
 JOYSTICK-PSP1000
 PSP-1000 THUMB SLIDE JOYSTICK
 PSP-1000 THUMB SLIDE JOYSTICK
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 JOYSTICK_MINI
 SMALL TACTILE JOYSTICK W/ SELECT SWITCH
 SMALL TACTILE JOYSTICK W/ SELECT SWITCH
 0
 8
 8
-Sparkfun Switches
+SparkFun-Switches
 NAV_SWITCH
 NAVIGATION SWITCH
 NAVIGATION SWITCH
 0
 5
 5
-Sparkfun Switches
+SparkFun-Switches
 REED_SWITCH_GLASS
 REED SWITCH - GLASS CASE - PTH
 REED SWITCH - GLASS CASE - PTH
 0
 2
 2
-Sparkfun Switches
+SparkFun-Switches
 REED_SWITCH_PLASTIC
 REED SWITCH - INSULATED CASE - PTH
 REED SWITCH - INSULATED CASE - PTH
 0
 2
 2
-Sparkfun Switches
+SparkFun-Switches
 ROTARY_ENC_PLAIN
 ROTARY ENCODER W/ SELECT SWITCH
 ROTARY ENCODER W/ SELECT SWITCH
 0
 7
 7
-Sparkfun Switches
+SparkFun-Switches
 ROTARY_SWITCH_1X10
 10-POSITION ROTARY SWITCH
 10-POSITION ROTARY SWITCH
 0
 11
 11
-Sparkfun Switches
+SparkFun-Switches
 ROTARY_SWITCH_1X10_KIT
 10-POSITION ROTARY SWITCH - KIT VERSION
 10-POSITION ROTARY SWITCH - KIT VERSION
 0
 11
 11
-Sparkfun Switches
+SparkFun-Switches
 RockerSwitch_RA
 
 
 0
 4
 2
-Sparkfun Switches
+SparkFun-Switches
 STOMP_SWITCH_3PDT
 3-POLE, DOUBLE-THROW (3PDT) STOMP SWITCH
 3-POLE, DOUBLE-THROW (3PDT) STOMP SWITCH
 0
 9
 9
-Sparkfun Switches
+SparkFun-Switches
 SWITCH TACTILE SPST-NO 0.05A 12V
 
 
 0
 4
 3
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_DPDT_PTH_GPI-152-3013
 CW INDUSTRIES  GPI-152-3013  DPDT SWITCH - PTH
 CW INDUSTRIES  GPI-152-3013  DPDT SWITCH - PTH
 0
 10
 10
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_DPDT_SMD_AYZ0202
 ITT INDUSTRIES AYZ0202 DPDT SWITCH - SMD
 ITT INDUSTRIES AYZ0202 DPDT SWITCH - SMD
 0
 6
 6
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_ROCKER_SPDT_0.4VA_28V
 
 
 0
 5
 5
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_SP3T_SMD
 CUS LOW-PROFILE SP3T SLIDE SWITCH - SMD
 CUS LOW-PROFILE SP3T SLIDE SWITCH - SMD
 0
 8
 8
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_SPDT_PTH_11.6X4.0MM
 SPDT PTH SLIDE SWITCH
 SPDT PTH SLIDE SWITCH
 0
 3
 3
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_SPDT_PTH_11.6X4.0MM_KIT
 SPDT PTH SLIDE SWITCH - KIT FOOTPRINT
 SPDT PTH SLIDE SWITCH - KIT FOOTPRINT
 0
 3
 3
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_SPDT_PTH_11.6X4.0MM_LOCK
 SPDT PTH SLIDE SWITCH - LOCKING FOOTPRINT
 SPDT PTH SLIDE SWITCH - LOCKING FOOTPRINT
 0
 3
 3
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_SPST_SMD_A
 SPDT SLIDE SWITCH - SMD
 SPDT SLIDE SWITCH - SMD
 0
 7
 7
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_TACTILE_SPST-NO_0.05A_12V
 
 
 0
 4
 3
-Sparkfun Switches
+SparkFun-Switches
 SWITCH_TOGGLE_SPST_RIGHT_ANGLE
 
 
 0
 5
 5
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_LED_PTH_12MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - W/ LED - PTH
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - W/ LED - PTH
 0
 6
 6
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_LED_PTH_12MM_KIT
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - W/ LED - PTH, KIT VARIANT
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - W/ LED - PTH, KIT VARIANT
 0
 6
 6
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_PTH_6.0MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - PTH, 6.0MM SQUARE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - PTH, 6.0MM SQUARE
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_PTH_6.0MM_KIT
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - PTH, 6.0MM SQUARE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - PTH, 6.0MM SQUARE
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_PTH_12MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - PTH, 12MM SQUARE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - PTH, 12MM SQUARE
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - PTH, RIGHT-ANGLE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - PTH, RIGHT-ANGLE
 0
 4
 3
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_SMD_4.5MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 4.5MM SQUARE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 4.5MM SQUARE
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_SMD_4.6X2.8MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 4.6 X 2.8MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 4.6 X 2.8MM
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_SMD_5.2MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 5.2MM SQUARE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 5.2MM SQUARE
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_SMD_6.0X3.5MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 6.0 X 3.5 MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 6.0 X 3.5 MM
 0
 2
 2
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_SMD_6.2MM_TALL
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 6.2MM SQUARE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 6.2MM SQUARE
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_SMD_12MM
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 12MM SQUARE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, 12MM SQUARE
 0
 4
 4
-Sparkfun Switches
+SparkFun-Switches
 TACTILE_SWITCH_SMD_RIGHT_ANGLE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, RIGHT-ANGLE
 MOMENTARY SWITCH (PUSHBUTTON) - SPST - SMD, RIGHT-ANGLE
 0
 2
 2
-Sparkfun Switches
+SparkFun-Switches
 TOGGLE_SWITCH-102-C3
 
 
 0
 5
 5
-Sparkfun Switches
+SparkFun-Switches
 TRACKBALL
 TRACKBALL - MECHANICAL
 TRACKBALL - MECHANICAL
@@ -92938,171 +91797,3 @@ CE-C75-Piezo-Alarm
 0
 2
 2
-trinamic-footprints
-20pin1,5x1-BOB
-
-
-0
-20
-20
-trinamic-footprints
-22pin1,5x1,1-BOB
-
-
-0
-22
-22
-trinamic-footprints
-22pin1x1,1-BOB
-
-
-0
-22
-22
-trinamic-footprints
-24pin1,5x1,2-BOB
-
-
-0
-24
-24
-trinamic-footprints
-28pin1x1,4-BOB
-
-
-0
-28
-28
-trinamic-footprints
-28pin2x1,5-BOB
-
-
-0
-28
-28
-trinamic-footprints
-30pin1x1,5-BOB
-
-
-0
-33
-33
-trinamic-footprints
-32pin1,5x1,6-BOB
-
-
-0
-32
-32
-trinamic-footprints
-BGA121
-
-
-0
-121
-121
-trinamic-footprints
-BGA144
-
-
-0
-144
-144
-trinamic-footprints
-LGA51
-
-
-0
-51
-51
-trinamic-footprints
-QFN28P
-
-
-0
-29
-29
-trinamic-footprints
-QFN32P-4x4mm
-
-
-0
-33
-33
-trinamic-footprints
-QFN32P-5x5mm
-
-
-0
-33
-33
-trinamic-footprints
-QFN36P
-
-
-0
-37
-37
-trinamic-footprints
-QFN40P
-
-
-0
-41
-41
-trinamic-footprints
-QFN48P
-
-
-0
-49
-49
-trinamic-footprints
-QFN52-8x8mm
-
-
-0
-53
-53
-trinamic-footprints
-QFN56P-alt
-
-
-0
-48
-48
-trinamic-footprints
-QFN76P
-
-
-0
-77
-77
-trinamic-footprints
-QFP44
-
-
-0
-44
-44
-trinamic-footprints
-SO28
-
-
-0
-28
-28
-trinamic-footprints
-SSOP16
-
-
-0
-16
-16
-trinamic-footprints
-eTQFP48
-
-
-0
-49
-49
