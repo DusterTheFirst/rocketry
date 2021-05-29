@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Adafruit-BNO055
+K STEMMA,Adafruit,BNO055,IMU,Sensor,BOSCH
+F https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview
+$ENDCMP
+#
+$CMP Adafruit-BNO055-STEMMA
+F https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview
+$ENDCMP
+#
+#End Doc Library

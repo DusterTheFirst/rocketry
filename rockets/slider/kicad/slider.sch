@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Slider Avionics"
@@ -438,8 +438,6 @@ Text GLabel 9150 2800 2    50   Input ~ 0
 SPI0_RX
 Text GLabel 7750 2800 0    50   Input ~ 0
 ARM
-Text Notes 9200 2700 0    24   ~ 0
-SPI0_CSn for\ndevice mode\n
 $Comp
 L Motor:Motor_Servo_JR M2
 U 1 1 606633E9
@@ -570,43 +568,6 @@ F 4 " COM-13940" V 4550 2450 50  0000 R CNN "Field4"
 $EndComp
 Text Notes 3200 1750 0    50   ~ 0
 Human Interfacing\n
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 6098096A
-P 9350 5850
-F 0 "J1" H 9400 6050 50  0000 C CNN
-F 1 "I2C Breakout" V 9300 5800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9350 5850 50  0001 C CNN
-F 3 "~" H 9350 5850 50  0001 C CNN
-	1    9350 5850
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 60993879
-P 9050 5950
-F 0 "#PWR012" H 9050 5700 50  0001 C CNN
-F 1 "GND" H 9055 5777 50  0000 C CNN
-F 2 "" H 9050 5950 50  0001 C CNN
-F 3 "" H 9050 5950 50  0001 C CNN
-	1    9050 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 5650 9150 5650
-$Comp
-L power:+3.3V #PWR011
-U 1 1 609D3FA8
-P 9050 5650
-F 0 "#PWR011" H 9050 5500 50  0001 C CNN
-F 1 "+3.3V" H 9065 5823 50  0000 C CNN
-F 2 "" H 9050 5650 50  0001 C CNN
-F 3 "" H 9050 5650 50  0001 C CNN
-	1    9050 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 5950 9150 5950
 Text GLabel 7750 2700 0    50   Output ~ 0
 Alarm_EN
 Text GLabel 7750 2500 0    50   Output ~ 0
@@ -679,7 +640,6 @@ Wire Wire Line
 Wire Wire Line
 	750  4650 1050 4650
 NoConn ~ 9150 1800
-NoConn ~ 9150 2700
 NoConn ~ 7750 2400
 NoConn ~ 7750 2000
 NoConn ~ 7750 1900
@@ -1036,23 +996,23 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 607EC1E6
-P 1000 7400
-F 0 "H1" H 1100 7446 50  0000 L CNN
-F 1 "MountingHole" H 1100 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 1000 7400 50  0001 C CNN
-F 3 "~" H 1000 7400 50  0001 C CNN
-	1    1000 7400
+P 750 11000
+F 0 "H1" H 850 11046 50  0000 L CNN
+F 1 "MountingHole" H 850 10955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 750 11000 50  0001 C CNN
+F 3 "~" H 750 11000 50  0001 C CNN
+	1    750  11000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 607EC75C
-P 1800 7400
-F 0 "H2" H 1900 7446 50  0000 L CNN
-F 1 "MountingHole" H 1900 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 1800 7400 50  0001 C CNN
-F 3 "~" H 1800 7400 50  0001 C CNN
-	1    1800 7400
+P 750 10750
+F 0 "H2" H 850 10796 50  0000 L CNN
+F 1 "MountingHole" H 850 10705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 750 10750 50  0001 C CNN
+F 3 "~" H 750 10750 50  0001 C CNN
+	1    750  10750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1133,139 +1093,327 @@ Wire Notes Line
 	5700 4150 4550 4150
 Wire Notes Line
 	4550 4150 4550 3400
-Text Notes 6800 3550 0    50   ~ 0
-SPI Bus
-Text Notes 8800 3550 0    50   ~ 0
-I2C Bus
-Entry Wire Line
-	6850 3700 6950 3800
-Entry Wire Line
-	6850 3600 6950 3700
-Entry Wire Line
-	6850 3800 6950 3900
-Text GLabel 7150 3700 2    50   Input ~ 0
-SPI0_TX
-Text GLabel 7150 3800 2    50   Input ~ 0
-SPI0_SCK
-Text GLabel 7150 3900 2    50   Output ~ 0
-SPI0_RX
-Wire Wire Line
-	7150 3700 6950 3700
-Wire Wire Line
-	7150 3800 6950 3800
-Wire Wire Line
-	7150 3900 6950 3900
-Text Label 6950 3700 0    50   ~ 0
-TX
-Text Label 6950 3900 0    50   ~ 0
-RX
-Text Label 6950 3800 0    50   ~ 0
-SCK
-Text GLabel 9150 3700 2    50   BiDi ~ 0
-I2C0_SDA
-Text GLabel 9150 3800 2    50   Output ~ 0
-I2C0_SCL
-Entry Wire Line
-	8850 3600 8950 3700
-Entry Wire Line
-	8850 3700 8950 3800
-Wire Wire Line
-	8950 3700 9150 3700
-Wire Wire Line
-	8950 3800 9150 3800
-Text Label 8950 3700 0    50   ~ 0
-SDA
-Text Label 8950 3800 0    50   ~ 0
-SCL
-Entry Wire Line
-	6850 5550 6950 5650
-Entry Wire Line
-	6850 5650 6950 5750
-Entry Wire Line
-	6850 5750 6950 5850
-Entry Wire Line
-	8850 5650 8950 5750
-Entry Wire Line
-	8850 5750 8950 5850
-Wire Wire Line
-	8950 5750 9150 5750
-Wire Wire Line
-	8950 5850 9150 5850
-Text Label 8950 5750 0    50   ~ 0
-SDA
-Text Label 8950 5850 0    50   ~ 0
-SCL
-Wire Notes Line
-	6800 3550 7650 3550
-Wire Notes Line
-	7650 3550 7650 6250
-Wire Notes Line
-	7650 6250 6800 6250
-Wire Notes Line
-	6800 6250 6800 3550
-Wire Notes Line
-	8800 3550 9650 3550
-Wire Notes Line
-	9650 3550 9650 6250
-Wire Notes Line
-	9650 6250 8800 6250
-Wire Notes Line
-	8800 6250 8800 3550
-$Comp
-L Connector:Conn_01x05_Male J2
-U 1 1 60984261
-P 7300 5750
-F 0 "J2" H 7350 6050 50  0000 C CNN
-F 1 "SPI Breakout" V 7250 5750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7300 5750 50  0001 C CNN
-F 3 "~" H 7300 5750 50  0001 C CNN
-	1    7300 5750
-	-1   0    0    1   
-$EndComp
-Text Label 6950 5850 0    50   ~ 0
-RX
-Text Label 6950 5750 0    50   ~ 0
-SCK
-Text Label 6950 5650 0    50   ~ 0
-TX
-Wire Wire Line
-	7000 5950 7100 5950
-Wire Wire Line
-	6950 5850 7100 5850
-Wire Wire Line
-	6950 5750 7100 5750
-Wire Wire Line
-	6950 5650 7100 5650
-Wire Wire Line
-	7000 5550 7100 5550
-$Comp
-L power:+3.3V #PWR016
-U 1 1 609D610B
-P 7000 5550
-F 0 "#PWR016" H 7000 5400 50  0001 C CNN
-F 1 "+3.3V" H 7015 5723 50  0000 C CNN
-F 2 "" H 7000 5550 50  0001 C CNN
-F 3 "" H 7000 5550 50  0001 C CNN
-	1    7000 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 6099A076
-P 7000 5950
-F 0 "#PWR017" H 7000 5700 50  0001 C CNN
-F 1 "GND" H 7005 5777 50  0000 C CNN
-F 2 "" H 7000 5950 50  0001 C CNN
-F 3 "" H 7000 5950 50  0001 C CNN
-	1    7000 5950
-	1    0    0    -1  
-$EndComp
-Wire Bus Line
-	8850 3600 8850 5750
-Wire Bus Line
-	6850 3600 6850 5750
 Text Notes 6200 2400 0    50   Italic 10
 Maybe dont use any pyro?
 Text Notes 4050 5550 0    50   Italic 10
 Maybe dont use any pyro?
+Text GLabel 9150 2700 2    50   Input ~ 0
+BMP280_CS
+Text Label 12750 7100 0    50   ~ 0
+SCL
+Text Label 12750 7000 0    50   ~ 0
+SDA
+Wire Wire Line
+	12950 7100 12750 7100
+Wire Wire Line
+	12750 7000 12950 7000
+Entry Wire Line
+	12650 7000 12750 7100
+Entry Wire Line
+	12650 6900 12750 7000
+Text Label 12750 6800 0    50   ~ 0
+GND
+Wire Wire Line
+	12950 6800 12750 6800
+Wire Wire Line
+	12850 6700 12950 6700
+Wire Wire Line
+	12850 6650 12850 6700
+NoConn ~ 12950 6900
+$Comp
+L power:+3.3V #PWR021
+U 1 1 60CC746B
+P 12850 6650
+F 0 "#PWR021" H 12850 6500 50  0001 C CNN
+F 1 "+3.3V" H 12865 6823 50  0000 C CNN
+F 2 "" H 12850 6650 50  0001 C CNN
+F 3 "" H 12850 6650 50  0001 C CNN
+	1    12850 6650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13650 6800
+NoConn ~ 13650 6900
+NoConn ~ 13650 7000
+Wire Wire Line
+	12750 5250 12950 5250
+$Comp
+L slider:MB85RC256V A3
+U 1 1 60BFF861
+P 13300 6900
+F 0 "A3" H 13300 7365 50  0000 C CNN
+F 1 "MB85RC256V" H 13300 7274 50  0000 C CNN
+F 2 "" H 13300 6900 50  0001 C CNN
+F 3 "https://learn.adafruit.com/adafruit-i2c-fram-breakout/overview" H 13300 6900 50  0001 C CNN
+	1    13300 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 7900 10950 7900
+Wire Wire Line
+	10900 8100 10900 7900
+Wire Wire Line
+	10950 8100 10900 8100
+Text GLabel 10950 8100 2    50   Input ~ 0
+BMP280_CS
+Text Label 10750 7700 0    50   ~ 0
+RX
+Text Label 10750 7800 0    50   ~ 0
+TX
+Text Label 10750 7600 0    50   ~ 0
+SCK
+Entry Wire Line
+	10650 7700 10750 7800
+Wire Wire Line
+	10950 7800 10750 7800
+Wire Wire Line
+	10950 7700 10750 7700
+Wire Wire Line
+	10750 7600 10950 7600
+Entry Wire Line
+	10650 7500 10750 7600
+Entry Wire Line
+	10650 7600 10750 7700
+Text Label 10750 7500 0    50   ~ 0
+GND
+Wire Wire Line
+	10950 7500 10750 7500
+NoConn ~ 10950 7400
+Wire Wire Line
+	10850 7300 10950 7300
+Wire Wire Line
+	10850 7250 10850 7300
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60B3982A
+P 10850 7250
+F 0 "#PWR0102" H 10850 7100 50  0001 C CNN
+F 1 "+3.3V" H 10865 7423 50  0000 C CNN
+F 2 "" H 10850 7250 50  0001 C CNN
+F 3 "" H 10850 7250 50  0001 C CNN
+	1    10850 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L slider:Adafruit-BMP280 A2
+U 1 1 60B3464B
+P 11300 7600
+F 0 "A2" H 11300 8050 50  0000 C CNN
+F 1 "Adafruit-BMP280" V 11400 7600 50  0000 C CNN
+F 2 "" H 11200 7700 50  0001 C CNN
+F 3 "https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/overview" H 11200 7700 50  0001 C CNN
+	1    11300 7600
+	1    0    0    -1  
+$EndComp
+Text Label 12750 7750 0    50   ~ 0
+GND
+Wire Wire Line
+	12950 7750 12750 7750
+Text Label 12750 7950 0    50   ~ 0
+SCL
+Text Label 12750 7850 0    50   ~ 0
+SDA
+Entry Wire Line
+	12650 7750 12750 7850
+Entry Wire Line
+	12650 7850 12750 7950
+NoConn ~ 12950 7650
+Wire Wire Line
+	12950 7850 12750 7850
+Wire Wire Line
+	12950 7950 12750 7950
+NoConn ~ 12950 8050
+NoConn ~ 13650 7750
+NoConn ~ 13650 7650
+Wire Wire Line
+	12850 7550 12950 7550
+Wire Wire Line
+	12850 7500 12850 7550
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 60B86135
+P 12850 7500
+F 0 "#PWR0101" H 12850 7350 50  0001 C CNN
+F 1 "+3.3V" H 12865 7673 50  0000 C CNN
+F 2 "" H 12850 7500 50  0001 C CNN
+F 3 "" H 12850 7500 50  0001 C CNN
+	1    12850 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L slider:Adafruit-BNO055 A1
+U 1 1 60B843F8
+P 13300 7800
+F 0 "A1" H 13300 8200 50  0000 C CNN
+F 1 "Adafruit-BNO055" H 13300 7400 50  0000 C CNN
+F 2 "" H 13550 7500 50  0001 C CNN
+F 3 "https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview" H 13550 7500 50  0001 C CNN
+	1    13300 7800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 6099A076
+P 10800 8800
+F 0 "#PWR017" H 10800 8550 50  0001 C CNN
+F 1 "GND" H 10805 8627 50  0000 C CNN
+F 2 "" H 10800 8800 50  0001 C CNN
+F 3 "" H 10800 8800 50  0001 C CNN
+	1    10800 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR016
+U 1 1 609D610B
+P 10800 8400
+F 0 "#PWR016" H 10800 8250 50  0001 C CNN
+F 1 "+3.3V" H 10815 8573 50  0000 C CNN
+F 2 "" H 10800 8400 50  0001 C CNN
+F 3 "" H 10800 8400 50  0001 C CNN
+	1    10800 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 8400 10900 8400
+Wire Wire Line
+	10750 8500 10900 8500
+Wire Wire Line
+	10750 8600 10900 8600
+Wire Wire Line
+	10750 8700 10900 8700
+Wire Wire Line
+	10800 8800 10900 8800
+Text Label 10750 8500 0    50   ~ 0
+TX
+Text Label 10750 8600 0    50   ~ 0
+SCK
+Text Label 10750 8700 0    50   ~ 0
+RX
+$Comp
+L Connector:Conn_01x05_Male J2
+U 1 1 60984261
+P 11100 8600
+F 0 "J2" H 11150 8900 50  0000 C CNN
+F 1 "SPI Breakout" V 11050 8600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 11100 8600 50  0001 C CNN
+F 3 "~" H 11100 8600 50  0001 C CNN
+	1    11100 8600
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	12600 9100 12600 5100
+Wire Notes Line
+	13700 9100 12600 9100
+Wire Notes Line
+	13700 5100 13700 9100
+Wire Notes Line
+	12600 5100 13700 5100
+Wire Notes Line
+	10600 9100 10600 5100
+Wire Notes Line
+	11600 9100 10600 9100
+Wire Notes Line
+	11600 5100 11600 9100
+Wire Notes Line
+	10600 5100 11600 5100
+Text Label 12750 8700 0    50   ~ 0
+SCL
+Text Label 12750 8600 0    50   ~ 0
+SDA
+Wire Wire Line
+	12750 8700 12950 8700
+Wire Wire Line
+	12750 8600 12950 8600
+Entry Wire Line
+	12650 8600 12750 8700
+Entry Wire Line
+	12650 8500 12750 8600
+Entry Wire Line
+	10650 8600 10750 8700
+Entry Wire Line
+	10650 8500 10750 8600
+Entry Wire Line
+	10650 8400 10750 8500
+Text Label 12750 5350 0    50   ~ 0
+SCL
+Text Label 12750 5250 0    50   ~ 0
+SDA
+Wire Wire Line
+	12750 5350 12950 5350
+Entry Wire Line
+	12650 5250 12750 5350
+Entry Wire Line
+	12650 5150 12750 5250
+Text GLabel 12950 5350 2    50   Output ~ 0
+I2C0_SCL
+Text GLabel 12950 5250 2    50   BiDi ~ 0
+I2C0_SDA
+Text Label 10750 5350 0    50   ~ 0
+SCK
+Text Label 10750 5450 0    50   ~ 0
+RX
+Text Label 10750 5250 0    50   ~ 0
+TX
+Wire Wire Line
+	10950 5450 10750 5450
+Wire Wire Line
+	10950 5350 10750 5350
+Wire Wire Line
+	10950 5250 10750 5250
+Text GLabel 10950 5450 2    50   Output ~ 0
+SPI0_RX
+Text GLabel 10950 5350 2    50   Input ~ 0
+SPI0_SCK
+Text GLabel 10950 5250 2    50   Input ~ 0
+SPI0_TX
+Entry Wire Line
+	10650 5350 10750 5450
+Entry Wire Line
+	10650 5150 10750 5250
+Entry Wire Line
+	10650 5250 10750 5350
+Text Notes 12600 5100 0    50   ~ 0
+I2C Bus
+Text Notes 10600 5100 0    50   ~ 0
+SPI Bus
+Wire Wire Line
+	12850 8800 12950 8800
+$Comp
+L power:+3.3V #PWR011
+U 1 1 609D3FA8
+P 12850 8500
+F 0 "#PWR011" H 12850 8350 50  0001 C CNN
+F 1 "+3.3V" H 12865 8673 50  0000 C CNN
+F 2 "" H 12850 8500 50  0001 C CNN
+F 3 "" H 12850 8500 50  0001 C CNN
+	1    12850 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 8500 12950 8500
+$Comp
+L power:GND #PWR012
+U 1 1 60993879
+P 12850 8800
+F 0 "#PWR012" H 12850 8550 50  0001 C CNN
+F 1 "GND" H 12855 8627 50  0000 C CNN
+F 2 "" H 12850 8800 50  0001 C CNN
+F 3 "" H 12850 8800 50  0001 C CNN
+	1    12850 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 6098096A
+P 13150 8700
+F 0 "J1" H 13200 8900 50  0000 C CNN
+F 1 "I2C Breakout" V 13100 8650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13150 8700 50  0001 C CNN
+F 3 "~" H 13150 8700 50  0001 C CNN
+	1    13150 8700
+	-1   0    0    1   
+$EndComp
+Wire Bus Line
+	12650 5150 12650 8600
+Wire Bus Line
+	10650 5150 10650 8600
 $EndSCHEMATC
