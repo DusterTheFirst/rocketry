@@ -1142,7 +1142,7 @@ U 1 1 60BFF861
 P 13300 6900
 F 0 "A3" H 13300 7365 50  0000 C CNN
 F 1 "MB85RC256V" H 13300 7274 50  0000 C CNN
-F 2 "" H 13300 6900 50  0001 C CNN
+F 2 "slider:Adafruit-MB85RC256V" H 13300 6900 50  0001 C CNN
 F 3 "https://learn.adafruit.com/adafruit-i2c-fram-breakout/overview" H 13300 6900 50  0001 C CNN
 	1    13300 6900
 	1    0    0    -1  
@@ -1199,7 +1199,7 @@ U 1 1 60B3464B
 P 11300 7600
 F 0 "A2" H 11300 8050 50  0000 C CNN
 F 1 "Adafruit-BMP280" V 11400 7600 50  0000 C CNN
-F 2 "" H 11200 7700 50  0001 C CNN
+F 2 "slider:Adafruit-BMP280" H 11200 7700 50  0001 C CNN
 F 3 "https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/overview" H 11200 7700 50  0001 C CNN
 	1    11300 7600
 	1    0    0    -1  
@@ -1245,7 +1245,7 @@ U 1 1 60B843F8
 P 13300 7800
 F 0 "A1" H 13300 8200 50  0000 C CNN
 F 1 "Adafruit-BNO055" H 13300 7400 50  0000 C CNN
-F 2 "" H 13550 7500 50  0001 C CNN
+F 2 "slider:Adafruit-BNO055" H 13550 7500 50  0001 C CNN
 F 3 "https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview" H 13550 7500 50  0001 C CNN
 	1    13300 7800
 	-1   0    0    -1  
