@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name slider)(type Legacy)(uri ${KIPRJMOD}/slider.lib)(options "")(descr ""))
 )
