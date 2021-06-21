@@ -250,63 +250,21 @@ Wire Notes Line
 NoConn ~ 9000 4900
 NoConn ~ 9000 5200
 NoConn ~ 9000 5400
-$Comp
-L power:GND #PWR022
-U 1 1 606B9AD8
-P 8300 7100
-F 0 "#PWR022" H 8300 6850 50  0001 C CNN
-F 1 "GND" H 8305 6927 50  0000 C CNN
-F 2 "" H 8300 7100 50  0001 C CNN
-F 3 "" H 8300 7100 50  0001 C CNN
-	1    8300 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 7100 9750 6600
-Wire Wire Line
-	9750 6600 9000 6600
-Wire Wire Line
-	9000 6100 9750 6100
-Wire Wire Line
-	9750 6100 9750 6600
-Connection ~ 9750 6600
-Wire Wire Line
-	9750 5600 9750 5700
-Connection ~ 9750 6100
-Wire Wire Line
-	9000 5100 9750 5100
-Wire Wire Line
-	9750 5100 9750 5600
-Connection ~ 9750 5600
-Wire Wire Line
-	6850 5100 6850 5600
-Wire Wire Line
-	7600 6100 6850 6100
-Connection ~ 6850 6100
-Wire Wire Line
-	7600 5600 6850 5600
-Connection ~ 6850 5600
-Wire Wire Line
-	6850 5600 6850 6100
-Wire Wire Line
-	6850 5100 7600 5100
 Text GLabel 7600 6300 0    50   Output ~ 0
 PWM_Servo_Z
 Text GLabel 9000 5500 2    50   Input ~ 0
 V_BAT_Sense
 Wire Wire Line
 	9000 5700 9150 5700
-Text Notes 9800 5800 0    50   ~ 0
-ADC Connections:\n3: (Internal) Temperature Sensor\n2: Battery voltage divider\n\n1: Ground reference\n0:
 $Comp
 L power:+3.3V #PWR023
 U 1 1 6071506B
-P 9900 5000
-F 0 "#PWR023" H 9900 4850 50  0001 C CNN
-F 1 "+3.3V" H 9915 5173 50  0000 C CNN
-F 2 "" H 9900 5000 50  0001 C CNN
-F 3 "" H 9900 5000 50  0001 C CNN
-	1    9900 5000
+P 9750 4600
+F 0 "#PWR023" H 9750 4450 50  0001 C CNN
+F 1 "+3.3V" H 9765 4773 50  0000 C CNN
+F 2 "" H 9750 4600 50  0001 C CNN
+F 3 "" H 9750 4600 50  0001 C CNN
+	1    9750 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -559,13 +517,6 @@ Text GLabel 3850 2000 0    50   Output ~ 0
 Alarm_EN
 Text GLabel 7600 6800 0    50   Output ~ 0
 PWM_Buzzer
-Wire Wire Line
-	7600 6600 6850 6600
-Wire Wire Line
-	6850 6100 6850 6600
-Wire Wire Line
-	6850 6600 6850 7100
-Connection ~ 6850 6600
 $Comp
 L power:+3.3V #PWR013
 U 1 1 6061EF8C
@@ -657,42 +608,8 @@ Connection ~ 2500 4550
 Connection ~ 2500 5150
 Wire Wire Line
 	1250 5150 1900 5150
-$Comp
-L Device:Net-Tie_2 NT1
-U 1 1 608A8144
-P 9250 5700
-F 0 "NT1" H 9300 5650 50  0000 C CNN
-F 1 "ADC Ground Reference" H 9200 5750 31  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 9250 5700 50  0001 C CNN
-F 3 "~" H 9250 5700 50  0001 C CNN
-	1    9250 5700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	9000 5600 9750 5600
-Wire Wire Line
-	9350 5700 9750 5700
-Connection ~ 9750 5700
-Wire Wire Line
-	9750 5700 9750 6100
-Wire Wire Line
-	9900 5000 9750 5000
-$Comp
-L Device:D_Schottky D5
-U 1 1 6070DD54
-P 9600 5000
-F 0 "D5" H 9600 5217 50  0000 C CNN
-F 1 "D_Schottky" H 9600 5126 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 5000 50  0001 C CNN
-F 3 "~" H 9600 5000 50  0001 C CNN
-	1    9600 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 5000 9000 5000
-Wire Wire Line
-	9450 5000 9200 5000
-Connection ~ 9200 5000
+	9200 5000 9100 5000
 $Comp
 L dk_Tactile-Switches:1825910-6 S1
 U 1 1 60936469
@@ -965,12 +882,12 @@ Connection ~ 1950 8450
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 609192AA
-P 9200 5000
-F 0 "#FLG0103" H 9200 5075 50  0001 C CNN
-F 1 "PWR_FLAG" H 9000 5150 50  0000 L CNN
-F 2 "" H 9200 5000 50  0001 C CNN
-F 3 "~" H 9200 5000 50  0001 C CNN
-	1    9200 5000
+P 9100 4600
+F 0 "#FLG0103" H 9100 4675 50  0001 C CNN
+F 1 "PWR_FLAG" V 9100 4750 50  0000 L CNN
+F 2 "" H 9100 4600 50  0001 C CNN
+F 3 "~" H 9100 4600 50  0001 C CNN
+	1    9100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1006,11 +923,6 @@ F 3 "" H 4700 2600 50  0001 C CNN
 	1    4700 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 7100 8300 7100
-Wire Wire Line
-	8300 7100 9750 7100
-Connection ~ 8300 7100
 Wire Wire Line
 	4900 2650 4700 2650
 Wire Wire Line
@@ -1539,17 +1451,6 @@ F 3 "~" H 5650 2600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J1
-U 1 1 613D5FF7
-P 5500 3700
-F 0 "J1" H 5650 3900 50  0000 C CNN
-F 1 "Parachute" V 5450 3650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5500 3700 50  0001 C CNN
-F 3 "~" H 5500 3700 50  0001 C CNN
-	1    5500 3700
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR029
 U 1 1 613DF5E3
 P 5250 3850
@@ -1603,10 +1504,6 @@ NoConn ~ 7600 6500
 NoConn ~ 7600 5700
 NoConn ~ 7600 6700
 NoConn ~ 3850 2000
-Wire Bus Line
-	13800 1000 13800 4650
-Wire Bus Line
-	11500 1000 11500 4650
 $Comp
 L Device:D_Schottky D3
 U 1 1 614C419D
@@ -1620,4 +1517,153 @@ F 3 "~" H 1150 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 4550 1900 4550
+$Comp
+L Device:D_Schottky D5
+U 1 1 6070DD54
+P 9350 4600
+F 0 "D5" H 9200 4850 50  0000 L CNN
+F 1 "D_Schottky" H 9200 4750 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 4600 50  0001 C CNN
+F 3 "~" H 9350 4600 50  0001 C CNN
+	1    9350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5000 9100 4600
+Wire Wire Line
+	9100 4600 9200 4600
+Connection ~ 9100 5000
+Wire Wire Line
+	9500 4600 9750 4600
+Connection ~ 9100 4600
+Wire Wire Line
+	9000 5000 9100 5000
+$Comp
+L Device:D_Schottky D4
+U 1 1 60D2E50B
+P 9350 5000
+F 0 "D4" H 9200 5250 50  0000 L CNN
+F 1 "D_Schottky" H 9200 5150 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 5000 50  0001 C CNN
+F 3 "~" H 9350 5000 50  0001 C CNN
+	1    9350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 613D5FF7
+P 5500 3700
+F 0 "J1" H 5650 3850 50  0000 C CNN
+F 1 "Parachute" V 5450 3700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5500 3700 50  0001 C CNN
+F 3 "~" H 5500 3700 50  0001 C CNN
+	1    5500 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 5000 9850 5000
+Wire Wire Line
+	9850 5000 9850 4900
+Wire Wire Line
+	9850 4900 9900 4900
+Connection ~ 9850 5000
+Wire Wire Line
+	9850 5000 9900 5000
+Wire Wire Line
+	9850 5100 9850 5200
+Wire Wire Line
+	9850 5200 9900 5200
+Wire Wire Line
+	9850 5100 9900 5100
+Text Notes 9800 5850 0    50   ~ 0
+ADC Connections:\n3: (Internal) Temperature Sensor\n2: Battery voltage divider\n1: Ground reference\n0:
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 608A8144
+P 9250 5700
+F 0 "NT1" H 9300 5650 50  0000 C CNN
+F 1 "ADC Ground Reference" H 9200 5750 31  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 9250 5700 50  0001 C CNN
+F 3 "~" H 9250 5700 50  0001 C CNN
+	1    9250 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 7100 9750 6600
+Connection ~ 9750 6600
+Wire Wire Line
+	9750 6600 9000 6600
+Wire Wire Line
+	9750 6100 9750 6600
+Connection ~ 9750 6100
+Wire Wire Line
+	9000 6100 9750 6100
+Wire Wire Line
+	9750 5700 9750 6100
+Connection ~ 9750 5700
+Wire Wire Line
+	9350 5700 9750 5700
+Wire Wire Line
+	9750 5100 9750 5600
+Wire Wire Line
+	9750 5600 9750 5700
+Connection ~ 9750 5600
+Wire Wire Line
+	9000 5600 9750 5600
+Connection ~ 9850 5100
+Wire Wire Line
+	9750 5100 9850 5100
+Connection ~ 9750 5100
+Wire Wire Line
+	9000 5100 9750 5100
+Connection ~ 8300 7100
+Wire Wire Line
+	8300 7100 9750 7100
+Wire Wire Line
+	6850 7100 8300 7100
+Wire Bus Line
+	11500 1000 11500 4650
+Wire Bus Line
+	13800 1000 13800 4650
+Wire Wire Line
+	6850 5100 7600 5100
+Wire Wire Line
+	6850 5100 6850 5600
+Connection ~ 6850 5600
+Wire Wire Line
+	7600 5600 6850 5600
+Wire Wire Line
+	6850 5600 6850 6100
+Connection ~ 6850 6100
+Wire Wire Line
+	7600 6100 6850 6100
+Wire Wire Line
+	6850 6600 6850 7100
+Wire Wire Line
+	6850 6100 6850 6600
+Connection ~ 6850 6600
+Wire Wire Line
+	7600 6600 6850 6600
+$Comp
+L power:GND #PWR022
+U 1 1 606B9AD8
+P 8300 7100
+F 0 "#PWR022" H 8300 6850 50  0001 C CNN
+F 1 "GND" H 8305 6927 50  0000 C CNN
+F 2 "" H 8300 7100 50  0001 C CNN
+F 3 "" H 8300 7100 50  0001 C CNN
+	1    8300 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 60D36276
+P 10100 5000
+F 0 "J2" H 10300 4750 50  0000 R CNN
+F 1 "UC Debug PWR" V 10050 4950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10100 5000 50  0001 C CNN
+F 3 "~" H 10100 5000 50  0001 C CNN
+	1    10100 5000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
